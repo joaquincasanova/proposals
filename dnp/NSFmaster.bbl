@@ -1,0 +1,191 @@
+\begin{thebibliography}{10}
+
+\bibitem{annino2005axially}
+G~Annino, M~Cassettari, and M~Martinelli.
+\newblock Axially open nonradiative structures: an example of single-mode
+  resonator based on the sample holder.
+\newblock {\em Review of scientific instruments}, 76(8):084702, 2005.
+
+\bibitem{annino2010resonance}
+G~Annino, JA~Villanueva-Garibay, PJM van Bentum, AAK Klaassen, and APM
+  Kentgens.
+\newblock A high-conversion-factor double-resonance structure for high-field
+  dynamic nuclear polarization.
+\newblock {\em Applied Magnetic Resonance}, 37:2010, 851--864.
+
+\bibitem{arnaud1975resonant}
+JA~Arnaud and FA~Pelow.
+\newblock Resonant-grid quasi-optical diplexers.
+\newblock {\em The Bell System Technical Journal}, 54(2):263--283, 1975.
+
+\bibitem{balanis2012advanced}
+Constantine~A Balanis.
+\newblock {\em Advanced Engineering Electromagnetics}.
+\newblock John Wiley \& Sons, 2012.
+
+\bibitem{brey2006ybco}
+WW~Brey, AS~Edison, R~Nast, S~Rocca, J Saikat~Saha, and RS~Withers.
+\newblock Design, construction and validation of a 1 mm triple resonance
+  high-temperature superconducting probe for {NMR}.
+\newblock {\em Journal of Magnetic Resonance}, 179(2):290--293, 2006.
+
+\bibitem{denysenkov2012liquid}
+Vasyl Denysenkov and Thomas Prisner.
+\newblock Liquid state dynamic nuclear polarization probe with fabry--perot
+  resonator at 9.2 t.
+\newblock {\em Journal of Magnetic Resonance}, 217:1--5, 2012.
+
+\bibitem{sapphire}
+Valley Design.
+\newblock {\em Typical Properties of Sapphire Wafers and Substrates}, Accessed
+  Nov 30, 2016.
+\newblock http://www.valleydesign.com/sappprop.htm.
+
+\bibitem{teflon}
+DuPont.
+\newblock {\em Teflon Properties Handbook}, Accessed Nov 30, 2016.
+\newblock http://www.rjchase.com/ptfe{\_}handbook.pdf.
+
+\bibitem{fox1961resonant}
+Arthur~G Fox and Tingye Li.
+\newblock Resonant modes in a maser interferometer.
+\newblock {\em Bell System Technical Journal}, 40(2):453--488, 1961.
+
+\bibitem{gallot2000terahertz}
+G~Gallot, SP~Jamison, RW~McGowan, and D~Grischkowsky.
+\newblock Terahertz waveguides.
+\newblock {\em JOSA B}, 17(5):851--863, 2000.
+
+\bibitem{quartz}
+Technical Glass.
+\newblock {\em Properties of Fused Quartz}, Accessed Nov 30, 2016.
+\newblock https://www.technicalglass.com/technical{\_}properties.html.
+
+\bibitem{goldsmith1980quasi}
+Paul~F Goldsmith and Howard Schlossberg.
+\newblock A quasi-optical single sideband filter employing a semiconfocal
+  resonator.
+\newblock {\em IEEE Transactions on Microwave Theory and Techniques},
+  28(10):1136--1139, 1980.
+
+\bibitem{goto2004teflon}
+Masahiro Goto, Alex Quema, Hiroshi Takahashi, Shingo Ono, and Nobuhiko
+  Sarukura.
+\newblock Teflon photonic crystal fiber as terahertz waveguide.
+\newblock {\em Japanese Journal of Applied Physics}, 43(2B):L317, 2004.
+
+\bibitem{griesinger2012dynamic}
+C~Griesinger, M~Bennati, Hans-Martin Vieth, C~Luchinat, G~Parigi, P~H{\"o}fer,
+  F~Engelke, SJ~Glaser, V~Denysenkov, and TF~Prisner.
+\newblock Dynamic nuclear polarization at high magnetic fields in liquids.
+\newblock {\em Progress in Nuclear Magnetic Resonance Spectroscopy}, 64:4--28,
+  2012.
+
+\bibitem{grinberg1983electron}
+O~Ya Grinberg, Aleksandr~Anatol'evich Dubinskii, and Yakov~S Lebedev.
+\newblock Electron paramagnetic resonance of free radicals in the
+  two-millimetre wavelength range.
+\newblock {\em Russian Chemical Reviews}, 52(9):850, 1983.
+
+\bibitem{han2002terahertz}
+H~Han, H~Park, M~Cho, and J~Kim.
+\newblock Terahertz pulse propagation in a plastic photonic crystal fiber.
+\newblock {\em Applied Physics Letters}, 80(15):2634--2636, 2002.
+
+\bibitem{kogelnik1966laser}
+Herwig Kogelnik and Tingye Li.
+\newblock Laser beams and resonators.
+\newblock {\em Applied optics}, 5(10):1550--1567, 1966.
+
+\bibitem{lamb1996miscellaneous}
+James~W Lamb.
+\newblock Miscellaneous data on materials for millimetre and submillimetre
+  optics.
+\newblock {\em International Journal of Infrared and Millimeter Waves},
+  17(12):1997--2034, 1996.
+
+\bibitem{little1997microring}
+Brent~E Little, Sai~T Chu, Hermann~A Haus, J~Foresi, and J-P Laine.
+\newblock Microring resonator channel dropping filters.
+\newblock {\em Journal of Lightwave Technology}, 15(6):998--1005, 1997.
+
+\bibitem{long1983resonant}
+Stuart~A Long, Mark~W McAllister, and Liang~C Shen.
+\newblock The resonant cylindrical dielectric cavity antenna.
+\newblock {\em IEEE Transactions on Antennas and Propagation}, 31:406--412,
+  1983.
+
+\bibitem{mendis2009terahertz}
+Rajind Mendis, Victoria Astley, Jingbo Liu, and Daniel~M Mittleman.
+\newblock Terahertz microfluidic sensor based on a parallel-plate waveguide
+  resonant cavity.
+\newblock {\em Applied Physics Letters}, 95(17):851--863, 2009.
+
+\bibitem{neugebauer2013liquid}
+Petr Neugebauer, Jan~G Krummenacker, Vasyl~P Denysenkov, Giacomo Parigi,
+  Claudio Luchinat, and Thomas~F Prisner.
+\newblock Liquid state {DNP} of water at 9.2 {T}: an experimental access to
+  saturation.
+\newblock {\em Physical Chemistry Chemical Physics}, 15(16):6049--6056, 2013.
+
+\bibitem{schulten1967microwave}
+G~Schulten.
+\newblock Microwave optical ring resonators (correspondence).
+\newblock {\em IEEE Transactions on Microwave Theory and Techniques},
+  15(1):54--55, 1967.
+
+\bibitem{siegman1967modes}
+A~Siegman and Raymond Arrathoon.
+\newblock Modes in unstable optical resonators and lens waveguides.
+\newblock {\em IEEE Journal of Quantum Electronics}, 3(4):156--163, 1967.
+
+\bibitem{strain1962millimeter}
+RJ~Strain and PD~Coleman.
+\newblock Millimeter wave cavity coupling by quarter wave-transformer.
+\newblock {\em Trans. IEEE}, page 612, 1962.
+
+\bibitem{tayler2015analysis}
+Michael~CD Tayler, S~Bas~GJ van Meerten, Arno~PM Kentgens, and P~Jan~M van
+  Bentum.
+\newblock Analysis of mass-limited mixtures using supercritical-fluid
+  chromatography and microcoil {NMR}.
+\newblock {\em Analyst}, 140(18):6217--6221, 2015.
+
+\bibitem{tijssen2016stripline}
+KCH Tijssen, B~Jacob, RM~Tiggelaar, JWG Janssen, APM Kentgens, and JPM van
+  Bentum.
+\newblock Spatially resolved spectroscopy using tapered stripline {NMR}.
+\newblock {\em Journal of Magnetic Resonance}, 263:136--146, 2016.
+
+\bibitem{tocho2012optical}
+Jorge~O Tocho and Federico Sanjuan.
+\newblock Optical properties of silicon, sapphire, silica and glass in the
+  terahertz range.
+\newblock In {\em Latin America Optics and Photonics Conference}, pages
+  LT4C--1. Optical Society of America, 2012.
+
+\bibitem{tomaselli1981far}
+VP~Tomaselli, DC~Edewaard, P~Gillan, and KD~M{\"o}ller.
+\newblock Far-infrared bandpass filters from cross-shaped grids.
+\newblock {\em Applied optics}, 20(8):1361--1366, 1981.
+
+\bibitem{van2014liquid}
+GHA van~der Heijden, APM Kentgens, and PJM van Bentum.
+\newblock Liquid state dynamic nuclear polarization of ethanol at 3.4 t (95
+  ghz).
+\newblock {\em Physical Chemistry Chemical Physics}, 16(18):8493--8502, 2014.
+
+\bibitem{vlasov1974quasioptical}
+Sergei~N Vlasov and IM~Orlova.
+\newblock Quasioptical transformer which transforms the waves in a waveguide
+  having a circular cross section into a highly directional wave beam.
+\newblock {\em Radiophysics and Quantum Electronics}, 17(1):115--119, 1974.
+
+\bibitem{zhang1991optical}
+Dawei Zhang, DV~Plant, Harold~R Fetterman, Kevin Chou, Shiva Prakash,
+  CV~Deshpandey, and Rointan~F Bunshah.
+\newblock Optical control of millimeter wave high tc superconducting
+  quasi-optical bandpass filters.
+\newblock {\em Applied physics letters}, 58(14):1560--1562, 1991.
+
+\end{thebibliography}

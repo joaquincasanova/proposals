@@ -1,0 +1,125 @@
+
+%%%%%%%%% PROPOSAL -- 15 pages (including Results from Prior NSF Support)
+
+\required{Project Description}
+
+% From the NSF Grants Proposal Guide:
+% "The Project Description should provide a clear statement of the work 
+% to be undertaken and must include the objectives for the period of the 
+% proposed work and expected significance; the relationship of this work
+% to the present state of knowledge in the field, as well as to work in 
+% progress by the PI under other support.
+%
+% The Project Description should outline the general plan of work, 
+% including the broad design of activities to be undertaken, and, 
+% where appropriate, provide a clear description of experimental 
+% methods and procedures. Proposers should address what they 
+% want to do, why they want to do it, how they plan to do it, how 
+% they will know if they succeed, and what benefits could accrue
+% if the project is successful. The project activities may be based
+% on previously established and/or innovative methods and approaches,
+% but in either case must be well justified. These issues apply to 
+% both the technical aspects of the proposal and the way in which
+% the project may make broader contributions."
+
+DNP NMR signal enhancement is seen at high field, and high frequencies.
+The necessary high frequency GHZ EPR signal imposes a unique set of
+electromagnetic design requirements \cite{griesinger2012dynamic}. For
+the sample to get the necessary amount and kind of magnetic fields
+for DNP, several design requirements must be met. The EPR frequency part
+of the system is comprised of some waveguide carrying the 527 GHz
+microwaves, a transition structure, and the sample cavity. The waveguide
+should exhibit a minimum of loss. The coupler must deliver magnetic fields
+to the sample transverse to the main field, as homogeneously distributed
+as possible. The sample cavity needs to be
+low loss resonator at both the EPR and NMR frequencies (a double resonator),
+that is, have a high loaded Q. A quantity known as conversion factor, the
+magnetic field strength per power applied, should be maximized. Further it must
+be strong enough to withstand the high pressure (70 bar) associated with
+using supercritical CO2 as a solvent \cite{tayler2015analysis}.
+This part of the proposal describes the design choices and work plan of
+the coupler and sample cavity, since the waveguide exists already.
+Given the unique electromagnetic and structural requirements of our system , it is likely we will have to develop a new approach
+for the coupling and resonator. There are several major design choices: resonant structure, material, and orientation.
+
+
+First, we must determine the cavity geometry. The cavity has to achieve resonance at the EPR frequency while preserving resonance at the NMR frequency using YBC0 \cite{brey2006ybco} NMR coils on sapphire substrate. Additionally, the magnetic fields must be transverse to the main field as well as being as homogeneous as possible.
+
+Traditional cavity resonators
+
+dielectric cavity resonator antenna\cite{long1983resonant}
+TE011 - about 150 GHz - .7mm capillary bulb horizontal cylindrical resonator \cite{grinberg1983electron}
+u-shaped rf coil - cylindrical resonator is capillary - planar waveguide excition - TE110 \cite{annino2005axially, annino2010resonance} quartz capillary .8mm id
+helix - TE011 - double resonance  - adjustable plungers\cite{weis1999resonance}
+139.5 GHz, kel-f .5mm id quartz capillary 
+planar resonator refractometry\cite{mendis2009terahertz}
+size? 
+stripline NMR \cite{tijssen2016stripline}
+size? pros? cons?
+laser tunable YBCO \cite{zhang1991optical}
+size? pros? cons?
+
+Quasi-optical resonators
+fabry-perot \cite{denysenkov2012liquid, fox1961resonant}
+size? pros? cons?
+microring for channel drop/add\cite{little1997microring}
+size? pros? cons? 
+ring \cite{schulten1967microwave}
+size? pros? cons?
+open \cite{cullen1967new}
+size? pros? cons?
+
+The desireable modes in the resonator depends on orientation of sample - in a traditional cavity resonator, transverse to main field, we need TE011 in order to have the magnetic field transverse to the B$_0$ field \cite{neugebauer2013liquid,van2014liquid}, while if the sample is coaxial, we need TM110 \cite{griesinger2012dynamic}. In a quasi-optical resonator, transverse to the main field, a low-order TEM mode may be used \cite{denysenkov2012liquid}.
+
+Second, the optimal cavity material - it should be low loss, have an appropriate dielectric constant, and high strength. The type or resonator will govern and thus it's structure will determine the exact necessities. If treated as a resonant dielectric cavity, to achieve resonance, it requires a high dielectric constant around the sample for a dielectric resonator \cite{balanis2012advanced}. That's not necessarily required for a quasi-optical resonator. Additionally, the material should be low loss at both NMR and EPr frequencies. \cite{lamb1996miscellaneous} compiles at list of THz properties of materials; teflon \cite{goto2004teflon}, HDPE \cite{han2002terahertz}, sapphire and silica\cite{tocho2012optical} have good properies. Since the resonator must contain the sample solvated in s-CO2, it must be strong, with a high modulus of eleasticity and high ultimate strength \cite{sapphire,teflon,quartz}.
+
+Finally, we need to determine optimal orientation of waveguide (transverse or parallel to main field)
+and sample (transverse or parallel to the main field). Related to this is the choice and design of coupler. In each case, electromagnetic modes in waveguide, and the allowable modes in the resonator, determine nature of coupling. In quasi-optical wave guides these are Gauss-Hermite or Gauss-Laguerre plane wave TEM single-mode \cite{goto2004teflon, han2002terahertz} or TE, TM modes in traditional metal waveguides of small dimension \cite{gallot2000terahertz}. The relative orientation of the waveguide and cavity, as well as the cavity resonant modes, determines the type of coupler. In quasi optical resonators, such as Fabry-Perot, an iris in the confocal reflector, fed coaxial to the main field, works \cite{denysenkov2012liquid} or alternatively, a quarter wavemength transformer following a horn \cite{strain1962millimeter}. A parabolic reflector can transform the TEM modes in a quasi-optical waveguide to a transverse mode with a different orientation \cite{vlasov1974quasioptical}. Alternatively, traditional means of coupling include apertures of differing dimensions to excite different modes in a cavity resonator \cite{balanis2012advanced}.
+
+To analyze the problem, the initial step is purely theoretical, making use of either a tradtional cavity resonator approach \cite{balanis2012advanced}, a solution directly of Maxwell's equations or, because we are operating at sub-millimeter wavelengths quasi-optical \cite{goldsmith1980quasi}. This approximates wave equation with parabolic wave equation and uses ray techniques of optics, assuming a Gaussian beam. Elements in the structure are represented by matrix operators on the ray. Different components can be treated as simple ray matrix operators, such as diplexers \cite{arnaud1975resonant}, waveguides \cite{gallot2000terahertz}, and filters \cite{goldsmith1980quasi, tomaselli1981far}. Since we make use of a quasi-optical waveguide, this approach makes more sense. Quasi-optical analysis is a smart approach if we use a quasi-optical resonator, in order to ensure stability \cite{kogelnik1966laser,siegman1967modes}. Of course, if examining a tradtional cavity resonator for the EPR, or ensuring we will have resonance at the NMR frequency in the NMR coils, we will use a traditional, full-wave analysis of a resonant cavity. Sush an analytical approach first will help choose the best type and orientation of resonator. We will evaluate all four possible orientations of sample and waveguide analytically for EM suitability, and choose the one which should produce the optimal fields, in terms of resonance and homogeneity, while maintaining structural integrity under high pressure. After selection, a finite-element multiphysics simulation will help refine the chosen design, particularly to account for the strain imposed by the high-pressure s-CO2 and the dielectric loss and heating.
+
+Once we have a resonator and coupler design, the next steps are to fabricate and test...
+
+\required{Broader Impacts}
+% As in the project summary, broader impacts of the proposed work
+% must be called out separately in the project description.  
+% You may be able to give more specific examples, 
+% or discuss how you've previously achieved these impacts.
+% It should be similar, but not identical, to the Broader Impacts statement
+% in the project summary.
+
+\required{Results From Prior NSF Support}
+% Must be fewer than 5 pages of the entire description document of 15 pages.
+% This section refers to any prior or current  NSF funding support
+% with a start date in the past five years.
+% If you have no prior support, it is still recommended to include this
+% section and just indicate "The PI has not previously been supported by the NSF ".
+%If you have more than one award, you need only report on the one award most
+% closely related to this proposal.
+% The following information must be provided in this section:
+% (a) the NSF award number; amount and period of support
+% (b) the title of the project
+% (c) a summary of the results of the completed work, including
+% accomplishments, supported by the award. 
+% The results must be separately described under two distinct headings, 
+\required{Intellectual Merit}
+% discuss the intellectual merit of the prior NSF supported award
+\required{Broader Impacts}
+% discuss the broader impacts of the prior NSF supported award
+% (d) a listing of the publications resulting from the NSF award. 
+% A complete bibliographic citation for each publication must be
+% provided either in this section or in the References Cited section 
+% of the proposal; if none, state "No publications were produced under this award."
+% Due to space limitations, it is often advisable to use citations rather
+% than putting the titles of the publications in the body of this section
+% (e) evidence of research products and their availability, including, 
+% but not limited to: data, publications, samples, physical collections, 
+% software, and models, as described in any Data Management Plan
+% (f) if the proposal is for renewed support, a description of the relation
+% of the completed work to the proposed work.
+
+% e.g.: "My prior grant, "Uses of Coffee in Mathematical Research" (DMS-0123456, 
+% $100,000, 2012-2015), resulted in 3 papers [1],[2],[3], demonstrating..."
+
+% if requesting postdoctoral research salary, a separate supplemental 1-page document
+% called "Postdoc Mentoring Plan" will be required 

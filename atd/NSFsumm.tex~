@@ -1,0 +1,61 @@
+
+%%%%%%%%% SUMMARY -- 1 page, third person
+% e.g:  "The PI will prove" not "I will prove"
+
+\required{Project Summary}
+Problem of threat detection
+
+Available sensing mmodalities
+
+Unexploited RF - pervasive rf
+
+No interpretive framework
+
+model received power as a random process, with underlying hidden state to be estimated
+
+\required{Overview}
+% This should be a brief description of the activity 
+% that would result if the proposal were funded 
+% and a statement of objectives and methods to be employed.
+% It should look something like an abstract. 
+Employ passive rf sensnsors in different comm bands
+
+Interpret received power: kriging weighted by transmitting location
+
+Map of received power is random process
+
+Underlying state machine reveals threat
+\cite{sigg2014rf}
+
+\required{Intellectual Merit}
+% This should describe the potential of the proposed activity
+% to advance knowledge in the field of mathematics. 
+Unused dataset
+
+Reflects information traffic
+
+optical dlow as information flow, governed by state
+
+will give a new interpretive mathematical framework for unused dataset
+
+\required{Broader Impacts}
+% This should describe the potential of the proposed activity
+% to benefit society and contribute to the achievement of 
+% specific, desired societal outcomes.
+% Examples of Broader Imacts include, but are not limited to:
+% 1. Full participation of women, persons with disabilities, and 
+% underrepresented minorities in science, technology, engineering, 
+% and mathematics (STEM); 
+% 2. Improved STEM education and educator 
+% development at any level; 
+% 3. Increased public scientific literacy 
+% and public engagement with science and technology; 
+% 4. Improved well-being of individuals in society; 
+% 5. Development of a diverse, globally competitive STEM workforce;
+% 6. Increased partnerships between academia, industry, and others; 
+% 7. Improved national security; 
+% 8. Increased economic competitiveness of the US; 
+% 9. Enhanced infrastructure for research and education.
+Improved safety
+
+Anonymous
