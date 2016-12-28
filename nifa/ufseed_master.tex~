@@ -33,22 +33,22 @@
 
 \begin{document}
 
-%\include{grp_title}
-% \setcounter{page}{1}
-\include{grp_loi}
+\include{ufseed_title}
  \setcounter{page}{1}
-%\include{grp_personnel}
-% \setcounter{page}{1}
-%\include{grp_desc}
-% \setcounter{page}{1}
-\include{grp_refs}
+\include{ufseed_summ}
  \setcounter{page}{1}
-%\include{grp_budget}
-% \setcounter{page}{1}
-%\include{grp_fut_plans}
-% \setcounter{page}{1}
-%\include{grp_biosketch}
-% \setcounter{page}{1}
+\include{ufseed_desc}
+ \setcounter{page}{1}
+ \include{ufseed_refs}
+ \setcounter{page}{1}
+ \include{ufseed_personnel}
+ \setcounter{page}{1}
+\include{ufseed_budget}
+ \setcounter{page}{1}
+\include{ufseed_fut_plans}
+ \setcounter{page}{1}
+\include{ufseed_biosketch}
+ \setcounter{page}{1}
 
 
 \end{document}

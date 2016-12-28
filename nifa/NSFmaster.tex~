@@ -33,22 +33,18 @@
 
 \begin{document}
 
-%\include{grp_title}
-% \setcounter{page}{1}
-\include{grp_loi}
+\include{NSFsumm}
  \setcounter{page}{1}
-%\include{grp_personnel}
-% \setcounter{page}{1}
-%\include{grp_desc}
-% \setcounter{page}{1}
-\include{grp_refs}
+\include{NSFdesc}
  \setcounter{page}{1}
-%\include{grp_budget}
-% \setcounter{page}{1}
-%\include{grp_fut_plans}
-% \setcounter{page}{1}
-%\include{grp_biosketch}
-% \setcounter{page}{1}
+ \include{NSFrefs}
+ \setcounter{page}{1}
+ \include{NSFbio}
+ \setcounter{page}{1}
+\include{NSFdata}
+ \setcounter{page}{1}
+\include{NSFcollab}
+ \setcounter{page}{1}
 
 
 \end{document}

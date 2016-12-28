@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: grp_master.aux
+The style file: plain.bst
+A level-1 auxiliary file: grp_loi.aux
+A level-1 auxiliary file: grp_refs.aux
+Database file #1: ./casanova_ieee.bib
+Repeated entry---line 52 of file ./casanova_ieee.bib
+ : @article{xu20070
+ :                 ,
+I'm skipping whatever remains of this entry
+You've used 9 entries,
+            2118 wiz_defined-function locations,
+            563 strings with 5596 characters,
+and the built_in function-call counts, 3161 in all, are:
+= -- 312
+> -- 149
+< -- 1
++ -- 59
+- -- 50
+* -- 235
+:= -- 528
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 51
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 109
+empty$ -- 248
+format.name$ -- 50
+if$ -- 651
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 9
+newline$ -- 47
+num.names$ -- 18
+pop$ -- 52
+preamble$ -- 1
+purify$ -- 43
+quote$ -- 0
+skip$ -- 75
+stack$ -- 0
+substring$ -- 226
+swap$ -- 18
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 34
+warning$ -- 0
+while$ -- 32
+width$ -- 10
+write$ -- 98
+(There was 1 error message)

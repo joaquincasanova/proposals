@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ufseed_master.aux
+The style file: plain.bst
+A level-1 auxiliary file: ufseed_title.aux
+A level-1 auxiliary file: ufseed_summ.aux
+A level-1 auxiliary file: ufseed_desc.aux
+A level-1 auxiliary file: ufseed_refs.aux
+A level-1 auxiliary file: ufseed_personnel.aux
+A level-1 auxiliary file: ufseed_budget.aux
+A level-1 auxiliary file: ufseed_fut_plans.aux
+A level-1 auxiliary file: ufseed_biosketch.aux
+Database file #1: ./casanova_ieee.bib
+You've used 21 entries,
+            2118 wiz_defined-function locations,
+            643 strings with 9111 characters,
+and the built_in function-call counts, 8491 in all, are:
+= -- 835
+> -- 487
+< -- 5
++ -- 194
+- -- 170
+* -- 671
+:= -- 1405
+add.period$ -- 65
+call.type$ -- 21
+change.case$ -- 145
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 272
+empty$ -- 596
+format.name$ -- 170
+if$ -- 1741
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 20
+newline$ -- 106
+num.names$ -- 42
+pop$ -- 143
+preamble$ -- 1
+purify$ -- 125
+quote$ -- 0
+skip$ -- 197
+stack$ -- 0
+substring$ -- 553
+swap$ -- 62
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 82
+warning$ -- 0
+while$ -- 82
+width$ -- 23
+write$ -- 231
