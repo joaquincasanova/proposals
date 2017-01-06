@@ -11,44 +11,44 @@ A level-1 auxiliary file: ufseed_budget.aux
 A level-1 auxiliary file: ufseed_fut_plans.aux
 A level-1 auxiliary file: ufseed_biosketch.aux
 Database file #1: ./casanova_ieee.bib
-You've used 21 entries,
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            643 strings with 9111 characters,
-and the built_in function-call counts, 8491 in all, are:
-= -- 835
-> -- 487
+            685 strings with 10393 characters,
+and the built_in function-call counts, 10612 in all, are:
+= -- 1037
+> -- 606
 < -- 5
-+ -- 194
-- -- 170
-* -- 671
-:= -- 1405
-add.period$ -- 65
-call.type$ -- 21
-change.case$ -- 145
++ -- 241
+- -- 210
+* -- 823
+:= -- 1773
+add.period$ -- 85
+call.type$ -- 28
+change.case$ -- 186
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 272
-empty$ -- 596
-format.name$ -- 170
-if$ -- 1741
+cite$ -- 28
+duplicate$ -- 339
+empty$ -- 754
+format.name$ -- 210
+if$ -- 2167
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 20
-newline$ -- 106
-num.names$ -- 42
-pop$ -- 143
+int.to.str$ -- 28
+missing$ -- 25
+newline$ -- 140
+num.names$ -- 56
+pop$ -- 186
 preamble$ -- 1
-purify$ -- 125
+purify$ -- 159
 quote$ -- 0
-skip$ -- 197
+skip$ -- 249
 stack$ -- 0
-substring$ -- 553
-swap$ -- 62
+substring$ -- 657
+swap$ -- 69
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 82
+type$ -- 110
 warning$ -- 0
-while$ -- 82
-width$ -- 23
-write$ -- 231
+while$ -- 102
+width$ -- 30
+write$ -- 303

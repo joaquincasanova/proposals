@@ -12,6 +12,13 @@ JM~Blonquist~Jr, Scott~B Jones, and DA~Robinson.
   characteristics.
 \newblock {\em Journal of hydrology}, 314(1):235--245, 2005.
 
+\bibitem{bromenshenk2009honey}
+Jerry~J Bromenshenk, Colin~B Henderson, Robert~A Seccomb, Steven~D Rice, and
+  Robert~T Etter.
+\newblock Honey bee acoustic recording and analysis system for monitoring hive
+  health, 2009.
+\newblock US Patent 7,549,907.
+
 \bibitem{campbell2008video}
 Jason Campbell, Lily Mummert, and Rahul Sukthankar.
 \newblock Video monitoring of honey bee colonies at the hive entrance.
@@ -64,6 +71,17 @@ Wenchuan Guo, Xinhua Zhu, Yi~Liu, and Hong Zhuang.
 \newblock Sugar and water contents of honey with dielectric property sensing.
 \newblock {\em Journal of Food Engineering}, 97(2):275--281, 2010.
 
+\bibitem{horn1981determining}
+Berthold~KP Horn and Brian~G Schunck.
+\newblock Determining optical flow.
+\newblock {\em Artificial intelligence}, 17(1-3):185--203, 1981.
+
+\bibitem{kremen2011evaluating}
+C~Kremen, KS~Ullman, and RW~Thorp.
+\newblock Evaluating the quality of citizen-scientist data on pollinator
+  communities.
+\newblock {\em Conservation Biology}, 25(3):607--617, 2011.
+
 \bibitem{meikle2008within}
 William~G Meikle, Brian~G Rector, Guy Mercadier, and Niels Holst.
 \newblock Within-day variation in continuous hive weight data as a measure of
@@ -85,6 +103,12 @@ Fiona~Edwards Murphy, Michele Magno, P{\'a}draig Whelan, and Emanuel~Popo Vici.
 \newblock In {\em Sensors Applications Symposium (SAS), 2015 IEEE}, pages 1--6.
   IEEE, 2015.
 
+\bibitem{nass2012census}
+USDA NASS.
+\newblock Census of agriculture.
+\newblock {\em US Department of Agriculture, National Agricultural Statistics
+  Service, Washington, DC}, 2012.
+
 \bibitem{phillips2014testing}
 Robert~Daniel Phillips, Jesse~Michael Blum, Michael~A Brown, and Sharon~L
   Baurley.
@@ -93,6 +117,12 @@ Robert~Daniel Phillips, Jesse~Michael Blum, Michael~A Brown, and Sharon~L
 \newblock In {\em Proceedings of the extended abstracts of the 32nd annual ACM
   conference on Human factors in computing systems}, pages 1951--1956. ACM,
   2014.
+
+\bibitem{schwartz2016evaluation}
+Robert~C Schwartz, Steven~R Evett, Scott~K Anderson, and David~J Anderson.
+\newblock Evaluation of a direct-coupled time-domain reflectometry for
+  determination of soil water content and bulk electrical conductivity.
+\newblock {\em Vadose Zone Journal}, 15(1), 2016.
 
 \bibitem{shaw2011long}
 Joseph~A Shaw, Paul~W Nugent, Jennifer Johnson, Jerry~J Bromenshenk, Colin~B
@@ -131,5 +161,14 @@ Dennis Vanengelsdorp, Jerry Hayes~Jr, Robyn~M Underwood, Dewey Caron, and
 \newblock A survey of managed honey bee colony losses in the usa, fall 2009 to
   winter 2010.
 \newblock {\em Journal of Apicultural Research}, 50(1):1--10, 2011.
+
+\bibitem{weather2016}
+WeatherUnderground.
+\newblock Personal weather station network, 2016.
+
+\bibitem{yuen1990comparative}
+HK~Yuen, John Princen, John Illingworth, and Josef Kittler.
+\newblock Comparative study of hough transform methods for circle finding.
+\newblock {\em Image and vision computing}, 8(1):71--77, 1990.
 
 \end{thebibliography}
