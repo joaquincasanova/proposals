@@ -29,7 +29,7 @@ Jason Campbell, Lily Mummert, and Rahul Sukthankar.
 Erik~S Carlsten, Geoffrey~R Wicks, Kevin~S Repasky, John~L Carlsten, Jerry~J
   Bromenshenk, and Colin~B Henderson.
 \newblock Field demonstration of a scanning lidar and detection algorithm for
-  spatially mapping honeybees for biological detection of land mines.
+  spatially mapping honey bees for biological detection of land mines.
 \newblock {\em Applied optics}, 50(14):2112--2123, 2011.
 
 \bibitem{national2012report}
@@ -50,7 +50,7 @@ Joachim~R De~Miranda and Elke Genersch.
 
 \bibitem{eren1997electronic}
 Halit Eren, Lynne Whiffler, and Robert Manning.
-\newblock Electronic sensing and identification of queen bees in honeybee
+\newblock Electronic sensing and identification of queen bees in honey bee
   colonies.
 \newblock In {\em Instrumentation and Measurement Technology Conference, 1997.
   IMTC/97. Proceedings. Sensing, Processing, Networking., IEEE}, volume~2,
@@ -103,11 +103,9 @@ Fiona~Edwards Murphy, Michele Magno, P{\'a}draig Whelan, and Emanuel~Popo Vici.
 \newblock In {\em Sensors Applications Symposium (SAS), 2015 IEEE}, pages 1--6.
   IEEE, 2015.
 
-\bibitem{nass2012census}
-USDA NASS.
-\newblock Census of agriculture.
-\newblock {\em US Department of Agriculture, National Agricultural Statistics
-  Service, Washington, DC}, 2012.
+\bibitem{fl2015report}
+Florida~Department of~Agriculture and Consumer Service.
+\newblock Fdacs annual report 2015, 2015.
 
 \bibitem{phillips2014testing}
 Robert~Daniel Phillips, Jesse~Michael Blum, Michael~A Brown, and Sharon~L
