@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: range_letter.aux
 The style file: plain.bst
 Database file #1: ./casanova_ieee.bib
-You've used 1 entry,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            504 strings with 4178 characters,
-and the built_in function-call counts, 292 in all, are:
-= -- 29
-> -- 7
+            542 strings with 5179 characters,
+and the built_in function-call counts, 2058 in all, are:
+= -- 203
+> -- 101
 < -- 0
-+ -- 4
-- -- 2
-* -- 21
-:= -- 55
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 4
++ -- 40
+- -- 34
+* -- 161
+:= -- 352
+add.period$ -- 17
+call.type$ -- 6
+change.case$ -- 35
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 11
-empty$ -- 25
-format.name$ -- 2
-if$ -- 56
+cite$ -- 6
+duplicate$ -- 62
+empty$ -- 157
+format.name$ -- 34
+if$ -- 411
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 2
+int.to.str$ -- 6
+missing$ -- 5
+newline$ -- 32
+num.names$ -- 12
+pop$ -- 30
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 29
 quote$ -- 0
-skip$ -- 7
+skip$ -- 45
 stack$ -- 0
-substring$ -- 22
-swap$ -- 1
+substring$ -- 155
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 24
 warning$ -- 0
-while$ -- 4
-width$ -- 2
-write$ -- 13
+while$ -- 22
+width$ -- 7
+write$ -- 65

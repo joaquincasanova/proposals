@@ -1,9 +1,37 @@
 \begin{thebibliography}{1}
 
-\bibitem{darkoh1998nature}
-Michael Bernard~Kwesi Darkoh.
-\newblock The nature, causes and consequences of desertification in the
-  drylands of africa.
-\newblock {\em Land Degradation \& Development}, 9(1):1--20, 1998.
+\bibitem{breman1983rangeland}
+Henk Breman and CT~De~Wit.
+\newblock Rangeland productivity and exploitation in the sahel.
+\newblock {\em Science}, 221(303):1341--1347, 1983.
+
+\bibitem{carlson1996comprehensive}
+DH~Carlson and TL~Thurow.
+\newblock Comprehensive evaluation of the improved spur model (spur-91).
+\newblock {\em Ecological Modelling}, 85(2-3):229--240, 1996.
+
+\bibitem{coughenour1991spatial}
+Michael~B Coughenour.
+\newblock Spatial components of plant-herbivore interactions in pastoral,
+  ranching, and native ungulate ecosystems.
+\newblock {\em Journal of range management}, 44(6):530--542, 1991.
+
+\bibitem{dragan2003application}
+Massimo Dragan, Enrico Feoli, Michele Fernetti, and Woldu Zerihun.
+\newblock Application of a spatial decision support system (sdss) to reduce
+  soil erosion in northern ethiopia.
+\newblock {\em Environmental Modelling \& Software}, 18(10):861--868, 2003.
+
+\bibitem{wwf}
+World~Wildlife Fund.
+\newblock Sahelian acacia savanna, Accessed January 30, 2017.
+
+\bibitem{knox2012remote}
+Nichola~M Knox, Andrew~K Skidmore, Herbert~HT Prins, Ignas~MA Heitk{\"o}nig,
+  Rob Slotow, Cornelis van~der Waal, and William~F de~Boer.
+\newblock Remote sensing of forage nutrients: Combining ecological and spectral
+  absorption feature data.
+\newblock {\em ISPRS journal of photogrammetry and remote sensing}, 72:27--35,
+  2012.
 
 \end{thebibliography}
