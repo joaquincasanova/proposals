@@ -2,24 +2,24 @@
 
 \bibitem{breman1983rangeland}
 Henk Breman and CT~De~Wit.
-\newblock Rangeland productivity and exploitation in the sahel.
+\newblock Rangeland productivity and exploitation in the {S}ahel.
 \newblock {\em Science}, 221(303):1341--1347, 1983.
 
 \bibitem{carlson1996comprehensive}
 DH~Carlson and TL~Thurow.
-\newblock Comprehensive evaluation of the improved spur model (spur-91).
+\newblock Comprehensive evaluation of the improved {SPUR} model ({SPUR}-91).
 \newblock {\em Ecological Modelling}, 85(2-3):229--240, 1996.
 
 \bibitem{coughenour1991spatial}
 Michael~B Coughenour.
 \newblock Spatial components of plant-herbivore interactions in pastoral,
   ranching, and native ungulate ecosystems.
-\newblock {\em Journal of range management}, 44(6):530--542, 1991.
+\newblock {\em Journal of Range Management}, 44(6):530--542, 1991.
 
 \bibitem{dragan2003application}
 Massimo Dragan, Enrico Feoli, Michele Fernetti, and Woldu Zerihun.
-\newblock Application of a spatial decision support system (sdss) to reduce
-  soil erosion in northern ethiopia.
+\newblock Application of a spatial decision support system ({SDSS}) to reduce
+  soil erosion in northern {E}thiopia.
 \newblock {\em Environmental Modelling \& Software}, 18(10):861--868, 2003.
 
 \bibitem{wwf}
@@ -31,7 +31,26 @@ Nichola~M Knox, Andrew~K Skidmore, Herbert~HT Prins, Ignas~MA Heitk{\"o}nig,
   Rob Slotow, Cornelis van~der Waal, and William~F de~Boer.
 \newblock Remote sensing of forage nutrients: Combining ecological and spectral
   absorption feature data.
-\newblock {\em ISPRS journal of photogrammetry and remote sensing}, 72:27--35,
+\newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing}, 72:27--35,
   2012.
+
+\bibitem{rango2009unmanned}
+Albert Rango, Andrea Laliberte, Jeffrey~E Herrick, Craig Winters, Kris Havstad,
+  Caiti Steele, Dawn Browning, et~al.
+\newblock Unmanned aerial vehicle-based remote sensing for rangeland
+  assessment, monitoring, and management.
+\newblock {\em Journal of Applied Remote Sensing}, 3(1):033542, 2009.
+
+\bibitem{traore2012regional}
+Seydou Traore and Aytac Guven.
+\newblock Regional-specific numerical models of evapotranspiration using
+  gene-expression programming interface in {S}ahel.
+\newblock {\em Water Resources Management}, 26(15):4367--4380, 2012.
+
+\bibitem{wark2007transforming}
+Tim Wark, Peter Corke, Pavan Sikka, Lasse Klingbeil, Ying Guo, Chris Crossman,
+  Phil Valencia, Dave Swain, and Greg Bishop-Hurley.
+\newblock Transforming agriculture through pervasive wireless sensor networks.
+\newblock {\em IEEE Pervasive Computing}, 6(2), 2007.
 
 \end{thebibliography}
