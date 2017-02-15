@@ -1,0 +1,55 @@
+
+%%%%%%%%% MASTER -- compiles the 6 sections
+
+\documentclass[11pt,letterpaper]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{plain}                                                      %%
+%%%%%%%%%% EXACT 1in MARGINS %%%%%%%                                   %%
+\setlength{\textwidth}{6.5in}     %%                                   %%
+\setlength{\oddsidemargin}{0in}   %% (It is recommended that you       %%
+\setlength{\evensidemargin}{0in}  %%  not change these parameters,     %%
+\setlength{\textheight}{8.5in}    %%  at the risk of having your       %%
+\setlength{\topmargin}{0in}       %%  proposal dismissed on the basis  %%
+\setlength{\headheight}{0in}      %%  of incorrect formatting!!!)      %%
+\setlength{\headsep}{0in}         %%                                   %%
+\setlength{\footskip}{.5in}       %%                                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                   %%
+\newcommand{\required}[1]{\section*{\hfil #1\hfil}}                    %%
+\renewcommand{\refname}{\hfil References Cited\hfil}                   %%
+\bibliographystyle{plain}                                              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%PUT YOUR MACROS HERE
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+
+
+\pagestyle{empty}
+%\includeonly{infews_summ}
+
+\begin{document}
+\include{infews_cover}
+ \setcounter{page}{1}
+\include{infews_summ}
+\setcounter{page}{1}
+\include{infews_toc}
+ \setcounter{page}{1}
+\include{infews_desc}
+ \setcounter{page}{1}
+ \include{infews_refs}
+ \setcounter{page}{1}
+ \include{infews_budgetj}
+ \setcounter{page}{1}
+ \include{infews_bio}
+ \setcounter{page}{1}
+ \include{infews_data}
+ \setcounter{page}{1}
+\include{infews_collab}
+ \setcounter{page}{1}
+
+
+\end{document}
