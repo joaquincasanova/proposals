@@ -24,7 +24,6 @@
 
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{cite} 
 
 
 
@@ -45,7 +44,7 @@
  \setcounter{page}{1}
  \include{infews_budgetj}
  \setcounter{page}{1}
- \include{infews_biosketch}
+ \include{infews_bio}
  \setcounter{page}{1}
  \include{infews_data}
  \setcounter{page}{1}

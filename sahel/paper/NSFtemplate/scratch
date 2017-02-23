@@ -1,0 +1,203 @@
+range
+@article{kahan2006impact}
+
+impact of soil/veg params in sahel SEBEX
+It was found that proper parameter estimation of leaf area index, stomatal resistance,
+and hydraulic conductivity allow enough evaporation to occur in land surface simulations
+Observational data sets from the Sahelian Energy Balance Experiment (SEBEX) and the Hydrological Atmospheric Pilot
+Experiment (HAPEX-Sahel)
+Land cover change can affect the climate by altering the partitioning of
+available energy between sensible and latent heat and by changing the partitioning of precipitation
+between evapotranspiration and runoff
+According to Wallace et al.
+(1991), data describing Sahelian vegetation was very
+sparse. Therefore, information about the energy and
+water balances in the Sahel was urgently needed.
+SEBEX was conducted with the goal of attaining
+direct measurements of surface energy fluxes from
+varying Sahelian land types. HAPEX-Sahel was
+conducted in Niger, West Africa, in 1991–1993 with
+the purpose of improving parameterizations of land
+surface atmosphere interaction on the scale of a GCM
+grid box.
+78% of the vegetation was
+comprised of leguminous and grass species (Cassia
+mimosoides, Tephrosia linearis, Aristida mutabills,
+and Eragrsostis tremula). The remainder was woody
+shrubs about 2.5 m in height (Guiera senegalensis and
+Combretum glutinosum) with a few occasional trees
+(1.5 per hectare) of 5–10 m in height. The soil tends to
+be very sandy and about 0.5 m deep.
+The experiments described utilize the Simplified
+Simple Biosphere Model (SSiB) (Xue et al., 1991)
+Because HAPEX observations were taken inten-
+sively for 8 weeks, producing a complete set of flux
+measurements for the whole study period, the HAPEX
+set was used for model parameter calibration (Section 6).
+The SEBEX set contains 2 years of forcing data and
+was used for validation (Section 6) and sensitivity
+testing (Section 5) to guide/evaluate the calibration
+process. The control run for HAPEX (referred to as
+H-1) employed parameters for standard type-8
+vegetation (Table 2), shrubs with ground-cover
+(Dorman and Sellers, 1989), which is normally used
+in GCMs for the Sahel area.
+Although changing
+albedo had a major impact in the sensitivity tests, it
+was not desirable to alter this parameter in the
+calibration since the type-8 vegetation already
+represented an albedo similar to that observed at the
+HAPEX site. The primary parameters discussed in
+this section and adjusted in the final calibration are as
+follows: leaf area index (LAI), stomatal resistance,
+soil hydraulic conductivity at saturation, and soil
+thermal diffusivity.
+
+Runoff/LH most affected by LAI and stomatal resistance and soil hydraulic cond
+
+In uncalibrated runs LH severely underestimated
+
+The increase in LAI and
+reduction in stomatal resistance allowed for more
+transport of moisture from the land surface to the
+atmosphere. This change in latent heat flux also served
+to reduce sensible heat flux, bringing them both much
+closer to observations, with significantly reduced RMS
+errors. On a diurnal scale, the greatest difference
+between the control and experimental runs exists
+during the day; on a monthly scale, there appears to be
+the greatest difference during the wet months.
+
+@article{kennedy2008effect}
+
+effect of hernage on milk production
+
+Offering a low DHA restricted grass dry matter intake (DMI) during R1 and R2 yet concentrate supplementation significantly increased total
+DMI (2.3 (R1) and 3.0 (R2) kg DM/cow). Animals offered a low DHA had a significantly lower bodyweight (BW) than those offered a
+medium or high DHA during P1 and P2. Concentrate supplementation increased BW during P1 and P2 (+9 and +14 kg/cow, respectively).
+There was no effect of treatment on BW during P3. There was no effect of DHA on EB in R1; during R2 animals offered a low DHA had the
+lowest EB. Concentrate significantly increased EB in R1 and R2 and increased plasma glucose concentration while it decreased plasma
+NEFA and BHB concentrations. The results of this study indicate that animals should be offered a low DHA up to 80 DIM after which DHA
+should be increased however animals should also be supplemented with concentrate during the early post-partum period.
+
+
+@article{harper1999direct}
+
+@article{dragan2003application}
+
+spatial decision support system SDSS Thiopia reduce soil erosion by reallocating crops to protect soil
+
+based on land-cover/land use, altitude, potential erosion, roads, water, protection from portential crops
+
+A reduction of soil loss from 4.5 t/ha/year to below 1 t/ha/yr
+
+biggest impediment shortage of cultivable land
+
+@article{coughenour1991spatial}
+
+@misc{wwf}
+
+@article{darkoh1998nature}
+
+@article{reeder2002influence}
+
+effect of livestock grazing on C content of plant-soil system in two semi-arid grasslands praire and steppe. treatments include season long grazing different stocking rates, and nongrazed. 
+
+Higher soil C in grazed pastures higher soil C with grazing reult of more rapid shoot turnover and resditribution of C within plant-soil system as a result of changes in species compostition
+
+@article{fuhlendorf2001restoring}
+
+restoring hetereogeneity on rangelands with evolutionary grazing patterns
+
+spatial heterogeneity due to out of phase succession from various disturbances(fire, graze)
+
+near water, high grazing, livestock select areas with less accumulation from previous years
+
+overgraze results in decreased infiltration and increased runoff
+
+rotational grazing encourages homogeneity
+
+how to encourage heterogeneity/species diversity?
+
+fire - intense grazing on burned patches allows unburned to regrow
+
+no graze - homogeneous
+heavy graze - reduces most biomass - defoliated - everything eaten
+
+oklahoma bison experiment
+
+ In fact, bison have maintained high re-
+productive rates without nutritional supplementation (Robert
+Hamilton [The Nature Conservancy], personal communi-
+cation, 1999), in contrast to cattle, whose reproductive rates
+in the absence of protein supplementation decline consider-
+ably when dominant forage grasses mature under traditional
+rangeland management (Hughes et al. 1978, McCollum and
+Horn 1990). 
+
+though minor differences in biodiversity when bison and cattle are grazed similarly
+
+shifting mosaic - patch burning/herbicide/fertilization/focused grazing disturbances/shifting attractants
+
+
+@misc{agouridis2005livestock}
+
+Few studies examine impact of grazing impacts on stream water quality, habitat change vs BMPs
+
+Owens et al. (1989) stated that increases in sedi-
+ment transport from a continuously grazed site in
+Ohio might justify the use of exclusion fencing along
+fragile riparian areas. Although not directly
+attributable to stream fencing, Brannan et al. (2000)
+postulated that total suspended solid loads and flow
+weighted concentration reductions in a Virginia
+watershed were the result of exclusion fencing. In a
+later study, Owens et al. (1996) examined the effects
+of stream fencing on sediment losses in an Ohio
+stream located in a heavily grazed watershed. The
+researchers noted a 57 percent decrease in the annual
+flow weighted averages for sediment concentration
+and more than a 40 percent decrease in average
+annual soil losses when cattle were fenced out of the
+stream. Line et al. (2000) evaluated the effectiveness
+of exclusion fencing combined with planting trees to
+reduce pollutant loads to a small North Carolina
+stream, and noted significant reductions in total sus-
+pended solid (82.3 percent) and total solid (81.7 per-
+cent) loads.
+
+@article{liebig2010grazing}
+
+examined global warming potential (co2, ch4, soil organic carbon) from from grazing in 2 native pastures (moderate, heavily) grazed and heavily grazed wheatgrass in ND. values for gwp and ghg intensity indicate net reductions in ghg with moderate stocking rates on native vegetation.
+
+@article{pyke2002rangeland}
+
+assessment system for rangeland health. 17 indicators to asess soil and site stability, hydrologic function, and biotic integrity. rills, water flow patterns, bare ground, gullies, wind scour litter, soil resistance to erosion, soil surface loss, plant density/composition, invasive plants etc
+
+@article{powell1996nutrient}
+
+@article{mabbutt1987implementation}
+
+@article{graef2001spatial}
+
+@article{knox2012remote}
+
+@article{pickup1996estimating}
+
+@article{dardel2014re}
+
+@article{breman1983rangeland}
+
+@article{carlson1996comprehensive}
+
+@article{traore2012regional}
+
+@article{rango2009unmanned}
+
+@article{rango2006using}
+
+@article{andrew2003sustainable}
+
+@article{andrew2003sustainable}
+
+@article{wark2007transforming}
