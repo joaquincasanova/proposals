@@ -446,16 +446,217 @@ local degradation but overall regreening
 
 @article{breman1983rangeland}
 
+failure to appreciate effects of low soil fertility and low rainfall --> overstimate capacity of modern, sedentary ag and underestimate seminomadic
+
+traditional view incorrect - not overgrazing, too  large herds, or keeping animals past useful age
+
+semiarid transition zone
+
+short 2-4 mo rainy season
+100mm N 600mm S
+thorn shrub steppes - growing season 2-2.5 mo S <1mo N
+rare pereniial grasses may be longer
+dominant sany eolian soils absorb moisture
+soils on sandstone, laterite (anciant riverbeds) loam/silt bad runoff
+borders and floodplains Lake Chad, rivers Senegal Niger Chari dominated by grasses indispensible for pastoralists
+
+growth limited to natural inputs 10000kg/ha - limited in 1st part by P; second part N
+
+The average annual bal-
+ance showed that the vegetation did not
+transpire more than 10 to 20 percent of
+the rainwater under natural conditions in
+the southern border of the Sahel. About
+60 percent evaporates and 25 percent
+disappears as runoff. Evaporation is rela-
+tively high because a fairly large part of
+the rain falls before and after the growing
+period of the vegetation.
+
+when water limited - protein content 18% at beginning, 12% end - North
+when N limited - 3-6% - South
+
+livestock needs 7% - higher for growth/milk
+
+selective grazing - more quality in N when water limited
+
+Nomadism/vs semi-nomadism/vs sedentary
+N best for livestock, water limited limits capacity though (drinking water)
+S more water, can support more, but less protein 
+
+transhumance - twice a year the herdsman migrate N during rain, then south - settlements in N savannah and river basins
+similar to natural grazing patterns of zebu
+
+Both the herds of the seminomads and
+those of the farmers are of essential
+importance as a source of manure for
+traditional arable farming. The use of
+fertilizers is unprofitable, at least in cereal growing.
+
+lack of fallow in arable lands
+
+need animal droppings to compensate
+
+The mean herd size for an ac-
+ceptable subsistence minimum must be
+four to five tropical livestock units per
+member of the family. Before the
+drought in the early 1970's the overall
+value available in the Sahel was 4.5
+tropical livestock units per person and
+just after, 2.8 units. Total herd size has
+returned to the 1970 level, but livestock
+density is still only 3.5 tropical livestock
+units per person because of the popula-
+tion increase of 2.5 percent per year.
+The suggestion that a smaller herd will
+produce more in an absolute sense is not
+true for rangelands such as the Sahel that
+are dominated by annual plant species,
+whose production is mainly determined
+by the availability of nitrogen.
+
+traditional grazing systems oriented towards perennial grasses wont work!!!
+
+Options:
+alterative livlihoods for pastoralists
+or 
+add nutrents - cowpeas, groundnuts, manure - first step to stop depletion
+
+seminomads supply young animals fattened in south? only if nutrients are increased.
+
 @article{carlson1996comprehensive}
+
+Comprehensive evaluation of the improved SPUR model
+
+SPUR (Simulation of Production and Utilization of Rangelands) is a physically-based model designed to simulate
+the complexity of rangeland ecosystems (Wight and Skiles, 1987). Results of extensive validation testing in Texas
+indicated a need to modify the model to improve submodel integration and procedural guidelines. A description of
+the modified model (SPUR-91) is provided. A sensitivity analysis was conducted, examining the influence of changes
+in model output corresponding to perturbations made to individual input parameters. The model was then
+extensively validated using a Texas data set composed of simultaneous measurements of hydrology, plant, livestock,
+and meteorological parameters.
+
+hydrology, animal, vegetation, economics
 
 @article{traore2012regional}
 
+An accurate and simple Reference Evapotranspiration (ETo) numerical model eases
+to use for supporting irrigation planning and its effective management is highly desired in
+Sahelian regions. This paper investigates the performance ability of the Gene-expression
+Programming (GEP) for modeling ETo using decadal climatic data from a Sahelian country;
+Burkina Faso. For the study; important data are collected from six synoptic meteorological
+stations located in different regions; Gaoua, Pô, Boromo, Ouahigouya, Bogandé and Dori. The
+climatic data combinations are used as inputs to develop the GEP models at regional-specific
+data basis for estimating ETo. GEP performances are evaluated with the root mean square error
+(RMSE), and coefficient of correlation (R) between estimated and targeted Penman-Monteith
+FAO56 set as the true reference values. Obviously; from the statistical viewpoint; GEP
+computing technique has showed a good ability for providing numerical models on a regional
+data basis. The performances of GEP based on temperatures data are quite good able to
+substitute empirical equations at regional level to some extent. It is found that the models with
+wind velocity yield high accuracies by causing radical improve of the performances with R 2
+(0.925-0.961) and RMSE (0.131-0.272 mmday -1 ); while relative humidity may cause only
+(R 2 00.801-0.933 and RMSE00.370-0.578 mmday -1 ). Statistically; GEP is an effectual mod-
+eling tool for computing successfully evapotranspiration in Sahel.
+
 @article{rango2009unmanned}
+
+Rangeland comprises as much as 70% of the Earth’s land surface area. Much
+of this vast space is in very remote areas that are expensive and often impossible to access
+on the ground. Unmanned Aerial Vehicles (UAVs) have great potential for rangeland
+management. UAVs have several advantages over satellites and piloted aircraft: they can
+be deployed quickly and repeatedly; they are less costly and safer than piloted aircraft;
+they are flexible in terms of flying height and timing of missions; and they can obtain
+imagery at sub-decimeter resolution. This hyperspatial imagery allows for quantification
+of plant cover, composition, and structure at multiple spatial scales. Our experiments
+have shown that this capability, from an off-the-shelf mini-UAV, is directly applicable to
+operational agency needs for measuring and monitoring. For use by operational agencies
+to carry out their mandated responsibilities, various requirements must be met: an
+affordable and reliable platform; a capability for autonomous, low altitude flights; takeoff
+and landing in small areas surrounded by rugged terrain; and an easily applied data
+analysis methodology. A number of image processing and orthorectification challenges
+have been or are currently being addressed, but the potential to depict the land surface
+commensurate with field data perspectives across broader spatial extents is unrivaled.
+
+When compared to conventional aerial photos with 25 cm resolution, which cannot
+display information required for rangeland health applications, UAV aerial photos, flown
+at 215 m altitude, produce 5-6 cm resolution images. These images can provide much of
+the information necessary for rangeland health assessments and monitoring (21, 22)
+including vegetation and bare soil cover, composition by functional or structural group,
+spatial distribution of plants and intercanopy gaps, and vegetation type in some plant
+communities (13) although, even at this resolution (6 cm), it is sometimes difficult to
+distinguish litter from bare soil.
+
+Quickbird 60cm satellite is best for RS
+
+The only other aerial data source comparable to the 5-6 cm resolution available from
+UAVs involves low flying piloted aircraft that can obtain sub – 5cm digital images in 4-
+bands for relatively small areas. The latest digital aerial cameras such as the UltraCamX
+or Xp manufactured by Microsoft Vexel Imaging GmbH TM can now acquire imagery at
+2.9 cm from 500 m and 1.8 cm from 300 m. At the 2.9 cm resolution, they can now
+acquire overlapping imagery for orthophoto production. The two drawbacks of such
+image acquisition are operational expense and safety for the pilots.
+
+MLB bat 3 - $50000 "light/mini"
 
 @article{rango2006using}
 
-@article{andrew2003sustainable}
+Unmanned Aerial Vehicles for use in rangeland applica-
+tions have modest requirements, which should reduce their
+cost relative to UAVs used for applications requiring high-
+cost airframes, heavy payload capability, and the ability to
+stay aloft for several days to weeks ~e.g., for forest fire
+management, pollution and air quality assessment, coastal
+ocean observations, cloud and precipitation assessment,
+and severe storm monitoring applications!. We believe that
+most imaging requirements can adequately be served from
+relatively low altitudes and slow airspeeds, for which the
+moderately expensive UAVs are designed ~e.g., the MLB-
+Bat 3!. These kinds of flights result in high resolution
+images required for distinguishing rangeland plant species,
+as well as possessing the capability for measuring patch
+and gap sizes and describing spatial patterns at multiple
+spatial scales across a variety of ecosystems.
+
+quickbird can't distinguish intercanopy gaps
+
+used Yamaha Rmax helicopter and modified model airplane in new mexico rangeland
+estimated canopy coverage
+
+used image processing to classify rangeland species - bare soil, mesquite, brrom snakeweed and grass
+
+good pics in this article
 
 @article{andrew2003sustainable}
+
+The SGS (Sustainable Grazing Systems) Program was an
+integrated research and extension program that operated
+across the southern high rainfall zone (HRZ, >600mm/year)
+of Australia. It comprised a national experiment, a training
+program, and a regional producer network
+
+As judged by peer and independent review, the processes
+implemented in the SGS National Experiment were a
+collective success and provided the type of organisational
+structure that Cullen (2002) described as being essential for
+solving environmental problems by delivering good science
+and practical application at the landscape, rather than plot,
+scale
 
 @article{wark2007transforming}
+
+Transforming Agriculture through Pervasive Wireless Sensor Networks
+australia
+
+managing in large, remote areas difficult and dangerous
+
+pasture assessment
+
+cattle GPS, rangeland images, soil moisture
+not all cattle have gps - nearest neighbor
+behavior classification by movement tracking 
+
+nordic radio
+
+solar power
+
