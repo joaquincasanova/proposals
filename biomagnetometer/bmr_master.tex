@@ -20,33 +20,52 @@
 \bibliographystyle{plain}                                              %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%PUT YOUR MACROS HERE
+%PUT YOUR MACROS HER
+\usepackage{cite}
 
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  \usepackage[pdftex]{graphicx}
+  \graphicspath{{../pdf/}{../jpeg/}}
+  \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  \usepackage[dvips]{graphicx}
+  \graphicspath{{../eps/}}
+  \DeclareGraphicsExtensions{.eps}
+\fi
 \usepackage{amsmath}
+\interdisplaylinepenalty=2500
+
+\usepackage{array}
+\usepackage{fixltx2e}
+\usepackage{stfloats}
+\usepackage{url}
+
 \usepackage{amssymb}
 
 
 
 
 \pagestyle{empty}
-%\includeonly{NSFsumm}
+%\includeonly{bmr_summ}
 
 \begin{document}
-\include{NSFcover}
- \setcounter{page}{1}
-\include{NSFsumm}
+%\include{bmr_cover}
+% \setcounter{page}{1}
+\include{bmr_summ}
 \setcounter{page}{1}
-\include{NSFtoc}
+%\include{bmr_toc}
+% \setcounter{page}{1}
+\include{bmr_desc}
  \setcounter{page}{1}
-\include{NSFdesc}
+ \include{bmr_refs}
  \setcounter{page}{1}
- \include{NSFrefs}
+ \include{bmr_bio}
  \setcounter{page}{1}
- \include{NSFbio}
+\include{bmr_data}
  \setcounter{page}{1}
-\include{NSFdata}
- \setcounter{page}{1}
-\include{NSFcollab}
+\include{bmr_collab}
  \setcounter{page}{1}
 
 
