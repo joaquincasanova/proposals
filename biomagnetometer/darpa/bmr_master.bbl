@@ -1,0 +1,122 @@
+\begin{thebibliography}{10}
+
+\bibitem{alfadhel2014magnetic}
+Ahmed Alfadhel, Bodong Li, Amir Zaher, Omar Yassine, and J{\"u}rgen Kosel.
+\newblock A magnetic nanocomposite for biomimetic flow sensing.
+\newblock {\em Lab on a Chip}, 14(22):4362--4369, 2014.
+
+\bibitem{arnold2009permanent}
+David~P Arnold and Naigang Wang.
+\newblock Permanent magnets for mems.
+\newblock {\em Journal of microelectromechanical systems}, 18(6):1255--1266,
+  2009.
+
+\bibitem{coey2010magnetism}
+John~MD Coey.
+\newblock {\em Magnetism and magnetic materials}.
+\newblock Cambridge University Press, 2010.
+
+\bibitem{dodson2013radical}
+Charlotte~A Dodson, PJ~Hore, and Mark~I Wallace.
+\newblock A radical sense of direction: signalling and mechanism in
+  cryptochrome magnetoreception.
+\newblock {\em Trends in biochemical sciences}, 38(9):435--446, 2013.
+
+\bibitem{eder2012magnetic}
+Stephan~HK Eder, Herv{\'e} Cadiou, Airina Muhamad, Peter~A McNaughton, Joseph~L
+  Kirschvink, and Michael Winklhofer.
+\newblock Magnetic characterization of isolated candidate vertebrate
+  magnetoreceptor cells.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, pages 12022--12027, 2012.
+
+\bibitem{hanzlik2002pulsed}
+Marianne Hanzlik, Michael Winklhofer, and Nikolai Petersen.
+\newblock Pulsed-field-remanence measurements on individual magnetotactic
+  bacteria.
+\newblock {\em Journal of Magnetism and Magnetic Materials}, 248(2):258--267,
+  2002.
+
+\bibitem{johnsen2005physics}
+S{\"o}nke Johnsen and Kenneth~J Lohmann.
+\newblock The physics and neurobiology of magnetoreception.
+\newblock {\em Nature Reviews Neuroscience}, 6(9):703--712, 2005.
+
+\bibitem{kirschvink2001magnetite}
+Joseph~L Kirschvink, Michael~M Walker, and Carol~E Diebel.
+\newblock Magnetite-based magnetoreception.
+\newblock {\em Current opinion in neurobiology}, 11(4):462--467, 2001.
+
+\bibitem{kumar2015ultra}
+Varun Kumar, Mohammad Mahdavi, Xiaobo Guo, Emad Mehdizadeh, and Siavash
+  Pourkamali.
+\newblock Ultra sensitive lorentz force mems magnetometer with pico-tesla limit
+  of detection.
+\newblock In {\em Micro Electro Mechanical Systems (MEMS), 2015 28th IEEE
+  International Conference on}, pages 204--207. IEEE, 2015.
+
+\bibitem{kyynarainen20083d}
+Jukka Kyyn{\"a}r{\"a}inen, Jaakko Saarilahti, Hannu Kattelus, Anu
+  K{\"a}rkk{\"a}inen, Tor Meinander, Aarne Oja, Panu Pekko, Heikki Sepp{\"a},
+  Mika Suhonen, Heikki Kuisma, et~al.
+\newblock A 3d micromechanical compass.
+\newblock {\em Sensors and Actuators A: Physical}, 142(2):561--568, 2008.
+
+\bibitem{lenz2006magnetic}
+James Lenz and S~Edelstein.
+\newblock Magnetic sensors and their applications.
+\newblock {\em IEEE Sensors journal}, 6(3):631--649, 2006.
+
+\bibitem{levinzon2004fundamental}
+Felix~A Levinzon.
+\newblock Fundamental noise limit of piezoelectric accelerometer.
+\newblock {\em IEEE Sensors Journal}, 4(1):108--111, 2004.
+
+\bibitem{sasada2002orthogonal}
+I~Sasada.
+\newblock Orthogonal fluxgate mechanism operated with dc biased excitation.
+\newblock {\em Journal of Applied Physics}, 91(10):7789--7791, 2002.
+
+\bibitem{sasada2014fundamental}
+Ichiro Sasada and Shoumu Harada.
+\newblock Fundamental mode orthogonal fluxgate gradiometer.
+\newblock {\em IEEE Transactions on Magnetics}, 50(11):1--4, 2014.
+
+\bibitem{shah2013compact}
+Vishal~K Shah and Ronald~T Wakai.
+\newblock A compact, high performance atomic magnetometer for biomedical
+  applications.
+\newblock {\em Physics in medicine and biology}, 58(22):8153, 2013.
+
+\bibitem{shen2008design}
+Dongna Shen, Jung-Hyun Park, Jyoti Ajitsaria, Song-Yul Choe, Howard~C
+  Wikle~III, and Dong-Joo Kim.
+\newblock The design, fabrication and evaluation of a mems pzt cantilever with
+  an integrated si proof mass for vibration energy harvesting.
+\newblock {\em Journal of Micromechanics and Microengineering}, 18(5):055017,
+  2008.
+
+\bibitem{sinha201627}
+Kushagra Sinha and Massood Tabib-Azar.
+\newblock 27 pt silicon nitride mems magnetometer for brain imaging.
+\newblock {\em IEEE Sensors Journal}, 16(17):6551--6558, 2016.
+
+\bibitem{thompson2009parametrically}
+Matthew~J Thompson and David~A Horsley.
+\newblock Parametrically amplified mems magnetometer.
+\newblock In {\em Solid-State Sensors, Actuators and Microsystems Conference,
+  2009. TRANSDUCERS 2009. International}, pages 1194--1197. IEEE, 2009.
+
+\bibitem{uchiyama2014highly}
+Tsuyoshi Uchiyama, Norihiko Hamada, and Changmei Cai.
+\newblock Highly sensitive cmos magnetoimpedance sensor using miniature
+  multi-core head based on amorphous wire.
+\newblock {\em IEEE Transactions on Magnetics}, 50(11):1--4, 2014.
+
+\bibitem{van2006resonant}
+Cornelis~A Van~Eysden and John~E Sader.
+\newblock Resonant frequencies of a rectangular cantilever beam immersed in a
+  fluid.
+\newblock {\em Journal of applied physics}, 100(11):114916, 2006.
+
+\end{thebibliography}

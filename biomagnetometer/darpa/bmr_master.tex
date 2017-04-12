@@ -25,15 +25,8 @@
 
 % *** GRAPHICS RELATED PACKAGES ***
 %
-\ifCLASSINFOpdf
-  \usepackage[pdftex]{graphicx}
-  \graphicspath{{../pdf/}{../jpeg/}}
+\usepackage[pdftex]{graphicx}
   \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
-\else
-  \usepackage[dvips]{graphicx}
-  \graphicspath{{../eps/}}
-  \DeclareGraphicsExtensions{.eps}
-\fi
 \usepackage{amsmath}
 \interdisplaylinepenalty=2500
 
@@ -60,8 +53,6 @@
  \include{bmr_refs}
  \setcounter{page}{1}
 \include{bmr_additional}
- \setcounter{page}{1}
- \include{bmr_bio}
  \setcounter{page}{1}
 
 
