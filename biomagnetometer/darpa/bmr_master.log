@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.27)  17 APR 2017 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.27)  19 APR 2017 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -28,12 +28,31 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks14
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\TX@col@width=\dimen105
+\TX@old@table=\dimen106
+\TX@old@col=\dimen107
+\TX@target=\dimen108
+\TX@delta=\dimen109
+\TX@cols=\count87
+\TX@ftn=\toks15
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
@@ -55,14 +74,14 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count88
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen110
+\Gin@req@width=\dimen111
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
-\@mathmargin=\skip43
+\@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -70,81 +89,73 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks15
-\ex@=\dimen105
+\@emptytoks=\toks17
+\ex@=\dimen112
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen106
+\pmbraise@=\dimen113
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count88
+\inf@bad=\count89
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count89
-\leftroot@=\count90
+\uproot@=\count90
+\leftroot@=\count91
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count91
-\DOTSCASE@=\count92
+\classnum@=\count92
+\DOTSCASE@=\count93
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen107
+\big@size=\dimen114
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count93
-\c@MaxMatrixCols=\count94
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
-\c@parentequation=\count95
-\dspbrk@lvl=\count96
-\tag@help=\toks16
-\row@=\count97
-\column@=\count98
-\maxfields@=\count99
-\andhelp@=\toks17
-\eqnshift@=\dimen108
-\alignsep@=\dimen109
-\tagshift@=\dimen110
-\tagwidth@=\dimen111
-\totwidth@=\dimen112
-\lineht@=\dimen113
-\@envbody=\toks18
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks19
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks18
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks19
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks20
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip46
-\subfigcapskip=\skip47
-\subfigcaptopadj=\dimen114
-\subfigbottomskip=\skip48
-\subfigcapmargin=\dimen115
-\subfiglabelskip=\skip49
-\c@subfigure=\count100
-\c@lofdepth=\count101
-\c@subtable=\count102
-\c@lotdepth=\count103
+\subfigtopskip=\skip48
+\subfigcapskip=\skip49
+\subfigcaptopadj=\dimen121
+\subfigbottomskip=\skip50
+\subfigcapmargin=\dimen122
+\subfiglabelskip=\skip51
+\c@subfigure=\count101
+\c@lofdepth=\count102
+\c@subtable=\count103
+\c@lotdepth=\count104
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip50
-\subfig@bottom=\skip51
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen116
-\extrarowheight=\dimen117
-\NC@list=\toks20
-\extratabsurround=\skip52
-\backup@length=\skip53
+\subfig@top=\skip52
+\subfig@bottom=\skip53
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2015/06/22 v2.0b fixes to LaTeX (obsolete)
@@ -157,8 +168,8 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 ) (/usr/share/texlive/texmf-dist/tex/latex/sttools/stfloats.sty
 Package: stfloats 2016/02/08 v2.0 Improve float mechanism and baselineskip sett
 ings
-\@dblbotnum=\count104
-\c@dblbotnumber=\count105
+\@dblbotnum=\count105
+\c@dblbotnumber=\count106
 )
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -193,17 +204,17 @@ LaTeX Font Info:    ... okay on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen118
+\scratchcounter=\count107
+\scratchdimen=\dimen123
 \scratchbox=\box28
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen119
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks22
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen124
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -276,104 +287,120 @@ Missing character: There is no ô in font cmr10!
 \openout2 = `bmr_desc.aux'.
 
  (./bmr_desc.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
  [1
 
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+] [2]
+LaTeX Font Info:    Try loading font information for U+msa on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<fmofg.png, id=16, 240.14719pt x 275.52937pt>
+) [3]
+<fmofg.png, id=22, 240.14719pt x 275.52937pt>
 File: fmofg.png Graphic file (type png)
  <use fmofg.png>
-Package pdftex.def Info: fmofg.png used on input line 45.
+Package pdftex.def Info: fmofg.png used on input line 85.
 (pdftex.def)             Requested size: 234.87749pt x 269.4872pt.
 
-<fmofg2.png, id=17, 363.60844pt x 73.77562pt>
+<fmofg2.png, id=23, 363.60844pt x 73.77562pt>
 File: fmofg2.png Graphic file (type png)
  <use fmofg2.png>
-Package pdftex.def Info: fmofg2.png used on input line 49.
+Package pdftex.def Info: fmofg2.png used on input line 89.
 (pdftex.def)             Requested size: 234.87749pt x 47.6575pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2] <lorenz.png, id=22, 344.78813pt x 277.78781pt>
+<lorenz.png, id=24, 344.78813pt x 277.78781pt>
 File: lorenz.png Graphic file (type png)
  <use lorenz.png>
-Package pdftex.def Info: lorenz.png used on input line 58.
+Package pdftex.def Info: lorenz.png used on input line 98.
 (pdftex.def)             Requested size: 234.87749pt x 189.23653pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<lorenz2.png, id=23, 344.03531pt x 273.27094pt>
+<lorenz2.png, id=25, 344.03531pt x 273.27094pt>
 File: lorenz2.png Graphic file (type png)
  <use lorenz2.png>
-Package pdftex.def Info: lorenz2.png used on input line 65.
+Package pdftex.def Info: lorenz2.png used on input line 105.
 (pdftex.def)             Requested size: 234.87749pt x 186.56398pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<kirsh2001.png, id=24, 355.3275pt x 460.72125pt>
+<kirsh2001.png, id=26, 355.3275pt x 460.72125pt>
 File: kirsh2001.png Graphic file (type png)
  <use kirsh2001.png>
-Package pdftex.def Info: kirsh2001.png used on input line 74.
+Package pdftex.def Info: kirsh2001.png used on input line 114.
 (pdftex.def)             Requested size: 234.87749pt x 304.55501pt.
-
-<cilia.png, id=25, 367.3725pt x 311.66437pt>
+ [4 <./fmofg.png> <./fmofg2.png>] <cilia.png, id=32, 367.3725pt x 311.66437pt>
 File: cilia.png Graphic file (type png)
- <use cilia.png>
-Package pdftex.def Info: cilia.png used on input line 83.
+
+<use cilia.png>
+Package pdftex.def Info: cilia.png used on input line 123.
 (pdftex.def)             Requested size: 234.87749pt x 199.26477pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <./fmofg.png> <./fmofg2.png>] <biomag.png, id=30, 963.6pt x 722.7pt>
+[5 <./lorenz.png>] <biomag.png, id=39, 963.6pt x 722.7pt>
 File: biomag.png Graphic file (type png)
-
-<use biomag.png>
-Package pdftex.def Info: biomag.png used on input line 103.
+ <use biomag.png>
+Package pdftex.def Info: biomag.png used on input line 151.
 (pdftex.def)             Requested size: 352.31624pt x 264.22992pt.
-Missing character: There is no Œ in font cmr10!
-Missing character: There is no £ in font cmr10!
- [4 <./lorenz.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 257--257
+[]|\OT1/cmr/m/n/10.95 Insufficient sen-si-tiv-ity in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+[]|\OT1/cmr/m/n/10.95 Scale model in-ac-cu-rate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+[]|\OT1/cmr/m/n/10.95 Fabrication time/window
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ó in font cmr10!
-[5 <./lorenz2.png>] [6 <./kirsh2001.png>] [7 <./cilia.png>]
+[6 <./lorenz2.png>] [7 <./kirsh2001.png>] [8 <./cilia.png>] [9 <./biomag.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [8 <./biomag.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+
+[10]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-) [9]
+) [11]
 \openout2 = `bmr_refs.aux'.
 
  (./bmr_refs.tex (./bmr_master.bbl [1
@@ -393,12 +420,12 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
 
-Overfull \hbox (14.8891pt too wide) in paragraph at lines 32--33
+Overfull \hbox (14.8891pt too wide) in paragraph at lines 33--34
 []\OT1/cmr/m/n/10.95 Name,
  []
 
 
-Overfull \hbox (5.93054pt too wide) in paragraph at lines 33--34
+Overfull \hbox (5.93054pt too wide) in paragraph at lines 34--35
 []\OT1/cmr/m/n/10.95 Name, ad-dress, and tele-
  []
 
@@ -446,25 +473,27 @@ Missing character: There is no ù in font cmr10!
 ) [4] [5] (./bmr_master.aux (./bmr_cover.aux) (./bmr_transmittal.aux) (./bmr_de
 sc.aux) (./bmr_refs.aux) (./bmr_additional.aux)) ) 
 Here is how much of TeX's memory you used:
- 2905 strings out of 493029
- 38649 string characters out of 6136233
- 103332 words of memory out of 5000000
- 6345 multiletter control sequences out of 15000+600000
+ 2959 strings out of 493029
+ 39341 string characters out of 6136233
+ 111437 words of memory out of 5000000
+ 6396 multiletter control sequences out of 15000+600000
  10152 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,26p,1222b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,26p,1222b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
-.pfb>
-Output written on bmr_master.pdf (18 pages, 970384 bytes).
+1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on bmr_master.pdf (20 pages, 1002474 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -11,6 +11,12 @@ David~P Arnold and Naigang Wang.
 \newblock {\em Journal of microelectromechanical systems}, 18(6):1255--1266,
   2009.
 
+\bibitem{butta2012sources}
+Mattia Butta and Ichiro Sasada.
+\newblock Sources of noise in a magnetometer based on orthogonal fluxgate
+  operated in fundamental mode.
+\newblock {\em IEEE Transactions on Magnetics}, 48(4):1508--1511, 2012.
+
 \bibitem{coey2010magnetism}
 John~MD Coey.
 \newblock {\em Magnetism and magnetic materials}.
@@ -21,6 +27,12 @@ Charlotte~A Dodson, PJ~Hore, and Mark~I Wallace.
 \newblock A radical sense of direction: signalling and mechanism in
   cryptochrome magnetoreception.
 \newblock {\em Trends in biochemical sciences}, 38(9):435--446, 2013.
+
+\bibitem{duan2016optical}
+Can Duan, Quentin Tanguy, Antonio Pozzi, and Huikai Xie.
+\newblock Optical coherence tomography endoscopic probe based on a tilted mems
+  mirror.
+\newblock {\em Biomedical Optics Express}, 7(9):3345--3354, 2016.
 
 \bibitem{eder2012magnetic}
 Stephan~HK Eder, Herv{\'e} Cadiou, Airina Muhamad, Peter~A McNaughton, Joseph~L
@@ -72,6 +84,13 @@ Felix~A Levinzon.
 \newblock Fundamental noise limit of piezoelectric accelerometer.
 \newblock {\em IEEE Sensors Journal}, 4(1):108--111, 2004.
 
+\bibitem{li2013review}
+Changzhi Li, Victor~M Lubecke, Olga Boric-Lubecke, and Jenshan Lin.
+\newblock A review on recent advances in doppler radar sensors for noncontact
+  healthcare monitoring.
+\newblock {\em IEEE Transactions on microwave theory and techniques},
+  61(5):2046--2060, 2013.
+
 \bibitem{sasada2002orthogonal}
 I~Sasada.
 \newblock Orthogonal fluxgate mechanism operated with dc biased excitation.
@@ -100,6 +119,11 @@ Dongna Shen, Jung-Hyun Park, Jyoti Ajitsaria, Song-Yul Choe, Howard~C
 Kushagra Sinha and Massood Tabib-Azar.
 \newblock 27 pt silicon nitride mems magnetometer for brain imaging.
 \newblock {\em IEEE Sensors Journal}, 16(17):6551--6558, 2016.
+
+\bibitem{tadigadapa2009piezoelectric}
+S~Tadigadapa and K~Mateti.
+\newblock Piezoelectric mems sensors: state-of-the-art and perspectives.
+\newblock {\em Measurement Science and technology}, 20(9):092001, 2009.
 
 \bibitem{thompson2009parametrically}
 Matthew~J Thompson and David~A Horsley.
