@@ -12,45 +12,45 @@ Repeated entry---line 146 of file ./casanova_ieee.bib
  : @article{tadigadapa2009piezoelectric
  :                                     ,
 I'm skipping whatever remains of this entry
-You've used 24 entries,
+You've used 23 entries,
             2118 wiz_defined-function locations,
-            659 strings with 8645 characters,
-and the built_in function-call counts, 9213 in all, are:
-= -- 925
-> -- 449
+            652 strings with 8429 characters,
+and the built_in function-call counts, 8800 in all, are:
+= -- 884
+> -- 426
 < -- 3
-+ -- 183
-- -- 152
-* -- 731
-:= -- 1517
-add.period$ -- 74
-call.type$ -- 24
-change.case$ -- 146
++ -- 174
+- -- 144
+* -- 694
+:= -- 1448
+add.period$ -- 71
+call.type$ -- 23
+change.case$ -- 139
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 304
-empty$ -- 686
-format.name$ -- 152
-if$ -- 1889
+cite$ -- 23
+duplicate$ -- 293
+empty$ -- 657
+format.name$ -- 144
+if$ -- 1807
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 25
-newline$ -- 123
-num.names$ -- 48
-pop$ -- 117
+int.to.str$ -- 23
+missing$ -- 24
+newline$ -- 118
+num.names$ -- 46
+pop$ -- 112
 preamble$ -- 1
-purify$ -- 123
+purify$ -- 117
 quote$ -- 0
-skip$ -- 220
+skip$ -- 213
 stack$ -- 0
-substring$ -- 731
-swap$ -- 59
+substring$ -- 695
+swap$ -- 58
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
+type$ -- 90
 warning$ -- 0
-while$ -- 93
-width$ -- 26
-write$ -- 267
+while$ -- 89
+width$ -- 25
+write$ -- 256
 (There was 1 error message)
