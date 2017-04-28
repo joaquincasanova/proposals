@@ -29,7 +29,7 @@ setting meeting the performance metrics as indicated in Table \ref{table:obj}.
 \end{itemize}
 \subsubsection{Circuit design}\label{sec:p1:cir}
 \begin{itemize}
-\item The objective in this phase is to develop a circuit which amplifies and digitizes the the voltage produced by the MEMS elements.
+\item The objective in this phase is to develop a circuit which amplifies and digitizes the the voltage produced by the MEMS elements. Ina ddition to a COTS circuit, we will simultaneously begin investigation of an IC that can be used in later phases.
 \item Our approach here is to ...
 \item This task will be accomplished at TTU by Dr. Changzi Li.
 \item Completion of this task is specified by successful design of a circuit capable of amplifying and digitizing MEMS output voltage with input-referred voltage noise low enough to meet the overall sensitivity requirement.
@@ -53,6 +53,8 @@ AMBIIENT Phase 2 will develop and demonstrate an integrated sensor head meeting 
 performance and SWaP metrics of Table \ref{table:obj}, and including all vacuum, photonic, and thermal
 control components.
 
+
+IC design? Size?
 \subsubsection{Modeling and simulation}
 \subsubsection{Microfabrication}
 \subsubsection{Circuit design}
@@ -61,6 +63,8 @@ control components.
 AMBIIENT Phase 3 will demonstrate a fully integrated gradiometer comprising all control
 electronics, power conditioning, and packaging, meeting all performance metrics of Table  \ref{table:obj}
 
+
+ADC? Size?
 \subsubsection{Modeling and simulation}
 \subsubsection{Microfabrication}
 \subsubsection{Circuit design}
@@ -134,8 +138,6 @@ $$ V=\int_0^L\frac{Mt(L-x)}{2LI}g_{31}ndx $$
 
  The noise floor of magnetic materials is governed by Barkhausen noise - the random flipping of magnetic domains \cite{butta2012sources}; this noise is characterized as a flux noise level. The flux noise can be converted into a magnetic moment noise, and thus moment noise. Piezo noise floor is largely a function of piezo losses \cite{levinzon2004fundamental}. Additionally, there is the input-referred noise of any amplifier. With conservative estimates for all of these, and two anti-series banks of 30 cantilevers each with dimensions 400x40x3 $\mu$m, the sensitivity level is less than 10 fT/cm/$\sqrt{Hz}$.
 
- An alternative design, should magnetic/piezo integration prove infeasible, is to measure the tilt of magnetic cilia  by some other means. Millimeter-wave radar could detect changes in tilt angle, similar to the techniques used in vital-signs radar \cite{li2013review}. This design can be pursued in parallel as a risk reduction task.
- 
 \begin{figure}
 \centering
 \includegraphics[width=0.75\textwidth]{biomag}
@@ -145,7 +147,7 @@ $$ V=\int_0^L\frac{Mt(L-x)}{2LI}g_{31}ndx $$
 
 MEMS fabrication processes are capable of constructing the above-described sensor. This consists of two main fabrication tasks: piezo cantilever construction, and magnetic material integration. The process described in \cite{shen2008design} can be used for our task, with an additional step to apply the magnetic layer. PZT has a high voltage coefficient and is highly suitable for the piezo elements \cite{tadigadapa2009piezoelectric} and can be deposited with pulsed laser deposition or solution-based deposition and patterned with chemical etching or ion etching. Rare-earth magnetic materials, such as alloys of Sm-Co, offer high magnetic energy product at room temperature and can be integrated into MEMS using sputtering or pulsed laser deposition \cite{arnold2009permanent}. However, patterning of these materials is slow, using wet etching or ion-beam milling. A likely strategy will be to use a sacrificial polymer pattern, depositing electrodes, piezo, then magnet layers, and then etching the sacrificial layers. 
 
-Circuit description?
+There are two possible circuit approaches we can consider for this cantilever approach. On one hand, very many small cantilevers, arranged in series in groups; or multiple, larger cantilevers. In the former case, we would individually address the sensor banks, effectively fitting multiple sensors on the same substrate, allowing differential or common-mode measurements. Many, smaller cantilevers would require a voltage amplifier; additionally, smaller cantilevers have higher resonant frequency, so in order to operate near resonance for maximum sensitivity they would need to be externally driven near resonance, and the signal would be demodulated to get measurements of the baseband signals. In the second approach, a few, larger cantilevers would have lower resonant frequencies and could directly sense at baseband. Their larger area produces a larger charge, so a charge amplifier would be more suitable. Ultimately, the number and size of cantilevers, and the circuit approach, is a tradeoff between the complexity of the interconnects, resonance of the structures, and the number of cantilevers which fit in the target volume.
 
 \begin{table}[h!]
 \centering
@@ -232,11 +234,17 @@ Circuit description?
     Risk & Probability & Impact & Plan\\
     \hline
     \hline
-    Insufficient sensitivity in simulation & 3 & 10 & Change to alternate design. \\
+    Insufficient sensitivity in simulation & 3 & 10 & Optimize design architecture. \\
     \hline
-    Best available MEMS processes infeasible & 4 & 10 & Change to alternate design. \\
+    Best available MEMS processes infeasible & 4 & 10 & Begin design process within constraints of available processes. \\
     \hline
-    Fabrication unreliable & 3 & 5 & Begin fabrication early, so process can be adjusted. \\
+    Interconnects infeasible & 3 & 5 & Operate fewer, larger cantilevers \\
+    \hline
+    Viscous damping hurts sensitivity & 3 & 5 & Operate in vacuum packaging \\
+    \hline
+    Resonance frequency infeasibly high & 3  & 5 & Operate fewer, larger cantilevers \\
+    \hline
+    Fabrication unreliable/mismatch & 3 & 5 & Begin fabrication early, so process can be adjusted; dynamic element matching. \\
     \hline
     Fabrication time/window exceeds deadlines & 3 & 5 & Fabricate COTS scale model instead. \\
     \hline
@@ -249,7 +257,7 @@ Circuit description?
 \label{table:risk}
 \end{table}
 
-Risk reduction discussion?
+There are several risks and challenges associated with this design. Most can be addressed simply by doing careful analysis of the problem within the range of constraints on materials and processes. Others (the density of interconnects, or resonant frequency, is too high) can be address by reducing the number of elements and increasing their size. Damping do to the viscosity of air could hurt sensitivity could be addressed by vacuum packaging the sensor head. Manufacturing mismatch of the sensing elements can be effectively removed by dynamic element matching, where the transducers are switched electronically to average out fabrication differences.
 
 \section{Schedule and Milestones}
 Include a high-level Gantt chart outlining major technical tasks and measureable milestones
