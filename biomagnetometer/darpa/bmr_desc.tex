@@ -1,6 +1,43 @@
 
 \section{Statement of Work (SOW)}
 The project's aim is to develop a minaturized high-sensitivity, low-noise magnetic gradiometer. Our approach is to mimic the mechanism found in magnetosomes, the specialized cells four from bacteria to higher vertebrates such as fish and birds (see \ref{sec:inno}). This is comprised of four main tasks: modeling and simulation, microfabrication process design, circuit design, and device manufacture and testing. Each Phase (1,2,3) will include these four tasks.
+\begin{table}[h!]
+\centering
+  \begin{tabular}{|c||c|c|c|}
+    \hline
+    Metric & Phase 1 & Phase 2 & Phase 3 \\
+    \hline
+    \hline
+    Power consumption & 150 mW & 50 mW & 100 mW \\
+    \hline
+    Sensor Volume & 3x3x10 cm & 1x1x7 cm & 1x1x7 cm \\
+    \hline
+    Control Electronics Volume  & N/A & N/A & < 20cm$^2$ \\
+    \hline
+    Ambient Magnetic Field & $\pm$ 100 $\mu$T & $\pm$ 100 $\mu$T & $\pm$ 100 $\mu$T \\
+    \hline
+    Ambient Operating Temperature & N/A & 0$^{\circ}$ C to 50$^{\circ}$ C & 0$^{\circ}$ C to 50$^{\circ}$ C \\
+    \hline
+    Gradient Full-scale Range & 1 nT/cm & 1 nT/cm & 1 nT/cm \\
+    \hline
+    Gradient Sensitivity & 10 fT/cm/$\sqrt{Hz}$ & 3 fT/cm/$\sqrt{Hz}$  & 1 fT/cm/$\sqrt{Hz}$ \\
+    \hline
+    Gradient Accuracy & 100 fT/cm & 30 fT/cm & 10 fT/cm \\
+    \hline
+    Total Field Range & 100 $\mu$T & 100 $\mu$T & 100 $\mu$T \\
+    \hline
+    Total Field Sensitivity & 100 pT/$\sqrt{Hz}$ & 30 pT/$\sqrt{Hz}$  &  10 pT/$\sqrt{Hz}$ \\
+    \hline
+    Total Field Accuracy & 1 nT & 500 pT & 100 pT \\
+    \hline
+    Data Rate & 100/s & 200/s & 500/s \\
+    \hline
+    3 dB Bandwidth & 200 Hz & 400 Hz & 1000 Hz\\
+    \hline
+  \end{tabular}
+\caption{Design objectives, by phase.}
+\label{table:obj}
+\end{table}
 
 \subsection{Phase 1}
 
@@ -146,32 +183,11 @@ Our approach is to design a sensor based on a magnetoreceptive mechanism used in
 
 \section{Detailed Technical Approach}
 
-\begin{figure}[h]
-  \centering
-  \begin{subfigure}
-    \centering
-    \includegraphics[width=0.5\textwidth]{fmofg}
-  \end{subfigure}
-  \begin{subfigure}
-    \centering
-    \includegraphics[width=0.5\textwidth]{fmofg2}
-  \end{subfigure}
-\caption{Fundamental-mode orthogonal fluxgate gradiometer \cite{sasada2014fundamental}.}
-\label{fig:fmofg}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.5\textwidth]{lorenz2}
-\caption{Lorenz-type magnetometer \cite{kumar2015ultra}.}
-\label{fig:lorenz}
-\end{figure}
-
 \subsection{Motivation and previous work}
 
-Magnetometers serve an important role in investigating biologically generated electromagnetic fields, such as those created by neuronal currents, or geological magnetic fields. Typically, magnetometers are unable to achieve high sensitivity in an ambient, unshielded environment - getting to femtotesla level sensitivity requires magnetic shield and cryogenic sensors, such as SQUID \cite{lenz2006magnetic}. The novel spin relaxation free magnetometer has been minaturized and achieves less than 10 fT/$\sqrt{Hz}$, but still requires shielding and lacks directional sensitivity \cite{shah2013compact}. Fluxgates (Figure \ref{fig:fmofg}) have achieved pT level resolution at small size, but this is insufficient for biomagnetic field measurement \cite{sasada2002orthogonal,uchiyama2014highly,sasada2014fundamental} 
+Magnetometers serve an important role in investigating biologically generated electromagnetic fields, such as those created by neuronal currents, or geological magnetic fields. Typically, magnetometers are unable to achieve high sensitivity in an ambient, unshielded environment - getting to femtotesla level sensitivity requires magnetic shield and cryogenic sensors, such as SQUID \cite{lenz2006magnetic}. The novel spin relaxation free magnetometer has been minaturized and achieves less than 10 fT/$\sqrt{Hz}$, but still requires shielding and lacks directional sensitivity \cite{shah2013compact}. Fluxgates have achieved pT level resolution at small size, but this is insufficient for biomagnetic field measurement \cite{sasada2002orthogonal,uchiyama2014highly,sasada2014fundamental} 
 
-Lorenz-type magnetometers (which translate magnetic fields into mechanical actuation of a magnet or current carrying wire) have been built in MEMS substrates (Figure \ref{fig:lorenz}), but are as yet insufficiently sensitive and require shielding \cite{sinha201627,kyynarainen20083d,kumar2015ultra,thompson2009parametrically}
+Lorenz-type magnetometers (which translate magnetic fields into mechanical actuation of a magnet or current carrying wire) have been built in MEMS substrates, but are as yet insufficiently sensitive and require shielding \cite{sinha201627,kyynarainen20083d,kumar2015ultra,thompson2009parametrically}
 
 \begin{figure}
 \centering
@@ -247,7 +263,7 @@ Together, these relations allow us to estimate resonance, stress, and sensitivit
  
 \begin{figure}
 \centering
-\includegraphics[width=0.75\textwidth]{System}
+\includegraphics[width=0.75\textwidth]{system}
 \caption{System design.}
 \label{fig:system}
 \end{figure}
@@ -296,43 +312,41 @@ After the signal is demodulated to the baseband, circuit techniques including dy
 
 MEMS fabrication processes are capable of constructing the above-described sensor. This consists of two main fabrication tasks: piezo cantilever construction, and magnetic material integration. The process described in \cite{shen2008design} can be used for our task, with an additional step to apply the magnetic layer. PZT has a high voltage coefficient and is highly suitable for the piezo elements \cite{tadigadapa2009piezoelectric} and can be deposited with pulsed laser deposition or solution-based deposition and patterned with chemical etching or ion etching. Rare-earth magnetic materials, such as alloys of Sm-Co, offer high magnetic energy product at room temperature and can be integrated into MEMS using sputtering or pulsed laser deposition \cite{arnold2009permanent}. However, patterning of these materials is slow, using wet etching or ion-beam milling. A likely strategy will be to use a sacrificial polymer pattern, depositing electrodes, piezo, then magnet layers, and then etching the sacrificial layers. 
 
+\section{Risk Analysis and Mitigation Plan}
+
 \begin{table}[h!]
 \centering
-  \begin{tabular}{|c||c|c|c|}
+\begin{tabularx}{.85\textwidth}{|X||c|c|X|}
     \hline
-    Metric & Phase 1 & Phase 2 & Phase 3 \\
+    Risk & Probability & Impact & Plan\\
     \hline
     \hline
-    Power consumption & 150 mW & 50 mW & 100 mW \\
+    Insufficient sensitivity in simulation & 3 & 10 & Optimize design architecture. \\
     \hline
-    Sensor Volume & 3x3x10 cm & 1x1x7 cm & 1x1x7 cm \\
+    Best available MEMS processes infeasible & 4 & 10 & Begin design process within constraints of available processes. \\
     \hline
-    Control Electronics Volume  & N/A & N/A & < 20cm$^2$ \\
+    Interconnects infeasible & 3 & 5 & Operate fewer, larger cantilevers \\
     \hline
-    Ambient Magnetic Field & $\pm$ 100 $\mu$T & $\pm$ 100 $\mu$T & $\pm$ 100 $\mu$T \\
+    Viscous damping hurts sensitivity & 3 & 5 & Operate in vacuum packaging \\
     \hline
-    Ambient Operating Temperature & N/A & 0$^{\circ}$ C to 50$^{\circ}$ C & 0$^{\circ}$ C to 50$^{\circ}$ C \\
+    Resonance frequency infeasibly high & 3  & 5 & Operate fewer, larger cantilevers \\
     \hline
-    Gradient Full-scale Range & 1 nT/cm & 1 nT/cm & 1 nT/cm \\
+    Fabrication unreliable/mismatch & 3 & 5 & Begin fabrication early, so process can be adjusted; dynamic element matching. \\
     \hline
-    Gradient Sensitivity & 10 fT/cm/$\sqrt{Hz}$ & 3 fT/cm/$\sqrt{Hz}$  & 1 fT/cm/$\sqrt{Hz}$ \\
+    Fabrication time/window exceeds deadlines & 3 & 5 & Fabricate COTS scale model instead. \\
     \hline
-    Gradient Accuracy & 100 fT/cm & 30 fT/cm & 10 fT/cm \\
+    Circuit/sensor sensitive to mechanical vibration & 5 & 8 & Use additional sensors without magnetic layer to independently measure mechanical vibrations. \\
     \hline
-    Total Field Range & 100 $\mu$T & 100 $\mu$T & 100 $\mu$T \\
+    Circuit/sensor fails final tests & 3 & 9 & Identify points of failure for next design. \\
     \hline
-    Total Field Sensitivity & 100 pT/$\sqrt{Hz}$ & 30 pT/$\sqrt{Hz}$  &  10 pT/$\sqrt{Hz}$ \\
-    \hline
-    Total Field Accuracy & 1 nT & 500 pT & 100 pT \\
-    \hline
-    Data Rate & 100/s & 200/s & 500/s \\
-    \hline
-    3 dB Bandwidth & 200 Hz & 400 Hz & 1000 Hz\\
-    \hline
-  \end{tabular}
-\caption{Design objectives, by phase.}
-\label{table:obj}
+\end{tabularx}
+\caption{Risk matrix}
+\label{table:risk}
 \end{table}
+
+There are several risks and challenges associated with this design. Most can be addressed simply by doing careful analysis of the problem within the range of constraints on materials and processes. Others (the density of interconnects, or resonant frequency, is too high) can be address by reducing the number of elements and increasing their size. Damping due to the viscosity of air could hurt sensitivity could be addressed by vacuum packaging the sensor head. Manufacturing mismatch of the sensing elements can be effectively removed by dynamic element matching, where the transducers are switched electronically to average out fabrication differences.
+
+\section{Schedule and Milestones}
 
 \begin{table}[h!]
 \centering
@@ -372,41 +386,6 @@ MEMS fabrication processes are capable of constructing the above-described senso
 \label{table:sched}
 \end{table}
 
-\section{Risk Analysis and Mitigation Plan}
-
-\begin{table}[h!]
-\centering
-\begin{tabularx}{.85\textwidth}{|X||c|c|X|}
-    \hline
-    Risk & Probability & Impact & Plan\\
-    \hline
-    \hline
-    Insufficient sensitivity in simulation & 3 & 10 & Optimize design architecture. \\
-    \hline
-    Best available MEMS processes infeasible & 4 & 10 & Begin design process within constraints of available processes. \\
-    \hline
-    Interconnects infeasible & 3 & 5 & Operate fewer, larger cantilevers \\
-    \hline
-    Viscous damping hurts sensitivity & 3 & 5 & Operate in vacuum packaging \\
-    \hline
-    Resonance frequency infeasibly high & 3  & 5 & Operate fewer, larger cantilevers \\
-    \hline
-    Fabrication unreliable/mismatch & 3 & 5 & Begin fabrication early, so process can be adjusted; dynamic element matching. \\
-    \hline
-    Fabrication time/window exceeds deadlines & 3 & 5 & Fabricate COTS scale model instead. \\
-    \hline
-    Circuit/sensor sensitive to mechanical vibration & 5 & 8 & Use additional sensors without magnetic layer to independently measure mechanical vibrations. \\
-    \hline
-    Circuit/sensor fails final tests & 3 & 9 & Identify points of failure for next design. \\
-    \hline
-\end{tabularx}
-\caption{Risk matrix}
-\label{table:risk}
-\end{table}
-
-There are several risks and challenges associated with this design. Most can be addressed simply by doing careful analysis of the problem within the range of constraints on materials and processes. Others (the density of interconnects, or resonant frequency, is too high) can be address by reducing the number of elements and increasing their size. Damping due to the viscosity of air could hurt sensitivity could be addressed by vacuum packaging the sensor head. Manufacturing mismatch of the sensing elements can be effectively removed by dynamic element matching, where the transducers are switched electronically to average out fabrication differences.
-
-\section{Schedule and Milestones}
 Include a high-level Gantt chart outlining major technical tasks and measureable milestones
 by phase. At a minimum, the schedule should include each SOW task of Volume 1, Section
 II.A. Where risk reduction tasks are proposed, the schedule should include a milestone for
@@ -417,10 +396,8 @@ assessment and removal of redundant tasks.
 To test, in Phase 1, the sensor will first be connected to the circuitry and powered to established basic functionality.  Prior to testing, noise from the Helmholtz coils, power supplies, and any other necessary signal generation sources will be characterized. Further, the sensor will be placed in a pair of Helmholtz coils driven with precision current sources, inside magnetic shield, so we can gauge accuracy and sensitivity in a controlled environment. Field gradient, intensity, and frequency will be swept over the range specified in \ref{table:obj}. Finally, the same test will be repeated in an unshielded environment. In each case, we will monitor power consumption, signal output, and mesure sensor and sensor control electronics volume. Subsequent phases will follow a similar testing protocol, except using specifications for those phases. Additionally, in Phases 2 and 3, where an IC will be developed and integrated with the sensor head, the IC will be tested independently to verify basic input/output functionality before slicing and bonding to the MEMS substrate.
 
 \section{Results and Technology Transfer}
-Description of the results, products, transferable technology, and expected technology
-transfer. This should also address mitigation of life-cycle and sustainment risks associated
-with transitioning intellectual property for U.S. military applications, if applicable. See also
-Section IV.B.10, “Intellectual Property.”
+
+The sensor and circuit design is novel and likely patentable, even if it fails to meet all requirements in the BAA. This can be considered fundamental research and thus not ITAR-controlled.
 
 \section{Ongoing Research}
 Presently, Drs. Lin, Li, and Casanova are presently involved (until 6/2017) in a DARPA project for detection and inversion of MEG/EEG signals. They have worked on all phases, from sensor design to circuit design to inversion algorithm. Additionally, Drs. Lin and Li have worked exensively on vital signs radar, and Dr. Casanova has worked on electromagnetic sensors for agriculture and analytical chemistry. Dr. Yoon has conducted research in MEMS systems of all types, including piezoelectronics and magnetics. 
@@ -429,7 +406,7 @@ Presently, Drs. Lin, Li, and Casanova are presently involved (until 6/2017) in a
 
 Facilities at UF for sensor development and testing include magnetic shielding, circuit testing instrumentation (power supplies, oscillopes, function generators, VNA). For fabrication, the Nanoscale Research Facility at UF includes equipment for a variety of processes: plasma, vapor, and sputtering deposition, annealing, wafer bonding, wire bonding, UV and e-beam lithography, reverse ion etching, and wet etching.
 
-TTU?
+PI Li’s research group at the Texas Tech University is located in a fully ESD-protected Microwave and Analog Circuits Laboratory. The PI has obtained full support from the Texas Tech University Provost Office and Electrical and Computer Engineering Department to establish this well-equipped lab and enhance the department’s research strength on the microwave, millimeter-wave, and analog circuits. Equipment includes high-frequency network analyzers, signal generators, spectrum analyzer, and oscilloscopes; software useful to this project includes Cadence, Altium, MATLAB, and Labview.
 
 \section{Teaming/Proposer Accomplishments}
 

@@ -20,7 +20,7 @@
     </calendar>
   </calendars>
   <tasks>
-    <task id="1" name="Phase 1" note="" work="23328000" start="20171001T000000Z" end="20190506T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="1" name="Phase 1" note="" work="24192000" start="20171001T000000Z" end="20190417T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <task id="2" name="MEMS Design/Simulation" note="" work="6912000" start="20171001T000000Z" end="20180831T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
       <task id="3" name="Process Design" note="" work="6912000" start="20180201T000000Z" end="20190102T170000Z" work-start="20180201T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <constraint type="must-start-on" time="20180201T000000Z"/>
@@ -28,26 +28,37 @@
       <task id="4" name="Circuit Design" note="" work="6912000" start="20180201T000000Z" end="20190102T170000Z" work-start="20180201T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <constraint type="must-start-on" time="20180201T000000Z"/>
       </task>
-      <task id="5" name="Fabrication/Testing" note="" work="2592000" start="20190101T000000Z" end="20190506T170000Z" work-start="20190101T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-        <constraint type="must-start-on" time="20190101T000000Z"/>
-        <predecessors>
-          <predecessor id="1" predecessor-id="2" type="FS"/>
-          <predecessor id="1" predecessor-id="3" type="FS"/>
-          <predecessor id="1" predecessor-id="4" type="FS"/>
-        </predecessors>
+      <task id="5" name="Fabrication/Testing" note="" work="3456000" start="20181101T000000Z" end="20190417T170000Z" work-start="20181101T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20181101T000000Z"/>
       </task>
     </task>
-    <task id="6" name="Phase 2" note="" work="115200" start="20171001T000000Z" end="20171002T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <task id="7" name="MEMS Design" note="" work="28800" start="20171001T000000Z" end="20171002T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="8" name="Process Design" note="" work="28800" start="20171001T000000Z" end="20171002T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="9" name="Circuit Design" note="" work="28800" start="20171001T000000Z" end="20171002T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="10" name="Fabrication/Testing" note="" work="28800" start="20171001T000000Z" end="20171002T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="6" name="Phase 2" note="" work="19008000" start="20190601T000000Z" end="20200515T170000Z" work-start="20190603T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="7" name="MEMS Design" note="" work="5184000" start="20190601T000000Z" end="20200207T170000Z" work-start="20190603T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20190601T000000Z"/>
+      </task>
+      <task id="8" name="Process Design" note="" work="5184000" start="20190701T000000Z" end="20200306T170000Z" work-start="20190701T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20190701T000000Z"/>
+      </task>
+      <task id="9" name="Circuit Design" note="" work="5184000" start="20190701T000000Z" end="20200306T170000Z" work-start="20190701T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20190701T000000Z"/>
+      </task>
+      <task id="10" name="Fabrication/Testing" note="" work="3456000" start="20191201T000000Z" end="20200515T170000Z" work-start="20191202T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20191201T000000Z"/>
+      </task>
     </task>
-    <task id="11" name="Phase 3" note="" work="115200" start="20171001T000000Z" end="20171002T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <task id="12" name="MEMS Design" note="" work="28800" start="20171001T000000Z" end="20171002T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="13" name="Process Design" note="" work="28800" start="20171001T000000Z" end="20171002T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="14" name="Circuit Design" note="" work="28800" start="20171001T000000Z" end="20171002T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="15" name="Fabrication/Testing" note="" work="28800" start="20171001T000000Z" end="20171002T170000Z" work-start="20171002T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="11" name="Phase 3" note="" work="19008000" start="20200601T000000Z" end="20210521T170000Z" work-start="20200601T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="12" name="MEMS Design" note="" work="5184000" start="20200601T000000Z" end="20210205T170000Z" work-start="20200601T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20200601T000000Z"/>
+      </task>
+      <task id="13" name="Process Design" note="" work="5184000" start="20200701T000000Z" end="20210309T170000Z" work-start="20200701T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20200701T000000Z"/>
+      </task>
+      <task id="14" name="Circuit Design" note="" work="5184000" start="20200701T000000Z" end="20210309T170000Z" work-start="20200701T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20200701T000000Z"/>
+      </task>
+      <task id="15" name="Fabrication/Testing" note="" work="3456000" start="20201205T000000Z" end="20210521T170000Z" work-start="20201207T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20201205T000000Z"/>
+      </task>
     </task>
   </tasks>
   <resource-groups/>
