@@ -310,7 +310,33 @@ After the signal is demodulated to the baseband, circuit techniques including dy
 
 \subsection{MEMS fabrication process}
 
-MEMS fabrication processes are capable of constructing the above-described sensor. This consists of two main fabrication tasks: piezo cantilever construction, and magnetic material integration. The process described in \cite{shen2008design} can be used for our task, with an additional step to apply the magnetic layer. PZT has a high voltage coefficient and is highly suitable for the piezo elements \cite{tadigadapa2009piezoelectric} and can be deposited with pulsed laser deposition or solution-based deposition and patterned with chemical etching or ion etching. Rare-earth magnetic materials, such as alloys of Sm-Co, offer high magnetic energy product at room temperature and can be integrated into MEMS using sputtering or pulsed laser deposition \cite{arnold2009permanent}. However, patterning of these materials is slow, using wet etching or ion-beam milling. A likely strategy will be to use a sacrificial polymer pattern, depositing electrodes, piezo, then magnet layers, and then etching the sacrificial layers. 
+MEMS fabrication processes are capable of constructing the above-described sensor. This consists of two main fabrication tasks: piezo cantilever construction, and magnetic material integration. PZT has a high voltage coefficient and is highly suitable for the piezo elements \cite{tadigadapa2009piezoelectric} and can be deposited with pulsed laser deposition or solution-based deposition and patterned with chemical etching or ion etching. Rare-earth magnetic materials, such as alloys of Sm-Co, offer high magnetic energy product at room temperature and can be integrated into MEMS using sputtering or pulsed laser deposition \cite{arnold2009permanent}. However, patterning of these materials is slow, using wet etching or ion-beam milling. A likely strategy will be to use a sacrificial polymer pattern, depositing electrodes, piezo, then magnet layers, and then etching the sacrificial layers. 
+
+The process described in \cite{shen2008design} can be used for our task, with an additional step to apply the magnetic layer. To construct an energy-harvesting piezo cantilever, \cite{shen2008design} used a four-mask process.
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{cantifab}
+\caption{Cantilever fabrication \cite{shen2008design}.}
+\label{fig:fab}
+\end{figure}
+
+\begin{itemize}
+\item SiO2 was grown on both sides of a silicon wafer.
+\item Ti and bottom electrode Pt were deposited by sputtering, followed by sol-gel deposition of PZT (Fig. \ref{fig:fab}(a)).
+\item A top Pt electrode was patterned by a first mask and deposited by a lift-off process (Fig. \ref{fig:fab}(b)):
+  \begin{itemize}
+  \item A sacrificial photoresist layer was deposited and patterned
+  \item Pt was deposited on the patterned photoresist
+  \item The sacrificial layer was removed
+  \end{itemize}
+\item The bottom electrode (the first Pt layer) was exposed from the topside with a second mask and etched with inductively coupled plasma reactive ion etching (RIE) (Fig. \ref{fig:fab}(c)).
+\item The cantilever was patterned from above with a third mask via RIE (Fig. \ref{fig:fab}(d)).
+\item The cantilever proof mass (used here to enhance resonance) was patterned and released through backside RIE (Fig. \ref{fig:fab}(e)
+\end{itemize}
+
+In our case, we would need an additional ferromagnetic layer on top. This could be deposited, then patterned and etched, or deposited according to some pattern, followed by annealing. In either case, of critical importance is selected a material whose magnetic properties are optimal (high remanence and coercivity), whose annealing temperatures are compatible with the other materials, and which can be etched easily enough. It should also maintain magnetic properties within the operating temperature range (has a high Curie temperature), and be oxidation resistant (for instance, some rare-earth magnets are prone to oxidation and must be tungsten-coated).
 
 \section{Risk Analysis and Mitigation Plan}
 
