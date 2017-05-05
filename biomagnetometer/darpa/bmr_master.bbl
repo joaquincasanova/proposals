@@ -28,6 +28,13 @@ Charlotte~A Dodson, PJ~Hore, and Mark~I Wallace.
   cryptochrome magnetoreception.
 \newblock {\em Trends in biochemical sciences}, 38(9):435--446, 2013.
 
+\bibitem{dupont2003fenics}
+Todd Dupont, Johan Hoffman, Claus Johnson, Robert~C Kirby, Mats~G Larson,
+  Anders Logg, and L~Ridgway Scott.
+\newblock The fenics project.
+\newblock Technical report, Tech. Rep. 2003--21, Chalmers Finite Element Center
+  Preprint Series, 2003.
+
 \bibitem{eder2012magnetic}
 Stephan~HK Eder, Herv{\'e} Cadiou, Airina Muhamad, Peter~A McNaughton, Joseph~L
   Kirschvink, and Michael Winklhofer.
@@ -42,6 +49,12 @@ Marianne Hanzlik, Michael Winklhofer, and Nikolai Petersen.
   bacteria.
 \newblock {\em Journal of Magnetism and Magnetic Materials}, 248(2):258--267,
   2002.
+
+\bibitem{harrison2003low}
+Reid~R Harrison and Cameron Charles.
+\newblock A low-power low-noise cmos amplifier for neural recording
+  applications.
+\newblock {\em IEEE Journal of solid-state circuits}, 38(6):958--965, 2003.
 
 \bibitem{johnsen2005physics}
 S{\"o}nke Johnsen and Kenneth~J Lohmann.
@@ -77,13 +90,6 @@ James Lenz and S~Edelstein.
 Felix~A Levinzon.
 \newblock Fundamental noise limit of piezoelectric accelerometer.
 \newblock {\em IEEE Sensors Journal}, 4(1):108--111, 2004.
-
-\bibitem{li2013review}
-Changzhi Li, Victor~M Lubecke, Olga Boric-Lubecke, and Jenshan Lin.
-\newblock A review on recent advances in doppler radar sensors for noncontact
-  healthcare monitoring.
-\newblock {\em IEEE Transactions on microwave theory and techniques},
-  61(5):2046--2060, 2013.
 
 \bibitem{sasada2002orthogonal}
 I~Sasada.

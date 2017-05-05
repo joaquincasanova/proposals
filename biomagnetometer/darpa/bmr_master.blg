@@ -8,49 +8,49 @@ A level-1 auxiliary file: bmr_desc.aux
 A level-1 auxiliary file: bmr_refs.aux
 A level-1 auxiliary file: bmr_additional.aux
 Database file #1: ./casanova_ieee.bib
-Repeated entry---line 146 of file ./casanova_ieee.bib
+Repeated entry---line 164 of file ./casanova_ieee.bib
  : @article{tadigadapa2009piezoelectric
  :                                     ,
 I'm skipping whatever remains of this entry
-You've used 23 entries,
+You've used 24 entries,
             2118 wiz_defined-function locations,
-            652 strings with 8429 characters,
-and the built_in function-call counts, 8800 in all, are:
-= -- 884
-> -- 426
+            656 strings with 8587 characters,
+and the built_in function-call counts, 9109 in all, are:
+= -- 912
+> -- 454
 < -- 3
-+ -- 174
-- -- 144
-* -- 694
-:= -- 1448
-add.period$ -- 71
-call.type$ -- 23
-change.case$ -- 139
++ -- 186
+- -- 154
+* -- 715
+:= -- 1510
+add.period$ -- 74
+call.type$ -- 24
+change.case$ -- 148
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 293
-empty$ -- 657
-format.name$ -- 144
-if$ -- 1807
+cite$ -- 24
+duplicate$ -- 301
+empty$ -- 670
+format.name$ -- 154
+if$ -- 1864
 int.to.chr$ -- 0
-int.to.str$ -- 23
+int.to.str$ -- 24
 missing$ -- 24
-newline$ -- 118
-num.names$ -- 46
-pop$ -- 112
+newline$ -- 123
+num.names$ -- 48
+pop$ -- 119
 preamble$ -- 1
-purify$ -- 117
+purify$ -- 124
 quote$ -- 0
-skip$ -- 213
+skip$ -- 219
 stack$ -- 0
 substring$ -- 695
 swap$ -- 58
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
+type$ -- 94
 warning$ -- 0
-while$ -- 89
-width$ -- 25
-write$ -- 256
+while$ -- 91
+width$ -- 26
+write$ -- 267
 (There was 1 error message)
