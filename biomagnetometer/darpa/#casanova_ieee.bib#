@@ -10,16 +10,6 @@ biomems
   publisher={IEEE}
 }
 
-@article{kim2011computer,
-  title={Computer-controlled dynamic mode multidirectional UV lithography for 3D microfabrication},
-  author={Kim, Jungkwun and Allen, Mark G and Yoon, Yong-Kyu},
-  journal={Journal of Micromechanics and Microengineering},
-  volume={21},
-  number={3},
-  pages={035003},
-  year={2011},
-  publisher={IOP Publishing}
-}
 
 @article{yoon2003reduced,
   title={A reduced intermodulation distortion tunable ferroelectric capacitor-architecture and demonstration},

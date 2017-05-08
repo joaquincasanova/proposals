@@ -1,4 +1,6 @@
 
+
+\required{Detailed Proposal Information}
 \section{Statement of Work (SOW)}
 The project's aim is to develop a minaturized high-sensitivity, low-noise magnetic gradiometer. Our approach is to mimic the mechanism found in magnetosomes, the specialized cells four from bacteria to higher vertebrates such as fish and birds (see \ref{sec:inno}). This is comprised of four main tasks: modeling and simulation, microfabrication process design, circuit design, and device manufacture and testing. Each Phase (1,2,3) will include these four tasks.
 \begin{table}[h!]
@@ -39,7 +41,7 @@ The project's aim is to develop a minaturized high-sensitivity, low-noise magnet
 \label{table:obj}
 \end{table}
 
-\subsection{Phase 1}
+\subsection{Phase 1 Tasks}
 
 AMBIIENT Phase 1 will demonstrate sensor functionality and performance in a laboratory
 setting meeting the performance metrics as indicated in Table \ref{table:obj}. 
@@ -85,7 +87,7 @@ setting meeting the performance metrics as indicated in Table \ref{table:obj}.
 \item To reduce risk of failure, fabrication will begin early in Phase 1, enabling us to revise our design to reduce manufacturing defects orenhance sensivity. 
 \end{itemize}
 
-\subsection{Phase 2}
+\subsection{Phase 2 Tasks}
   
 AMBIIENT Phase 2 will develop and demonstrate an integrated sensor head meeting the
 performance and SWaP metrics of Table \ref{table:obj}, and including all vacuum, photonic, and thermal
@@ -103,7 +105,7 @@ control components.
 \end{itemize}
 \subsubsection{Microfabrication}\label{sec:p2:mf}
 \begin{itemize}
-\item The objective in this phase is to optimize the MEMS fabrication process, through material selection and process design, considering problems encountered in Phase 1.
+\item The objective in this phase is to optimize the microfabrication process, through material selection and process design, considering problems encountered in Phase 1.
 \item Our approach here is to improve the material selection and process design over Phase 1, in conjunction with Phase 2 simulations. For instance, incorporating higher-energy magnetic materials, or denser interconnects.
 \item This task will be accomplished at UF by YK Yoon.
 \item Completion of this task is specified by successful fabrication of the Phase 2 MEMS design.
@@ -124,7 +126,7 @@ control components.
 \subsubsection{Manufacture and testing}\label{sec:p2:test}
 \begin{itemize}
 \item The objective in this phase is to manufacture the IC and MEMS for Phase 2, and test these in the lab.
-\item Our approach here is to do MEMS fabrication at UF, and outsource the IC fabrication. The IC and MEMS sensor will be tested separately, and then together, once the functionality of each is established. The IC can be tested independently with dummy sources to verify function, and the MEMS sensor can be tested with a COTS circuit first. Varying field strength, frequency, and gradient using Helmholtz coils can establish sensitivity and noise floor of the sensor.
+\item Our approach here is to do microfabrication at UF, and outsource the IC fabrication. The IC and MEMS sensor will be tested separately, and then together, once the functionality of each is established. The IC can be tested independently with dummy sources to verify function, and the MEMS sensor can be tested with a COTS circuit first. Varying field strength, frequency, and gradient using Helmholtz coils can establish sensitivity and noise floor of the sensor.
 \item This task will be accomplished at UF by Dr. Yoon and Dr. Joaquin Casanova.
 \item Completion of this task is specified by successful construction and testing of a sensor head, which satisfies Table \ref{table:obj}, using the circuitry developed in \ref{sec:p2:cir} and MEMS in \ref{sec:p2:em}.
 \item Deliverables include successful prototype of the sensor and sensor electronics.
@@ -132,7 +134,7 @@ control components.
 \item To reduce risk of failure, fabrication will begin early in Phase 2, enabling us to revise our design to reduce manufacturing defects orenhance sensivity.
 \end{itemize}
 
-\subsection{Phase 3}
+\subsection{Phase 3 Tasks}
 AMBIIENT Phase 3 will demonstrate a fully integrated gradiometer comprising all control
 electronics, power conditioning, and packaging, meeting all performance metrics of Table  \ref{table:obj}
 
@@ -148,7 +150,7 @@ electronics, power conditioning, and packaging, meeting all performance metrics 
 \end{itemize}
 \subsubsection{Microfabrication}\label{sec:p3:mf}
 \begin{itemize}
-\item The objective in this phase is to optimize the MEMS fabrication process, through material selection and process design, considering problems encountered in Phase 2.
+\item The objective in this phase is to optimize the microfabrication process, through material selection and process design, considering problems encountered in Phase 2.
 \item Our approach here is to improve the material selection and process design over Phase 2, in conjunction with Phase 2 simulations. For instance, incorporating higher-energy magnetic materials, or denser interconnects. Additionally, the Phase 3 MEMS and Phase 3 circuit will be integrated into the same substrate, and packaged. The Phase 3 IC will be sliced and bondined onto a common substrate with the MEMS.
 \item This task will be accomplished at UF by YK Yoon and at TTU by Changzhi Li.
 \item Completion of this task is specified by successful fabrication of the Phase 3 MEMS design.
@@ -189,35 +191,38 @@ Magnetometers serve an important role in investigating biologically generated el
 
 Lorenz-type magnetometers (which translate magnetic fields into mechanical actuation of a magnet or current carrying wire) have been built in MEMS substrates, but are as yet insufficiently sensitive and require shielding \cite{sinha201627,kyynarainen20083d,kumar2015ultra,thompson2009parametrically}
 
-\begin{figure}
+Three of the proposers (Drs. Lin, Li, and Casanova) have been involved in previous DARPA work on the Mind Electromagnetic Localization Device (MELD) project, which involved designing, fabricating, and testing low-field magnetometers and the concomitant circuitry and software. Our experience in this field has given us useful experience and equipment, so we are familiar already with this pitfalls and challenges associated with the previously mentioned approaches. Dr. Yoon has direct experience in developing advance microfabrciation processes and applications (
+\cite{yoon2003reduced,yoon2006multidirectional}), leading us to consider a different approach: mimicking the magnetometry found int nature on the cellular level.
+
+\begin{wrapfigure}{L}{.65\textwidth}
 \centering
 \includegraphics[width=0.5\textwidth]{kirsh2001}
 \caption{Magnetosomal mechanism \cite{kirschvink2001magnetite}.}
 \label{fig:magnetosome}
-\end{figure}
+\end{wrapfigure}
 
 In nature, many organisms have a sense of magnetoreception used for navigation, from magnetotactic bacteria to birds. Two mechanisms have been proposed: a spin-selective (and thus field-sensitive) chemical reaction rate, or magnetite crystals which are actuated by external fields and activate ion channels in the cell membrane (Figure \ref{fig:magnetosome})\cite{johnsen2005physics,dodson2013radical,kirschvink2001magnetite}. Measurements of these magnetosomes show a magnetic dipole moment of up to 100fA/m$^2$ \cite{hanzlik2002pulsed,eder2012magnetic}.
 
+
 \subsection{Biomimetic sensor design}
-
-Our approach is to mimic the approach found in magnetosomes, with some key modifications so that is frequency-selective and functions inherently as a gradiometer and thus does not require shielding. The closest biomimetic sensor is a flow sensor which uses ferromagnetic cilia to detect microfluidic flow rates \cite{alfadhel2014magnetic}.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.5\textwidth]{cilia}
-\caption{Magnetic cilia flow sensor \cite{alfadhel2014magnetic}.}
-\label{fig:cilia}
-\end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.75\textwidth]{biomag}
+\includegraphics[width=0.7\textwidth]{biomag}
 \caption{Diagram of proposed design.}
 \label{fig:diagram}
 \end{figure}
 
-To acomplish this, we propose layering a permanent magnetic layer on top of piezoelectric cantilevers. The torque induced on the magnetic layer generates stress in the piezo layer, and thus a voltage and charge. For an estimate of the sensitivity of this type of sensor, we perform a basic analysis. The moment $N$ induced on the magnetic layer with moment $\vec{\mu}$ and field $\vec{B}$ is:
+Our approach is to mimic the approach found in magnetosomes, with some key modifications so that is frequency-selective and functions inherently as a gradiometer and thus does not require shielding. The closest biomimetic sensor is a flow sensor which uses ferromagnetic cilia to detect microfluidic flow rates \cite{alfadhel2014magnetic}.
 
+%\begin{wrapfigure}{L}{.65\textwidth}
+%\centering
+%\includegraphics[width=0.5\textwidth]{cilia}
+%\caption{Magnetic cilia flow sensor \cite{alfadhel2014magnetic}.}
+%\label{fig:cilia}
+%\end{wrapfigure}
+
+To acomplish this, we propose layering a permanent magnetic layer on top of piezoelectric cantilevers. The torque induced on the magnetic layer generates stress in the piezo layer, and thus a voltage and charge. For an estimate of the sensitivity of this type of sensor, we perform a basic analysis. The moment $N$ induced on the magnetic layer with moment $\vec{\mu}$ and field $\vec{B}$ is:
 
 $$  N=\vec{\mu} \times \vec{B} $$
 
@@ -251,19 +256,50 @@ $$ N(x) = \vec{\mu}(x) \times \vec{B_{ext}}, \vec{\mu}(x) = \vec{M}(x)dxdydz $$
 
 $$\sigma_{xx}(x,y)  = N(x,y)y/I(x)$$
 
-where $N$ is the moment, $q$ is load, $u$ is vertical displacement of the beam, $EI$ is the modulus/moment product, $m$ is mass per length, $\gamma$ is damping, and $sigma$ is stress. This can (and should) be expanded to consider stress in multiple axes.
+where $N$ is the moment, $q$ is load, $u$ is vertical displacement of the beam, $EI$ is the modulus/moment product, $m$ is mass per length, $\gamma$ is damping, and $\sigma$ is stress. This can (and should) be expanded to consider stress in multiple axes.
 Finally, to relate field $\vec{E}$, strain $\vec{S}$, displacement field $\vec{D}$, and stress $\vec{\sigma}$, in the piezo layer:
  $$S_{ij} = s_{ijkl}\sigma_{kl}+d_{kij}E{k}$$
 
 $$D_i=d_{ikl}\sigma_{kl}+\epsilon_{ik}E_{k}$$
  
 Together, these relations allow us to estimate resonance, stress, and sensitivity of our sensor. FeniCS provides an open-source finite-element multiphsics solver \cite{dupont2003fenics}; though less user-friendly, it is flexible, and free, and sufficient for our needs.
- 
+
+
+\subsection{Microfabrication process}
+
+Microfabrication processes are capable of constructing the above-described sensor. This consists of two main fabrication tasks: piezo cantilever construction, and magnetic material integration. PZT has a high voltage coefficient and is highly suitable for the piezo elements \cite{tadigadapa2009piezoelectric} and can be deposited with pulsed laser deposition or solution-based deposition and patterned with chemical etching or ion etching. Rare-earth magnetic materials, such as alloys of Sm-Co, offer high magnetic energy product at room temperature and can be integrated into MEMS using sputtering or pulsed laser deposition \cite{arnold2009permanent}. However, patterning of these materials is slow, using wet etching or ion-beam milling. A likely strategy will be to use a sacrificial polymer pattern, depositing electrodes, piezo, then magnet layers, and then etching the sacrificial layers. 
+
+The process described in \cite{shen2008design} can be used for our task, with an additional step to apply the magnetic layer. To construct an energy-harvesting piezo cantilever, \cite{shen2008design} used a four-mask process.
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth]{cantifab}
+\caption{Cantilever fabrication \cite{shen2008design}.}
+\label{fig:fab}
+\end{figure}
+
+\begin{itemize}
+\item SiO2 was grown on both sides of a silicon wafer.
+\item Ti and bottom electrode Pt were deposited by sputtering, followed by sol-gel deposition of PZT (Fig. \ref{fig:fab}(a)).
+\item A top Pt electrode was patterned by a first mask and deposited by a lift-off process (Fig. \ref{fig:fab}(b)):
+  \begin{itemize}
+  \item A sacrificial photoresist layer was deposited and patterned
+  \item Pt was deposited on the patterned photoresist
+  \item The sacrificial layer was removed
+  \end{itemize}
+\item The bottom electrode (the first Pt layer) was exposed from the topside with a second mask and etched with inductively coupled plasma reactive ion etching (RIE) (Fig. \ref{fig:fab}(c)).
+\item The cantilever was patterned from above with a third mask via RIE (Fig. \ref{fig:fab}(d)).
+\item The cantilever proof mass (used here to enhance resonance) was patterned and released through backside RIE (Fig. \ref{fig:fab}(e)
+\end{itemize}
+
+In our case, we would need an additional ferromagnetic layer on top. This could be deposited, then patterned and etched, or deposited according to some pattern, followed by annealing. In either case, of critical importance is selected a material whose magnetic properties are optimal (high remanence and coercivity), whose annealing temperatures are compatible with the other materials, and which can be etched easily enough. It should also maintain magnetic properties within the operating temperature range (has a high Curie temperature), and be oxidation resistant (for instance, some rare-earth magnets are prone to oxidation and must be tungsten-coated).
+
 \subsection{Circuit design}
  
 \begin{figure}
 \centering
-\includegraphics[width=0.75\textwidth]{system}
+\includegraphics[width=0.65\textwidth]{system}
 \caption{System design.}
 \label{fig:system}
 \end{figure}
@@ -286,12 +322,12 @@ The simplified structure for voltage-mode amplifiers is depicted in Fig. 1, repr
 
 \subsubsection{Charge-mode approach}
 
-\begin{figure}
+\begin{wrapfigure}{R}{0.5\textwidth}
 \centering
-\includegraphics[width=0.5\textwidth]{cmos}
+\includegraphics[width=0.4\textwidth]{cmos}
 \caption{Charge-mode amplifier with pseudo-resistor feedback and summing capability.}
 \label{fig:cmos}
-\end{figure}
+\end{wrapfigure}
 
 Charge-mode amplifier approach will also be investigated because it has advantages in handling interconnect parasitics and the convenience of adding signals from different rows of the MEMS device together. Inspired by existing works in neural recording \cite{harrison2003low}, the team will use MOS-bipolar pseudo-resistors as the feedback resistors in the charge-mode amplifier. As shown in Fig. \ref{fig:cmos}, two back-to-back connected PMOS transistors (T1 and T2) that can easily achieve resistance of GOhm will be implemented as the feedback resistor of the charge-mode amplifier, enabling processing brain signals with a frequency as low as 0.025 Hz. With negative VGS, T1 and T2 function as diode-connected PMOS transistors. With positive VGS, the parasitic source–well–drain p-n-p bipolar junction transistor (BJT) is activated, such that T1 and T2 act as diode-connected BJTs. For small voltages across the pseudo-resistors, the small-signal resistance is extremely high and thus moves the corner frequency to low enough for bio-signal processing. On the other hand, a large voltage across the pseudo-resistors will reduce the small-signal resistance and result in a fast settling time for the amplifier. As a result, this pseudo-resistor-based design can amplify low-frequency signals down to the millihertz range while properly rejecting large DC offsets. The theoretical noise–power tradeoff limit, i.e., the noise efficiency factor, have already been derived and demonstrated by selectively operating MOS transistors in either weak or strong inversion \cite{harrison2003low}. The only potential drawback of this configuration is that the amplifier cannot have a large output swing, because otherwise the pseudo-resistors may become two diodes. However, this is not a concern for this work as the amplifier is implemented as pre-amplifier in the front-end, where signal to be handled is very weak.
 
@@ -307,36 +343,6 @@ Because the magnetic field induced by brain activities not only is extremely wea
 
 After the signal is demodulated to the baseband, circuit techniques including dynamic offset cancellation, dynamic element matching (DEM), and chopping will be applied extensively to the remaining signal processing circuits to cancel the mismatch errors and low-frequency noises. On the data acquisition side, the analog-to-digital converter (ADC) is an important component for correctly interpreting the field information. Nyquist ADC accuracy is limited by the matching of components in ADCs, while oversampling ADCs, such as sigma-delta ADC, trade speed for resolution. Because brain signals have low frequencies, sigma-delta ADC is a very good candidate for precision sensing. Another advantage of sigma-delta ADC is that chopping technology and dynamic element matching are suitable for its architecture to minimize the impact of low-frequency noise and offset errors.
 
-
-\subsection{MEMS fabrication process}
-
-MEMS fabrication processes are capable of constructing the above-described sensor. This consists of two main fabrication tasks: piezo cantilever construction, and magnetic material integration. PZT has a high voltage coefficient and is highly suitable for the piezo elements \cite{tadigadapa2009piezoelectric} and can be deposited with pulsed laser deposition or solution-based deposition and patterned with chemical etching or ion etching. Rare-earth magnetic materials, such as alloys of Sm-Co, offer high magnetic energy product at room temperature and can be integrated into MEMS using sputtering or pulsed laser deposition \cite{arnold2009permanent}. However, patterning of these materials is slow, using wet etching or ion-beam milling. A likely strategy will be to use a sacrificial polymer pattern, depositing electrodes, piezo, then magnet layers, and then etching the sacrificial layers. 
-
-The process described in \cite{shen2008design} can be used for our task, with an additional step to apply the magnetic layer. To construct an energy-harvesting piezo cantilever, \cite{shen2008design} used a four-mask process.
-
-
-\begin{figure}
-\centering
-\includegraphics[width=0.5\textwidth]{cantifab}
-\caption{Cantilever fabrication \cite{shen2008design}.}
-\label{fig:fab}
-\end{figure}
-
-\begin{itemize}
-\item SiO2 was grown on both sides of a silicon wafer.
-\item Ti and bottom electrode Pt were deposited by sputtering, followed by sol-gel deposition of PZT (Fig. \ref{fig:fab}(a)).
-\item A top Pt electrode was patterned by a first mask and deposited by a lift-off process (Fig. \ref{fig:fab}(b)):
-  \begin{itemize}
-  \item A sacrificial photoresist layer was deposited and patterned
-  \item Pt was deposited on the patterned photoresist
-  \item The sacrificial layer was removed
-  \end{itemize}
-\item The bottom electrode (the first Pt layer) was exposed from the topside with a second mask and etched with inductively coupled plasma reactive ion etching (RIE) (Fig. \ref{fig:fab}(c)).
-\item The cantilever was patterned from above with a third mask via RIE (Fig. \ref{fig:fab}(d)).
-\item The cantilever proof mass (used here to enhance resonance) was patterned and released through backside RIE (Fig. \ref{fig:fab}(e)
-\end{itemize}
-
-In our case, we would need an additional ferromagnetic layer on top. This could be deposited, then patterned and etched, or deposited according to some pattern, followed by annealing. In either case, of critical importance is selected a material whose magnetic properties are optimal (high remanence and coercivity), whose annealing temperatures are compatible with the other materials, and which can be etched easily enough. It should also maintain magnetic properties within the operating temperature range (has a high Curie temperature), and be oxidation resistant (for instance, some rare-earth magnets are prone to oxidation and must be tungsten-coated).
 
 \section{Risk Analysis and Mitigation Plan}
 
@@ -359,11 +365,7 @@ In our case, we would need an additional ferromagnetic layer on top. This could 
     \hline
     Fabrication unreliable/mismatch & 3 & 5 & Begin fabrication early, so process can be adjusted; dynamic element matching. \\
     \hline
-    Fabrication time/window exceeds deadlines & 3 & 5 & Fabricate COTS scale model instead. \\
-    \hline
-    Circuit/sensor sensitive to mechanical vibration & 5 & 8 & Use additional sensors without magnetic layer to independently measure mechanical vibrations. \\
-    \hline
-    Circuit/sensor fails final tests & 3 & 9 & Identify points of failure for next design. \\
+    Sensitive to mechanical vibration & 3 & 5 & Use additional, non-magnetic cantilevers to cancel mechanical vibrations. \\
     \hline
 \end{tabularx}
 \caption{Risk matrix}
@@ -396,7 +398,7 @@ There are several risks and challenges associated with this design. Most can be 
     \hline
     2 & Circuit design & \\
     \hline
-    2 & MEMS fabrication and testing & \\
+    2 & Microfabrication and testing & \\
     \hline
     \hline
     3 & Cantilever simulation and design & \\
@@ -405,7 +407,7 @@ There are several risks and challenges associated with this design. Most can be 
     \hline
     3 & Circuit design & \\
     \hline
-    3 & MEMS fabrication and testing & \\
+    3 & Microfabrication and testing & \\
     \hline
   \end{tabular}
 \caption{Milestones schedule}
@@ -423,7 +425,9 @@ To test, in Phase 1, the sensor will first be connected to the circuitry and pow
 
 \section{Results and Technology Transfer}
 
-The sensor and circuit design is novel and likely patentable, even if it fails to meet all requirements in the BAA. This can be considered fundamental research and thus not ITAR-controlled.
+Our research team has demonstrated successful technology transfer to the government and private sectors in our work on wireless power, vital signs radar, and low-field magnetometry. UF's Office of Technology Licensing is very helpful in patenting and licensing new engineering developments from research.
+
+The proposed work is highly amenable to technology transfer. The sensor and circuit design is novel and likely patentable, even if it fails to meet all requirements in the BAA. This can be considered fundamental research and thus not ITAR-controlled. Further, there is no private industry involvement, to any technology transfer is just between UF and DARPA.
 
 \section{Ongoing Research}
 Presently, Drs. Lin, Li, and Casanova are presently involved (until 6/2017) in a DARPA project for detection and inversion of MEG/EEG signals. They have worked on all phases, from sensor design to circuit design to inversion algorithm. Additionally, Drs. Lin and Li have worked exensively on vital signs radar, and Dr. Casanova has worked on electromagnetic sensors for agriculture and analytical chemistry. Dr. Yoon has conducted research in MEMS systems of all types, including piezoelectronics and magnetics. 
@@ -448,3 +452,6 @@ PI Li’s research group at the Texas Tech University is located in a fully ESD-
   \item[Changzhi Li] will design the electronics for amplifying and digitizing the signals from the sensor head, working with Dr. Casanova to determine ciruit requirements. His time commitment is 10\%. He received the B.S. degree in electrical engineering from Zhejiang University, China, in 2004 and the Ph.D. degree in electrical engineering from the University of Florida, Gainesville, FL, in 2009.In the summers of 2007 and 2008, he worked at Alereon Inc., Austin, TX, on ultrawideband (UWB) transceiver. In the summer of 2009, he worked at Coherent Logix Inc., Austin, TX, on software-defined radio. His research interests include analog circuits, microwave circuits, and biomedical applications of microwave/RF.
   \end{description}
 \end{description}
+\required{Additional Information}
+
+\bibliography{./casanova_ieee}

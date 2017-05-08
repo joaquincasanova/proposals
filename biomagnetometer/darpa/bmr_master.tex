@@ -34,7 +34,7 @@
 \usepackage{fixltx2e}
 \usepackage{stfloats}
 \usepackage{url}
-
+\usepackage{wrapfig}
 \usepackage{amssymb}
 
 
@@ -45,15 +45,18 @@
 
 \begin{document}
 \include{bmr_cover}
- \setcounter{page}{1}
+% \setcounter{page}{1}
 \include{bmr_transmittal}
+%\setcounter{page}{1}
+\pagestyle{plain}
 \setcounter{page}{1}
+\pagenumbering{arabic}
 \include{bmr_desc}
- \setcounter{page}{1}
- \include{bmr_refs}
- \setcounter{page}{1}
+% \setcounter{page}{1}
+% \include{bmr_refs}
+% \setcounter{page}{1}
 \include{bmr_additional}
- \setcounter{page}{1}
+% \setcounter{page}{1}
 
 
 \end{document}

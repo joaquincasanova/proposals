@@ -143,4 +143,17 @@ Cornelis~A Van~Eysden and John~E Sader.
   fluid.
 \newblock {\em Journal of applied physics}, 100(11):114916, 2006.
 
+\bibitem{yoon2006multidirectional}
+Y-K Yoon, J-H Park, and Mark~G Allen.
+\newblock Multidirectional uv lithography for complex 3-d mems structures.
+\newblock {\em Journal of microelectromechanical systems}, 15(5):1121--1130,
+  2006.
+
+\bibitem{yoon2003reduced}
+Yong-Kyu Yoon, Dongsu Kim, Mark~G Allen, J~Stevenson Kenney, and Andrew~T Hunt.
+\newblock A reduced intermodulation distortion tunable ferroelectric
+  capacitor-architecture and demonstration.
+\newblock {\em IEEE transactions on microwave theory and techniques},
+  51(12):2568--2576, 2003.
+
 \end{thebibliography}
