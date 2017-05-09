@@ -56,6 +56,14 @@ Reid~R Harrison and Cameron Charles.
   applications.
 \newblock {\em IEEE Journal of solid-state circuits}, 38(6):958--965, 2003.
 
+\bibitem{jiang2011micro}
+Yonggang Jiang, Shingo Masaoka, Minoru Uehara, Takayuki Fujita, Kohei Higuchi,
+  and Kazusuke Maenaka.
+\newblock Micro-structuring of thick ndfeb films using high-power plasma
+  etching for magnetic mems application.
+\newblock {\em Journal of Micromechanics and Microengineering}, 21(4):045011,
+  2011.
+
 \bibitem{johnsen2005physics}
 S{\"o}nke Johnsen and Kenneth~J Lohmann.
 \newblock The physics and neurobiology of magnetoreception.
@@ -142,6 +150,20 @@ Cornelis~A Van~Eysden and John~E Sader.
 \newblock Resonant frequencies of a rectangular cantilever beam immersed in a
   fluid.
 \newblock {\em Journal of applied physics}, 100(11):114916, 2006.
+
+\bibitem{walther2009micro}
+Arnaud Walther, C~Marcoux, B~Desloges, R~Grechishkin, Dominique Givord, and
+  NM~Dempsey.
+\newblock Micro-patterning of ndfeb and smco magnet films for integration into
+  micro-electro-mechanical-systems.
+\newblock {\em Journal of Magnetism and Magnetic Materials}, 321(6):590--594,
+  2009.
+
+\bibitem{wang2013resin}
+Pei-hong Wang, Kai Tao, Zhuo-qing Yang, and Gui-fu Ding.
+\newblock Resin-bonded ndfeb micromagnets for integration into electromagnetic
+  vibration energy harvesters.
+\newblock {\em Journal of Zhejiang University SCIENCE C}, 14(4):283--287, 2013.
 
 \bibitem{yoon2006multidirectional}
 Y-K Yoon, J-H Park, and Mark~G Allen.

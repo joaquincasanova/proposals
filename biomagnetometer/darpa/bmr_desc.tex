@@ -195,15 +195,21 @@ Together, these relations allow us to estimate resonance, stress, and sensitivit
 
 Microfabrication processes are capable of constructing the above-described sensor. This consists of two main fabrication tasks: piezo cantilever construction, and magnetic material integration. PZT has a high voltage coefficient and is highly suitable for the piezo elements \cite{tadigadapa2009piezoelectric} and can be deposited with pulsed laser deposition or solution-based deposition and patterned with chemical etching or ion etching. Rare-earth magnetic materials, such as alloys of Sm-Co, offer high magnetic energy product at room temperature and can be integrated into MEMS using sputtering or pulsed laser deposition \cite{arnold2009permanent}. However, patterning of these materials is slow, using wet etching or ion-beam milling. A likely strategy will be to use a sacrificial polymer pattern, depositing electrodes, piezo, then magnet layers, and then etching the sacrificial layers. 
 
-The process described in \cite{shen2008design} can be used for our task, with an additional step to apply the magnetic layer. To construct an energy-harvesting piezo cantilever, \cite{shen2008design} used a four-mask process.
-
-
 \begin{figure}
 \centering
-\includegraphics[width=0.75\textwidth]{cantifab}
+\includegraphics[width=0.65\textwidth]{cantifab}
 \caption{Cantilever fabrication \cite{shen2008design}.}
 \label{fig:fab}
 \end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.65\textwidth]{resinfab}
+\caption{Molded resin deposition of NdFeB \cite{wang2013resin}. (a) Sputtering Cr/Cu seed layer; (b) Photoresist patterning; (c) Electroplating copper mold; (d) Stripping photoresist; (e) Filling the Cu mold; (f) Removing the paste residues; (g) Removing the Cu mold.}
+\label{fig:resinfab}
+\end{figure}
+
+The process described in \cite{shen2008design} can be used for our task, with an additional step to apply the magnetic layer. To construct an energy-harvesting piezo cantilever, \cite{shen2008design} used a four-mask process.
 
 \begin{itemize}
 \item SiO2 was grown on both sides of a silicon wafer.
@@ -220,6 +226,8 @@ The process described in \cite{shen2008design} can be used for our task, with an
 \end{itemize}
 
 In our case, we would need an additional ferromagnetic layer on top. This could be deposited, then patterned and etched, or deposited according to some pattern, followed by annealing. In either case, of critical importance is selected a material whose magnetic properties are optimal (high remanence and coercivity), whose annealing temperatures are compatible with the other materials, and which can be etched easily enough. It should also maintain magnetic properties within the operating temperature range (has a high Curie temperature), and be oxidation resistant (for instance, some rare-earth magnets are prone to oxidation and must be tungsten-coated).
+
+A few methods exist for deposition and patterning of rare earth transition metals (such as NdFeB), which have desirable high coercivity and remanent magnetization. One way is deposiion by sputtering into patterned trenches, followed by chemical etching and planarization \cite{walther2009micro}, though this technique can result in lateral overetching. Another is using high-power plasma to etch a deposited magnetic film \cite{jiang2011micro}. Yet another possible approach is to create a sacrificial mold, then fill it with a resin embedded with NdFeB (Figure \ref{fig:resinfab}). The mold is subsequently dissolved \cite{wang2013resin}. Which method we select ultimately depends on the availability of materials, the available processes at our facilities, and the compatibility of these processes with the other layers in the microfabricated structure. For instance, if the etchant damages the piezo layer, that is not a viable option.
 
 \subsection{Circuit design}
  
