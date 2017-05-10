@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.27)  9 MAY 2017 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.27)  10 MAY 2017 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -338,44 +338,38 @@ Underfull \hbox (badness 2809) in paragraph at lines 142--143
 \OT1/cmr/m/n/10.95 sor which uses fer-ro-mag-netic
  []
 
-[6 <./kirsh2001.png>] [7 <./biomag.png>] [8]
+[6 <./biomag.png> <./kirsh2001.png>] [7] [8]
 <cantifab.png, id=47, 350.81062pt x 585.68813pt>
 File: cantifab.png Graphic file (type png)
  <use cantifab.png>
-Package pdftex.def Info: cantifab.png used on input line 200.
+Package pdftex.def Info: cantifab.png used on input line 194.
 (pdftex.def)             Requested size: 305.33788pt x 509.80373pt.
-
-<resinfab.png, id=48, 285.31593pt x 407.27156pt>
-File: resinfab.png Graphic file (type png)
- <use resinfab.png>
-Package pdftex.def Info: resinfab.png used on input line 207.
-(pdftex.def)             Requested size: 305.33788pt x 435.85083pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 215.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 202.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 215.
- [9] [10 <./cantifab.png>] [11 <./resinfab.png>] <system.png, id=59, 523.9575pt
- x 438.13687pt>
-File: system.png Graphic file (type png)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 202.
 
-<use system.png>
-Package pdftex.def Info: system.png used on input line 236.
+<system.png, id=48, 523.9575pt x 438.13687pt>
+File: system.png Graphic file (type png)
+ <use system.png>
+Package pdftex.def Info: system.png used on input line 223.
 (pdftex.def)             Requested size: 305.33788pt x 255.32962pt.
+ [9] [10 <./cantifab.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [12 <./system.png>]
-<cmos.png, id=63, 249.18094pt x 169.38281pt>
+ [11 <./system.png>] <cmos.png, id=59, 249.18094pt x 169.38281pt>
 File: cmos.png Graphic file (type png)
- <use cmos.png>
-Package pdftex.def Info: cmos.png used on input line 261.
+
+<use cmos.png>
+Package pdftex.def Info: cmos.png used on input line 248.
 (pdftex.def)             Requested size: 187.89912pt x 127.72945pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -386,7 +380,7 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- [13 <./cmos.png>]
+ [12 <./cmos.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
@@ -397,53 +391,53 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-[14]
-Underfull \hbox (badness 3930) in paragraph at lines 304--304
+Underfull \hbox (badness 3930) in paragraph at lines 291--291
 []|\OT1/cmr/m/n/10.95 Insufficient sen-si-tiv-ity in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
 []|\OT1/cmr/m/n/10.95 Fabrication un-re-li-
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 304--304
+Underfull \hbox (badness 1337) in paragraph at lines 291--291
 \OT1/cmr/m/n/10.95 pro-cess can be ad-justed;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
 []|\OT1/cmr/m/n/10.95 Use ad-di-tional, non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
 \OT1/cmr/m/n/10.95 magnetic can-tilevers to
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 304--304
+Underfull \hbox (badness 3792) in paragraph at lines 291--291
 \OT1/cmr/m/n/10.95 can-cel me-chan-i-cal vi-bra-
  []
 
+[13]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15] [16]
+[14] [15]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [17] (./bmr_master.bbl [18] [19]
+ [16] (./bmr_master.bbl [17] [18]
 Underfull \hbox (badness 1946) in paragraph at lines 155--161
 []\OT1/cmr/m/n/10.95 Arnaud Walther, C Mar-coux, B Deslo-ges, R Grechishkin, Do
 -minique Givord, and
  []
 
-)) [20]
+)) [19]
 \openout2 = `bmr_additional.aux'.
 
  (./bmr_additional.tex
@@ -472,10 +466,10 @@ Overfull \hbox (5.93054pt too wide) in paragraph at lines 33--34
 []\OT1/cmr/m/n/10.95 Name, ad-dress, and tele-
  []
 
-[21
+[20
 
 
-] [22]
+] [21]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -500,7 +494,7 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [23]
+ [22]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -513,13 +507,13 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-) [24] [25] (./bmr_master.aux (./bmr_cover.aux)
+) [23] [24] (./bmr_master.aux (./bmr_cover.aux)
 (./bmr_transmittal.aux) (./bmr_desc.aux) (./bmr_additional.aux)) ) 
 Here is how much of TeX's memory you used:
- 3025 strings out of 493029
- 40208 string characters out of 6136233
- 107477 words of memory out of 5000000
- 6466 multiletter control sequences out of 15000+600000
+ 3019 strings out of 493029
+ 40115 string characters out of 6136233
+ 109468 words of memory out of 5000000
+ 6461 multiletter control sequences out of 15000+600000
  10152 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,26p,1970b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -534,10 +528,10 @@ msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 >
-Output written on bmr_master.pdf (27 pages, 827897 bytes).
+Output written on bmr_master.pdf (26 pages, 804395 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 135 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

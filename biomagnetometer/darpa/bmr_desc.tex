@@ -83,7 +83,7 @@ The objective in this phase, to be accomplished at TTU by Changzhi Li, is to opt
 
 \subsubsection{Manufacture and testing}\label{sec:p2:test}
 
-The objective in this phase is to manufacture the IC and sensor for Phase 2, and test these in the lab. Our approach here is to do microfabrication at UF, and outsource the IC fabrication. The IC and sensor will be tested separately, and then together, once the functionality of each is established. The IC can be tested independently with dummy sources to verify function, and the sensor can be tested with a COTS circuit first. Varying field strength, frequency, and gradient using Helmholtz coils can establish sensitivity and noise floor of the sensor. This task will be accomplished at UF by Dr. Yoon and Dr. Joaquin Casanova. Completion of this task is specified by successful construction and testing of a sensor head, which satisfies Table \ref{table:obj}, using the circuitry developed in \ref{sec:p2:cir} and sensor in \ref{sec:p2:em}. To reduce risk of failure, fabrication will begin early in Phase 2, enabling us to revise our design to reduce manufacturing defects orenhance sensivity.
+The objective in this phase is to manufacture the IC and sensor for Phase 2, and test these in the lab. Our approach here is to do microfabrication at UF, and outsource the IC fabrication. The IC and sensor will be tested separately, and then together, once the functionality of each is established. The IC can be tested independently with dummy sources to verify function, and the sensor can be tested with a COTS circuit first. Completion of this task is specified by successful construction and testing of a sensor head, which satisfies Table \ref{table:obj}, using the circuitry developed in \ref{sec:p2:cir} and sensor in \ref{sec:p2:em}. To reduce risk of failure, fabrication will begin early in Phase 2, enabling us to revise our design to reduce manufacturing defects orenhance sensivity.
 
 \subsection{Phase 3 Tasks}
 AMBIIENT Phase 3 will demonstrate a fully integrated gradiometer comprising all control
@@ -97,13 +97,13 @@ The objective in this phase is to optimize the sensor, to decrease size and incr
 
 The objective in this phase is to optimize the microfabrication process, through material selection and process design, considering problems encountered in Phase 2. To acomplish this, Dr. Yoon will improve the material selection and process design over Phase 2, in conjunction with Phase 2 simulations. For instance, incorporating higher-energy magnetic materials, or denser interconnects. Additionally, the Phase 3 sensor and Phase 3 circuit will be integrated into the same substrate, and packaged. The Phase 3 IC will be sliced and bondined onto a common substrate with the sensor.  This task will be accomplished at UF by YK Yoon and at TTU by Changzhi Li. Completion of this task is specified by successful fabrication of the Phase 3 sensor design and will result in a successful IC, with integrated Phase 3 sensor. To reduce risk of later failure because the IC and sensor can't be integrated as part of the same substrate, we will also pursue the option of completing each separately and connecting.
 
-\subsubsection{Circuit design}\label{sec:p3:cir}
+\subsubsection{Complete integrated circuit design}\label{sec:p3:cir}
 
 The objective in this phase is to optimize the SiGe IC based on the Phase 2 results and refined Phase 3 design, and full-scale integration of the IC and sensor array. Our approach here is to take the Phase 2 circuit design, modifying based on the modified sensor design, adding an ADC,  and design from this a single integrated circuit, to reduce size. This task will be accomplished at TTU by Changzhi Li. On completion of this task, Dr. Li will deliver a successful design in simulation and fabricate a sensor amplification IC. To reduce risk of later failure due to missing deadlines, or circuit/sensor mismatch, preliminary Phase 3 IC design will begin in Phase 2. Additionally, multiple designs can be incorporated into one IC.
 
 \subsubsection{Manufacture and testing}\label{sec:p3:test}
 
-The objective in this phase is to manufacture the IC and sensor for Phase 3, and test these in the lab. Here, Drs. Yoon and Casanova are to fabricate the sensor at UF, and integrate with the IC, fabricate at a foundry. The IC and sensor will be tested separately, and then together, once the functionality of each is established. The IC can be tested independently with dummy sources to verify function, and the sensor can be tested with a COTS circuit first. Varying field strength, frequency, and gradient using Helmholtz coils can establish sensitivity and noise floor of the sensor. Completion of this task is specified by successful construction and testing of a sensor head, which satisfies Table \ref{table:obj}, using the circuitry developed in \ref{sec:p3:cir} and sensor in \ref{sec:p3:em}. To reduce risk of failure, fabrication will begin early in Phase 3, enabling us to revise our design to reduce manufacturing defects orenhance sensitivity.
+The objective in this phase is to manufacture the IC and sensor for Phase 3, and test these in the lab. Here, Drs. Yoon and Casanova are to fabricate the sensor at UF, and integrate with the IC, fabricated at a foundry. The IC and sensor will be tested separately, and then together, once the functionality of each is established. The IC can be tested independently with dummy sources to verify function, and the sensor can be tested with a COTS circuit first. Varying field strength, frequency, and gradient using Helmholtz coils can establish sensitivity and noise floor of the sensor. Completion of this task is specified by successful construction and testing of a sensor head, which satisfies Table \ref{table:obj}, using the circuitry developed in \ref{sec:p3:cir} and sensor in \ref{sec:p3:em}. To reduce risk of failure, fabrication will begin early in Phase 3, enabling us to revise our design to reduce manufacturing defects orenhance sensitivity.
 
 \section{Innovative Claims}\label{sec:inno}
 
@@ -141,18 +141,11 @@ In nature, many organisms have a sense of magnetoreception used for navigation, 
 
 Our approach is to mimic the approach found in magnetosomes, with some key modifications so that is frequency-selective and functions inherently as a gradiometer and thus does not require shielding. The closest biomimetic sensor is a flow sensor which uses ferromagnetic cilia to detect microfluidic flow rates \cite{alfadhel2014magnetic}.
 
-%\begin{wrapfigure}{L}{.65\textwidth}
-%\centering
-%\includegraphics[width=0.5\textwidth]{cilia}
-%\caption{Magnetic cilia flow sensor \cite{alfadhel2014magnetic}.}
-%\label{fig:cilia}
-%\end{wrapfigure}
+To acomplish this, we propose layering a permanent magnetic layer on top of piezoelectric cantilevers. The torque induced on the magnetic layer generates stress in the piezo layer, and thus a voltage and charge. For an estimate of the sensitivity of this type of sensor, we perform a basic analysis. The moment $N$ induced on the magnetic layer with moment $\vec{m}$ and field $\vec{B}$ is:
 
-To acomplish this, we propose layering a permanent magnetic layer on top of piezoelectric cantilevers. The torque induced on the magnetic layer generates stress in the piezo layer, and thus a voltage and charge. For an estimate of the sensitivity of this type of sensor, we perform a basic analysis. The moment $N$ induced on the magnetic layer with moment $\vec{\mu}$ and field $\vec{B}$ is:
+$$  N=\vec{m} \times \vec{B} $$
 
-$$  N=\vec{\mu} \times \vec{B} $$
-
-Interpreted as a point load ($M/L$) at the cantilever tip, this moment causes a stress distribution on a cantilever of length L, thickness t, second moment I, piezoelectric voltage constant $g_{31}$, and modulus E, at point (x,y), of
+Interpreted as a point load ($N/L$) at the cantilever tip, this moment causes a stress distribution on a cantilever of length L, thickness t, second moment I, piezoelectric voltage constant $g_{31}$, and modulus E, at point (x,y), of
 
 $$ \sigma=\frac{Ny(L-x)}{LI} $$
 
@@ -166,7 +159,7 @@ The noise floor of magnetic materials is governed by Barkhausen noise - the rand
 
  Even though biological magnetoreception is limited to nT sensitivity, our design will allow us to surpass this. First, by careful selection of materials (such as Co-Pt or rare-earth magnets) \cite{coey2010magnetism, arnold2009permanent} we can have much higher magnetic dipole moment, and thus higher moment. Second, by careful selection of geometery, we can employ parametric resonance \cite{van2006resonant}. Third, by using many elemens in series and summing, we can increase signal-to-noise ratio (SNR). Finally, using two banks of cantilevers in series in anti-series, we both boost the voltage and create a high resolution gradiometer.
 
- Some potential pitfalls include effects of viscous damping (limiting mechanical vibration at resonance), demagnetization factor (due to the particular geometry of the magnetic layer), and layer separation from stress differentials (if strain at the interface betwwen layers is not equal, they can peel apart). To assess these more closely, multiple physical effects, with non-linear, anisotropic materials must be considered simultaneously, for a complex geometry. A large part of the MEMS sensor design process must therefore be completed in simulation, allowing us to determine the impact of the above effects. Additionally, we can optimize the geometry and material selection for maximum reponse. Key design variables include the coercivity and remanance of the magnetic layer, the piezoelectric coefficients of the piezoelectric layer, the Young's modulus of each, and the length, width, and thickness of the cantilever. The physics of the system can be described by the PDEs for magnetostatics, mechanical deformation, fluid flow, and the piezoelectric constitutive relations:
+ Some potential pitfalls include effects of viscous damping (limiting mechanical vibration at resonance), demagnetization factor (due to the particular geometry of the magnetic layer), and layer separation from stress differentials (if strain at the interface betwwen layers is not equal, they can peel apart). To assess these more closely, multiple physical effects, with non-linear, anisotropic materials must be considered simultaneously, for a complex geometry. A large part of the MEMS sensor design process must therefore be completed in simulation, allowing us to determine the impact of the above effects. Additionally, we can optimize the geometry and material selection for maximum reponse. Key design variables include the coercivity and remanance of the magnetic layer, the piezoelectric coefficients of the piezoelectric layer, the Young's modulus of each, and the length, width, and thickness of the cantilever. The physics of the system can be described by the PDEs for magnetostatics, mechanical deformation, and the piezoelectric constitutive relations:
 
  $$ \nabla \vec{B} = 0$$
 
@@ -174,15 +167,16 @@ The noise floor of magnetic materials is governed by Barkhausen noise - the rand
 
 where $\vec{B}$ is the magnetic flux,$\vec{H}$ the sum of external and internal fields, and $\vec{M}$ the magnetization.
  
- $$ EI\frac{\partial^4u}{\partial^4x}+m(x)\frac{\partial^2u}{\partial^2t}+\gamma\frac{\partial u}{\partial t}=q(x)$$
-
- $$ EI\frac{\partial^2N(x)}{\partial^2x} = -q(x)$$
+ $$ -\nabla\cdot\vec{\sigma}=\vec{f}$$
  
-$$ N(x) = \vec{\mu}(x) \times \vec{B_{ext}}, \vec{\mu}(x) = \vec{M}(x)dxdydz $$
+ $$ \vec{\sigma} = \lambda(\nabla\cdot u)I+\mu(\nabla u +(\nabla u)^T)$$
 
-$$\sigma_{xx}(x,y)  = N(x,y)y/I(x)$$
+ $$ \vec{f} = -\nabla\times\vec{N}$$
+ 
+$$ \vec{N} = \vec{m} \times \vec{B_{ext}}, \vec{m} = \vec{M} $$
 
-where $N$ is the moment, $q$ is load, $u$ is vertical displacement of the beam, $EI$ is the modulus/moment product, $m$ is mass per length, $\gamma$ is damping, and $\sigma$ is stress. This can (and should) be expanded to consider stress in multiple axes.
+where $\vec{N}$ is the moment per volume, $\vec{f}$ is force per volume, $\vec{u}$ is displacement of the beam, $\lambda$ and $\mu$ are Lame elasticity parameters, $\vec{m}$ is magnetic moment per volume, and $\vec{\sigma}$ is the stress tensor.
+
 Finally, to relate field $\vec{E}$, strain $\vec{S}$, displacement field $\vec{D}$, and stress $\vec{\sigma}$, in the piezo layer:
  $$S_{ij} = s_{ijkl}\sigma_{kl}+d_{kij}E{k}$$
 
@@ -200,13 +194,6 @@ Microfabrication processes are capable of constructing the above-described senso
 \includegraphics[width=0.65\textwidth]{cantifab}
 \caption{Cantilever fabrication \cite{shen2008design}.}
 \label{fig:fab}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=0.65\textwidth]{resinfab}
-\caption{Molded resin deposition of NdFeB \cite{wang2013resin}. (a) Sputtering Cr/Cu seed layer; (b) Photoresist patterning; (c) Electroplating copper mold; (d) Stripping photoresist; (e) Filling the Cu mold; (f) Removing the paste residues; (g) Removing the Cu mold.}
-\label{fig:resinfab}
 \end{figure}
 
 The process described in \cite{shen2008design} can be used for our task, with an additional step to apply the magnetic layer. To construct an energy-harvesting piezo cantilever, \cite{shen2008design} used a four-mask process.
@@ -227,7 +214,7 @@ The process described in \cite{shen2008design} can be used for our task, with an
 
 In our case, we would need an additional ferromagnetic layer on top. This could be deposited, then patterned and etched, or deposited according to some pattern, followed by annealing. In either case, of critical importance is selected a material whose magnetic properties are optimal (high remanence and coercivity), whose annealing temperatures are compatible with the other materials, and which can be etched easily enough. It should also maintain magnetic properties within the operating temperature range (has a high Curie temperature), and be oxidation resistant (for instance, some rare-earth magnets are prone to oxidation and must be tungsten-coated).
 
-A few methods exist for deposition and patterning of rare earth transition metals (such as NdFeB), which have desirable high coercivity and remanent magnetization. One way is deposiion by sputtering into patterned trenches, followed by chemical etching and planarization \cite{walther2009micro}, though this technique can result in lateral overetching. Another is using high-power plasma to etch a deposited magnetic film \cite{jiang2011micro}. Yet another possible approach is to create a sacrificial mold, then fill it with a resin embedded with NdFeB (Figure \ref{fig:resinfab}). The mold is subsequently dissolved \cite{wang2013resin}. Which method we select ultimately depends on the availability of materials, the available processes at our facilities, and the compatibility of these processes with the other layers in the microfabricated structure. For instance, if the etchant damages the piezo layer, that is not a viable option.
+A few methods exist for deposition and patterning of rare earth transition metals (such as NdFeB), which have desirable high coercivity and remanent magnetization. One way is deposiion by sputtering into patterned trenches, followed by chemical etching and planarization \cite{walther2009micro}, though this technique can result in lateral overetching. Another is using high-power plasma to etch a deposited magnetic film \cite{jiang2011micro}. Yet another possible approach is to create a sacrificial mold, then fill it with a resin embedded with NdFeB. The mold is subsequently dissolved \cite{wang2013resin}. Which method we select ultimately depends on the effect of the process on the magnetic properties, availability of materials, the available processes at our facilities, and the compatibility of these processes with the other layers in the microfabricated structure. For instance, plasma etching achieves higher remanence, but embedded resin is faster and simply.
 
 \subsection{Circuit design}
  
