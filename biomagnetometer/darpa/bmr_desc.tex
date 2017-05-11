@@ -2,7 +2,7 @@
 
 \required{Detailed Proposal Information}
 \section{Statement of Work (SOW)}
-The project's aim is to develop a minaturized high-sensitivity, low-noise magnetic gradiometer. Our approach is to mimic the mechanism found in magnetosomes, the specialized cells four from bacteria to higher vertebrates such as fish and birds (see \ref{sec:inno}). This is comprised of four main tasks: modeling and simulation, microfabrication process design, circuit design, and device manufacture and testing. Each Phase (1,2,3) will include these four tasks. No task requires the use of government equipment.
+The project's aim is to develop a minaturized high-sensitivity, low-noise magnetic gradiometer. Our approach is to mimic the mechanism found in magnetosomes, the specialized cells four from bacteria to higher vertebrates such as fish and birds (see \ref{sec:inno}). This is comprised of three main tasks: modeling and simulation, microfabrication process design, and circuit design. Each Phase (1,2,3) will include these three tasks. No task requires the use of government equipment. 'Successful' completion of a design indicates satisfaction of the parameters in Table \ref{table:obj} following the test procedures described in \ref{sec:test}. Testing will be completed at UF by Drs. Casanova and Yoon at UF in all phases.
 
 \begin{table}[h!]
 \centering
@@ -53,15 +53,17 @@ The objective in this phase, to be accomplished at UF by Joaquin Casanova, is to
 
 \subsubsection{Microfabrication process design}\label{sec:p1:mf}
 
-The objective in this phase, to be accomplished at UF by Dr. YK Yoon, is to develop a microfabrication strategy (materials, deposition, patterning) that can meet the requirements found from simulation. Our approach here is to find a range of dimensional constraints and material types that could be physically realizable, and use those options to guide simulation and design of a sensor. Completion of this task is successful specification of a microfabrication plan for the sensor described by the simulation results and deliverables include successful microfabrication plan. To reduce risk of later failure due to non-manufacturability, this task will be accomplished with parallel investigating of alternative sensing modalities.
+The objective in this phase, to be accomplished at UF by Dr. YK Yoon, is to develop a microfabrication strategy (materials, deposition, patterning) that can meet the requirements found from simulation. Our approach here is to find a range of dimensional constraints and material types that could be physically realizable, and use those options to guide simulation and design of a sensor. Completion of this task is successful specification and execution of a microfabrication plan for the sensor described by the simulation results and deliverables include successful microfabrication plan and sensor. To reduce risk of later failure due to non-manufacturability, this task will be accomplished with parallel investigating of alternative sensing modalities, and multiple sensor designs can be fabricated for testing.
 
 \subsubsection{PCB-based circuit design}\label{sec:p1:cir}
 
-The objective in this phase, to be accomplished at TTU by Dr. Changzhi Li, is to develop a PCB-based detection circuit which amplifies and digitizes the the voltage produced by the sensor elements. In addition to a COTS circuit, we will simultaneously begin investigation and design of an SiGe IC that can be used in later phases. Our approach here is to drive the cantilevers at their resonant frequency to enhance sensitivity, amplifying the signal, then demodulate. Banks of sensors will be individually addressable. Completion of this task is specified by successful design of a circuit capable of amplifying and digitizing sensor output voltage with input-referred voltage noise low enough to meet the overall sensitivity requirement. Deliverables include successful design and prototype of the circuit, usable with the microfabricated sensor head, using COTS components. To reduce risk of later failure due to excessive noise, this task will investigate only specifically low-noise designs. Dynamic element matching will permit cancellation of manufacturing variation cancellation. The Phase 1 circuit will be completed with COTS components.
+The objective in this phase, to be accomplished at TTU by Dr. Changzhi Li, is to develop a PCB-based detection circuit which amplifies and digitizes the the voltage produced by the sensor elements. In addition to a COTS circuit, we will simultaneously begin investigation and design of an SiGe IC that can be used in later phases. Our approach here is to drive the cantilevers at their resonant frequency to enhance sensitivity, amplifying the signal, then demodulate. Banks of sensors will be individually addressable. Completion of this task is specified by successful design and fabrication of a PCB-based circuit capable of amplifying and digitizing sensor output voltage with input-referred voltage noise low enough to meet the overall sensitivity requirement. Deliverables include successful design and prototype of the circuit, usable with the microfabricated sensor head, using COTS components. To reduce risk of later failure due to excessive noise, this task will investigate only specifically low-noise designs. Dynamic element matching will permit cancellation of manufacturing variation cancellation. The Phase 1 circuit will be completed with COTS components.
 
+\iffalse
 \subsubsection{Manufacture and testing}
 
 The objective in this phase, to be accomplished at UF by Dr. Yoon and Dr. Joaquin Casanova, is to construct the sensor design using microfabrication processes and design developed in \ref{sec:p1:em},\ref{sec:p1:mf}, which includes pads for connection to circuitry. Our approach here is to test the circuit and sensor independently and together after manufacturing as in \ref{sec:p1:mf}. Multiple sensor design options can be fabricated for testing. Completion of this task is specified by successful construction and testing of a sensor head, which satisfies Table \ref{table:obj}, using the circuitry developed in \ref{sec:p1:cir}. Deliverables include successful prototype of the sensor and sensor electronics. To reduce risk of failure, fabrication will begin early in Phase 1, enabling us to revise our design to reduce manufacturing defects orenhance sensivity. 
+\fi
 
 \subsection{Phase 2 Tasks}
   
@@ -81,9 +83,11 @@ The objective in this phase is to optimize the microfabrication process, through
 
 The objective in this phase, to be accomplished at TTU by Changzhi Li, is to optimize the PCB-based circuit based on the Phase 1 results and test this with a sensor array, and incorporate the amplifier design into an integrated circuit, for testing with the Phase 2 sensor array. Our approach here is to take the Phase 1 circuit design, modifying based on the modified sensor design, and design from this an integrated circuit, to reduce size. SiGe is a likely process choice due to low noise. Completion of this task is specified by successful design and fabrication of a sensor amplification IC. To reduce risk of later failure due to missing deadlines, or circuit/sensor mismatch, preliminary IC design will begin in Phase 1. Additionally, multiple designs can be incorporated into one IC.
 
+\iffalse
 \subsubsection{Manufacture and testing}\label{sec:p2:test}
 
 The objective in this phase is to manufacture the IC and sensor for Phase 2, and test these in the lab. Our approach here is to do microfabrication at UF, and outsource the IC fabrication. The IC and sensor will be tested separately, and then together, once the functionality of each is established. The IC can be tested independently with dummy sources to verify function, and the sensor can be tested with a COTS circuit first. Completion of this task is specified by successful construction and testing of a sensor head, which satisfies Table \ref{table:obj}, using the circuitry developed in \ref{sec:p2:cir} and sensor in \ref{sec:p2:em}. To reduce risk of failure, fabrication will begin early in Phase 2, enabling us to revise our design to reduce manufacturing defects orenhance sensivity.
+\fi
 
 \subsection{Phase 3 Tasks}
 AMBIIENT Phase 3 will demonstrate a fully integrated gradiometer comprising all control
@@ -95,15 +99,17 @@ The objective in this phase is to optimize the sensor, to decrease size and incr
 
 \subsubsection{Microfabrication of final sensor design}\label{sec:p3:mf}
 
-The objective in this phase is to optimize the microfabrication process, through material selection and process design, considering problems encountered in Phase 2. To acomplish this, Dr. Yoon will improve the material selection and process design over Phase 2, in conjunction with Phase 2 simulations. For instance, incorporating higher-energy magnetic materials, or denser interconnects. Additionally, the Phase 3 sensor and Phase 3 circuit will be integrated into the same substrate, and packaged. The Phase 3 IC will be sliced and bondined onto a common substrate with the sensor.  This task will be accomplished at UF by YK Yoon and at TTU by Changzhi Li. Completion of this task is specified by successful fabrication of the Phase 3 sensor design and will result in a successful IC, with integrated Phase 3 sensor. To reduce risk of later failure because the IC and sensor can't be integrated as part of the same substrate, we will also pursue the option of completing each separately and connecting.
+The objective in this phase is to optimize the microfabrication process, through material selection and process design, considering problems encountered in Phase 2. To acomplish this, Dr. Yoon will improve the material selection and process design over Phase 2, in conjunction with Phase 2 simulations. For instance, incorporating higher-energy magnetic materials, or denser interconnects. Additionally, the Phase 3 sensor and Phase 3 circuit will be integrated into the same substrate, and packaged. The Phase 3 IC will be sliced and bonded onto a common substrate with the sensor.  This task will be accomplished at UF by YK Yoon and at TTU by Changzhi Li. Completion of this task is specified by successful fabrication of the Phase 3 sensor design and will result in a successful IC, with integrated Phase 3 sensor. To reduce risk of later failure because the IC and sensor can't be integrated as part of the same substrate, we will also pursue the option of completing each separately and connecting.
 
 \subsubsection{Complete integrated circuit design}\label{sec:p3:cir}
 
 The objective in this phase is to optimize the SiGe IC based on the Phase 2 results and refined Phase 3 design, and full-scale integration of the IC and sensor array. Our approach here is to take the Phase 2 circuit design, modifying based on the modified sensor design, adding an ADC,  and design from this a single integrated circuit, to reduce size. This task will be accomplished at TTU by Changzhi Li. On completion of this task, Dr. Li will deliver a successful design in simulation and fabricate a sensor amplification IC. To reduce risk of later failure due to missing deadlines, or circuit/sensor mismatch, preliminary Phase 3 IC design will begin in Phase 2. Additionally, multiple designs can be incorporated into one IC.
 
+\iffalse
 \subsubsection{Manufacture and testing}\label{sec:p3:test}
 
 The objective in this phase is to manufacture the IC and sensor for Phase 3, and test these in the lab. Here, Drs. Yoon and Casanova are to fabricate the sensor at UF, and integrate with the IC, fabricated at a foundry. The IC and sensor will be tested separately, and then together, once the functionality of each is established. The IC can be tested independently with dummy sources to verify function, and the sensor can be tested with a COTS circuit first. Varying field strength, frequency, and gradient using Helmholtz coils can establish sensitivity and noise floor of the sensor. Completion of this task is specified by successful construction and testing of a sensor head, which satisfies Table \ref{table:obj}, using the circuitry developed in \ref{sec:p3:cir} and sensor in \ref{sec:p3:em}. To reduce risk of failure, fabrication will begin early in Phase 3, enabling us to revise our design to reduce manufacturing defects orenhance sensitivity.
+\fi
 
 \section{Innovative Claims}\label{sec:inno}
 
@@ -299,36 +305,36 @@ There are several risks and challenges associated with this design. Most can be 
 
 \begin{table}[h!]
 \centering
-  \begin{tabular}{|c||c|c|}
+  \begin{tabular}{|c||c|}
     \hline
-    Phase & Milestone & Date\\
-    \hline
-    \hline
-    1 & Cantilever simulation and design & \\
-    \hline
-    1 & Fabrication plan & \\
-    \hline
-    1 & Circuit design & \\
-    \hline
-    1 & Scale model design and testing & \\
+    Phase & Milestone \\
     \hline
     \hline
-    2 & Cantilever simulation and design & \\
+    1 & Cantilever simulation and design \\
     \hline
-    2 & Fabrication plan & \\
+    1 & Microfabrication \\
     \hline
-    2 & Circuit design & \\
+    1 & Circuit design \\
     \hline
-    2 & Microfabrication and testing & \\
+    1 & Testing \\
     \hline
     \hline
-    3 & Cantilever simulation and design & \\
+    2 & Cantilever simulation and design \\
     \hline
-    3 & Fabrication plan & \\
+    2 & Microfabrication \\
     \hline
-    3 & Circuit design & \\
+    2 & Circuit design \\
     \hline
-    3 & Microfabrication and testing & \\
+    2 & Testing \\
+    \hline
+    \hline
+    3 & Cantilever simulation and design \\
+    \hline
+    3 & Microfabrication \\
+    \hline
+    3 & Circuit design \\
+    \hline
+    3 & Testing \\
     \hline
   \end{tabular}
 \caption{Milestones schedule}
@@ -340,7 +346,7 @@ by phase. At a minimum, the schedule should include each SOW task of Volume 1, S
 II.A. Where risk reduction tasks are proposed, the schedule should include a milestone for
 assessment and removal of redundant tasks.
 
-\section{Test Plan}
+\section{Test Plan}\label{sec:test}
 
 To test, in Phase 1, the sensor will first be connected to the circuitry and powered to established basic functionality.  Prior to testing, noise from the Helmholtz coils, power supplies, and any other necessary signal generation sources will be characterized. Further, the sensor will be placed in a pair of Helmholtz coils driven with precision current sources, inside magnetic shield, so we can gauge accuracy and sensitivity in a controlled environment. Field gradient, intensity, and frequency will be swept over the range specified in \ref{table:obj}. Finally, the same test will be repeated in an unshielded environment. In each case, we will monitor power consumption, signal output, and mesure sensor and sensor control electronics volume. Subsequent phases will follow a similar testing protocol, except using specifications for those phases. Additionally, in Phases 2 and 3, where an IC will be developed and integrated with the sensor head, the IC will be tested independently to verify basic input/output functionality before slicing and bonding to the MEMS substrate.
 
