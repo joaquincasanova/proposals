@@ -192,36 +192,37 @@ Together, these relations allow us to estimate resonance, stress, and sensitivit
 
 
 \subsection{Microfabrication process}
+Microfabrication processes are capable of constructing the above-described sensor. The process consists of two main fabrication tasks: piezoelectric cantilever construction and magnetic material integration. Zinc oxide (ZnO) has a high strain-to-voltage coefficient in both the 31 and 33 directions and is highly suitable for piezoelectric sensors \cite{tadigadapa2009piezoelectric}. It is also bio compatible, and environmentally friendly. ZnO is typically deposited with sputtering or solution-based deposition techniques \cite{znaidi2010sol} and patterned with chemical or ion etching.
 
-Microfabrication processes are capable of constructing the above-described sensor. This consists of two main fabrication tasks: piezo cantilever construction, and magnetic material integration. PZT has a high voltage coefficient and is highly suitable for the piezo elements \cite{tadigadapa2009piezoelectric} and can be deposited with pulsed laser deposition or solution-based deposition and patterned with chemical etching or ion etching. Rare-earth magnetic materials, such as alloys of Sm-Co, offer high magnetic energy product at room temperature and can be integrated into MEMS using sputtering or pulsed laser deposition \cite{arnold2009permanent}. However, patterning of these materials is slow, using wet etching or ion-beam milling. A likely strategy will be to use a sacrificial polymer pattern, depositing electrodes, piezo, then magnet layers, and then etching the sacrificial layers. 
+Rare-earth magnetic materials, such as alloys of Sm-Co, offer high magnetic energy products at room temperature and can be integrated into MEMS using sputtering or pulsed lased deposition (PLD)  \cite{arnold2009permanent}. However, patterning of these materials is slow, using wet etching or ion-beam milling. Additionally, thick films or high aspect ratio structures composed of these materials become difficult, mainly due to the lack of a suitable electroplating process. To solve this problem, it is possible to embed a rare earth transition metal magnetic material, such as NdFeB, in a resin, then use a mold to pattern the magnetic resin composite \cite{wang2013resin}. Additionally, transition metal magnetic materials, such as FePt or CoPt, can be electroplated and also show relatively high magnetic energy products at room temperature \cite{arnold2009permanent,chin2000permanent}.
+
 
 \begin{figure}
 \centering
-\includegraphics[width=0.65\textwidth]{cantifab}
-\caption{Cantilever fabrication \cite{shen2008design}.}
-\label{fig:fab}
+\includegraphics[width=0.8\textwidth]{yoon_3d}
+\caption{(Left) 3D view of the entire sensor array (15 x 5). The columns, left facing and right facing cantilevers, are individually addressed and the unconnected terminals (top and bottom corners) are ground. The ground interconnects are not shown to not simplify the image. (Right) 3D close up view of the cantilevers, which are connected in series on each column.}
+\label{fig:yoon_3d}
 \end{figure}
 
-The process described in \cite{shen2008design} can be used for our task, with an additional step to apply the magnetic layer. To construct an energy-harvesting piezo cantilever, \cite{shen2008design} used a four-mask process.
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{yoon_process}
+\caption{Magnetic cantilever fabrication. The patterning associated with steps 1-3 of the process described in the text are not
+shown due to image complexity and are represented by (a)}
+\label{fig:yoon_process}
+\end{figure}
 
-\begin{itemize}
-\item SiO2 was grown on both sides of a silicon wafer.
-\item Ti and bottom electrode Pt were deposited by sputtering, followed by sol-gel deposition of PZT (Fig. \ref{fig:fab}(a)).
-\item A top Pt electrode was patterned by a first mask and deposited by a lift-off process (Fig. \ref{fig:fab}(b)):
-  \begin{itemize}
-  \item A sacrificial photoresist layer was deposited and patterned
-  \item Pt was deposited on the patterned photoresist
-  \item The sacrificial layer was removed
-  \end{itemize}
-\item The bottom electrode (the first Pt layer) was exposed from the topside with a second mask and etched with inductively coupled plasma reactive ion etching (RIE) (Fig. \ref{fig:fab}(c)).
-\item The cantilever was patterned from above with a third mask via RIE (Fig. \ref{fig:fab}(d)).
-\item The cantilever proof mass (used here to enhance resonance) was patterned and released through backside RIE (Fig. \ref{fig:fab}(e)
-\end{itemize}
-
-In our case, we would need an additional ferromagnetic layer on top. This could be deposited, then patterned and etched, or deposited according to some pattern, followed by annealing. In either case, of critical importance is selected a material whose magnetic properties are optimal (high remanence and coercivity), whose annealing temperatures are compatible with the other materials, and which can be etched easily enough. It should also maintain magnetic properties within the operating temperature range (has a high Curie temperature), and be oxidation resistant (for instance, some rare-earth magnets are prone to oxidation and must be tungsten-coated).
-
-A few methods exist for deposition and patterning of rare earth transition metals (such as NdFeB), which have desirable high coercivity and remanent magnetization. One way is deposiion by sputtering into patterned trenches, followed by chemical etching and planarization \cite{walther2009micro}, though this technique can result in lateral overetching. Another is using high-power plasma to etch a deposited magnetic film \cite{jiang2011micro}. Yet another possible approach is to create a sacrificial mold, then fill it with a resin embedded with NdFeB. The mold is subsequently dissolved \cite{wang2013resin}. Which method we select ultimately depends on the effect of the process on the magnetic properties, availability of materials, the available processes at our facilities, and the compatibility of these processes with the other layers in the microfabricated structure. For instance, plasma etching achieves higher remanence, but embedded resin is faster and simply.
-
+Our proposed fabrication procedure is similar to others in MEMS \cite{shen2008design}. The process involves six masks with one being a backside mask. The process will require double sided polished wafers, but the p+ etch stop removes the need for SOI wafers. However, if the doping process does not give the needed uniformity, SOI wafers may be used as well. Alternatively, if the KOH etching is too rough or if smaller spacing between columns is needed, reactive ion etching (RIE) may be used for the backside etch. The electrode area is patterned separately from the cantilevers since the accuracy of both the alignment and etching is not nearly as high. The detail fabrication steps are as follows:
+\begin{enumerate}
+\item Deposit silicon oxide using plasma enhanced chemical vapor deposition (PECVD) and pattern bottom electrode materials (titanium and platinum: Ti/Pt) with RIE etching according to the first mask in the electrode area (Fig. \ref{fig:yoon_process}(a))
+\item Deposit the piezoelectric material (ZnO) and pattern with wet etching according to the second mask in the electrode area (Fig. \ref{fig:yoon_process}(a))
+\item Deposit the top electrode material (Ti/Pt) and pattern with liftoff according to the third mask in the electrode area (Fig. \ref{fig:yoon_process}(a)) 
+\item Use RIE to etch the layers deposited in the preceding steps to define the cantilever with the forth mask (Fig. \ref{fig:yoon_process}(b))
+\item Deposit the magnetic proof mass using the mold approach (NdFeB) or electroplating (FePt or CoPt) with the fifth mask (Fig. \ref{fig:yoon_process}(c))
+\item Use backside exposure to pattern the backside of the silicon according to the sixth mask (Fig. \ref{fig:yoon_process}(d))
+\item Etch the backside of the silicon using KOH with a p+ epilayer as an etch stop (Fig. \ref{fig:yoon_process}(e))
+\item Release the cantilevers with a selective frontside RIE (Fig. \ref{fig:yoon_process}(f))
+\end{enumerate}
 \subsection{Circuit design}
  
 \begin{figure}
@@ -372,7 +373,7 @@ PI Li’s research group at the Texas Tech University is located in a fully ESD-
   \begin{description}
   \item[Jenshan Lin] will be project lead, and supervise work on the AMBIIENT project. His time commitment is 0\%. He received the B.S. degree in Electrophysics from National Chiao Tung University (NCTU), Hsinchu, Taiwan, R.O.C., in 1987, and the M.S. and Ph.D. degrees in Electrical Engineering from the University of California at Los Angeles (UCLA), in 1991 and 1994, respectively. His current research interests include sensors and biomedical applications of microwave and millimeter-wave technologies, wireless energy transfer and conversion, RF system-on-chip integration, and integrated antennas. Dr. Lin has authored or co-authored over 250 technical publications in refereed journals and conference proceedings. He holds 15 patents and has several other patent applications. Since joining University of Florida, he has graduated 22 PhD students. 
   \item[Joaquin Casanova] will conduct electromagnetic simulation and design of the MEMS sensor, and work with Dr. Yoon on process/material selection, and Dr. Li on requirements for the interface and control circuits. His commitment is 1 month/year. He received a B.S. and M.E. in Agricultural and Biological engineering in 2006 and 2007 from UF, and PhD in Electrical Engineering in 2010 from UF. His work has primarily focused on sensors and electromagnetic design, including wireless power, microwave remote sensing, agricultural sensors, analytical chemistry equipment design, and low-field magnetic sensing. He is currently a Research Assistant Professor in UF's Department of Electrical and Computer Engineering. 
-  \item[YK Yoon] will guide selection of a microfabrication process and fabrication of the sensor. His commitment is 1 month/year. He received his BS and MS degrees in electrical engineering from Seoul National University in Korea. He also earned an MSEE degree from the New Jersey Institute of Technology, Newark, NJ in 1999 and the Ph.D. degree in electrical and computer engineering from the Georgia Institute of Technology, Atlanta, GA in 2004. He is currently an Associate Professor in the Department of Electrical and Computer Engineering at the University of Florida, Gainesville, FL. His current research interests include three dimensional (3-D) micromachining and nano fabrication; design and implementation of metamaterial for radio frequency (RF) and microwave applications; micromachined millimeter wave and terahertz antennas and waveguides; bio/microfluidic systems for the lab-on-a-chip applications; wireless telemetry systems for biomedical applications; and ferroelectric material development for high density memory devices and/or tunable RF devices.
+  \item[YK Yoon] will guide selection of a microfabrication process and fabrication of the sensor. His commitment is 1 month/year. He received his BS and MS degrees in electrical engineering from Seoul National University in Korea. He also earned an MSEE degree from the New Jersey Institute of Technology, Newark, NJ in 1999 and the Ph.D. degree in electrical and computer engineering from the Georgia Institute of Technology, Atlanta, GA in 2004. He is currently an Associate Professor in the Department of Electrical and Computer Engineering at the University of Florida, Gainesville, FL. Dr. Yoon has direct experience in the development of MEMS resonator based magnetic sensors \cite{choi2006magnetically, choi2006magnetically2, choi2011nonlinear}, and strong expertise in microfabrication \cite{yoon2006multidirectional}, piezoelectric \cite{wulateral}, ferroelectric \cite{kim2014microwave,yoon2005low,yoon2003reduced}, ferromagnetic \cite{rahimi2016study,rahimi2015cylindrical,yoon2013multi}, and multiferroic devices \cite{yoon2013multi,kim2014room}. His current research interests include three dimensional (3-D) micromachining and nano fabrication; design and implementation of metamaterial for radio frequency (RF) and microwave applications; micromachined millimeter wave and terahertz antennas and waveguides; bio/microfluidic systems for the lab-on-a-chip applications; wireless telemetry systems for biomedical applications; and ferroelectric material development for high density memory devices and/or tunable RF devices.
   \end{description} 
 \item[TTU] The TTU team includes:
   \begin{description}

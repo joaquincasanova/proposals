@@ -17,6 +17,31 @@ Mattia Butta and Ichiro Sasada.
   operated in fundamental mode.
 \newblock {\em IEEE Transactions on Magnetics}, 48(4):1508--1511, 2012.
 
+\bibitem{chin2000permanent}
+Tsung-Shune Chin.
+\newblock Permanent magnet films for applications in microelectromechanical
+  systems.
+\newblock {\em Journal of Magnetism and Magnetic Materials}, 209(1):75--79,
+  2000.
+
+\bibitem{choi2006magnetically}
+Seungkeun Choi, S-H Kim, Y-K Yoon, and Mark~G Allen.
+\newblock A magnetically excited and sensed mems-based resonant compass.
+\newblock {\em IEEE transactions on magnetics}, 42(10):3506--3508, 2006.
+
+\bibitem{choi2006magnetically2}
+Seungkeun Choi, S-H Kim, Y-K Yoon, and Mark~G Allen.
+\newblock A magnetically excited and sensed mems-based resonant compass.
+\newblock {\em IEEE International Magnetics Conference (Intermag), San Diego,
+  CA}, 2006.
+
+\bibitem{choi2011nonlinear}
+Seungkeun Choi, Yong-Kyu Yoon, Seong-Hyok Kim, and Mark~G Allen.
+\newblock Nonlinear sensitivity enhancement of resonant microsensors and its
+  application to low power magnetic sensing.
+\newblock {\em Journal of Micromechanics and Microengineering}, 21(4):045004,
+  2011.
+
 \bibitem{coey2010magnetism}
 John~MD Coey.
 \newblock {\em Magnetism and magnetic materials}.
@@ -56,18 +81,22 @@ Reid~R Harrison and Cameron Charles.
   applications.
 \newblock {\em IEEE Journal of solid-state circuits}, 38(6):958--965, 2003.
 
-\bibitem{jiang2011micro}
-Yonggang Jiang, Shingo Masaoka, Minoru Uehara, Takayuki Fujita, Kohei Higuchi,
-  and Kazusuke Maenaka.
-\newblock Micro-structuring of thick ndfeb films using high-power plasma
-  etching for magnetic mems application.
-\newblock {\em Journal of Micromechanics and Microengineering}, 21(4):045011,
-  2011.
-
 \bibitem{johnsen2005physics}
 S{\"o}nke Johnsen and Kenneth~J Lohmann.
 \newblock The physics and neurobiology of magnetoreception.
 \newblock {\em Nature Reviews Neuroscience}, 6(9):703--712, 2005.
+
+\bibitem{kim2014room}
+Kyoung-Tae Kim, Cheolbok Kim, Sheng-Po Fang, and Yong-Kyu Yoon.
+\newblock Room temperature multiferroic properties of (fex, sr1- x) tio3 thin
+  films.
+\newblock {\em Applied Physics Letters}, 105(10):102903, 2014.
+
+\bibitem{kim2014microwave}
+Kyoung-Tae Kim, Cheolbok Kim, David~E Senior, Dongsu Kim, and Yong-Kyu Yoon.
+\newblock Microwave characteristics of sol-gel based ag-doped (ba 0.6 sr 0.4)
+  tio 3 thin films.
+\newblock {\em Thin Solid Films}, 565:172--178, 2014.
 
 \bibitem{kirschvink2001magnetite}
 Joseph~L Kirschvink, Michael~M Walker, and Carol~E Diebel.
@@ -98,6 +127,18 @@ James Lenz and S~Edelstein.
 Felix~A Levinzon.
 \newblock Fundamental noise limit of piezoelectric accelerometer.
 \newblock {\em IEEE Sensors Journal}, 4(1):108--111, 2004.
+
+\bibitem{rahimi2015cylindrical}
+Arian Rahimi, Jiyu Wu, Xiaoyu Cheng, and Yong-Kyu~‘YK’ Yoon.
+\newblock Cylindrical radial superlattice conductors for low loss microwave
+  components.
+\newblock {\em Journal of Applied Physics}, 117(10):103911, 2015.
+
+\bibitem{rahimi2016study}
+Arian Rahimi and Yong-Kyu Yoon.
+\newblock Study on cu/ni nano superlattice conductors for reduced rf loss.
+\newblock {\em IEEE Microwave and Wireless Components Letters}, 26(4):258--260,
+  2016.
 
 \bibitem{sasada2002orthogonal}
 I~Sasada.
@@ -151,19 +192,19 @@ Cornelis~A Van~Eysden and John~E Sader.
   fluid.
 \newblock {\em Journal of applied physics}, 100(11):114916, 2006.
 
-\bibitem{walther2009micro}
-Arnaud Walther, C~Marcoux, B~Desloges, R~Grechishkin, Dominique Givord, and
-  NM~Dempsey.
-\newblock Micro-patterning of ndfeb and smco magnet films for integration into
-  micro-electro-mechanical-systems.
-\newblock {\em Journal of Magnetism and Magnetic Materials}, 321(6):590--594,
-  2009.
-
 \bibitem{wang2013resin}
 Pei-hong Wang, Kai Tao, Zhuo-qing Yang, and Gui-fu Ding.
 \newblock Resin-bonded ndfeb micromagnets for integration into electromagnetic
   vibration energy harvesters.
 \newblock {\em Journal of Zhejiang University SCIENCE C}, 14(4):283--287, 2013.
+
+\bibitem{wulateral}
+Xiaosong Wu, Guang Yuan, Seong-O Choi, Yanzhu Zhao, Seong-Hyok Kim, Yong-Kyu
+  Yoon, and Mark~G Allen.
+\newblock Lateral lamination approach for multilayer piezoelectric
+  microactuator.
+\newblock {\em Solid-State Sensor, Actuator, and Microsystems Workshop, Hilton
+  Head Island, SC}, pages 372--375, 2006.
 
 \bibitem{yoon2006multidirectional}
 Y-K Yoon, J-H Park, and Mark~G Allen.
@@ -171,11 +212,29 @@ Y-K Yoon, J-H Park, and Mark~G Allen.
 \newblock {\em Journal of microelectromechanical systems}, 15(5):1121--1130,
   2006.
 
+\bibitem{yoon2013multi}
+Yong-Kyu Yoon.
+\newblock Multiferroics for frequency agile microwave applications.
+\newblock {\em The Journal of Korean-American Scientists and Engineering
+  Association}, 42(1):37--39, 2013.
+
+\bibitem{yoon2005low}
+Yong-Kyu Yoon, J~Stevenson Kenney, Andrew~T Hunt, and Mark~G Allen.
+\newblock Low-loss microelectrodes fabricated using reverse-side exposure for a
+  tunable ferroelectric capacitor application.
+\newblock {\em Journal of Micromechanics and Microengineering}, 16(2):225,
+  2005.
+
 \bibitem{yoon2003reduced}
 Yong-Kyu Yoon, Dongsu Kim, Mark~G Allen, J~Stevenson Kenney, and Andrew~T Hunt.
 \newblock A reduced intermodulation distortion tunable ferroelectric
   capacitor-architecture and demonstration.
 \newblock {\em IEEE transactions on microwave theory and techniques},
   51(12):2568--2576, 2003.
+
+\bibitem{znaidi2010sol}
+Lamia Znaidi.
+\newblock Sol--gel-deposited zno thin films: a review.
+\newblock {\em Materials Science and Engineering: B}, 174(1):18--30, 2010.
 
 \end{thebibliography}
