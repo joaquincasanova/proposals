@@ -119,12 +119,7 @@ Our approach is to design a sensor based on a magnetoreceptive mechanism used in
 
 \subsection{Motivation and previous work}
 
-Magnetometers serve an important role in investigating biologically generated electromagnetic fields, such as those created by neuronal currents, or geological magnetic fields. Typically, magnetometers are unable to achieve high sensitivity in an ambient, unshielded environment - getting to femtotesla level sensitivity requires magnetic shield and cryogenic sensors, such as SQUID \cite{lenz2006magnetic}. The novel spin relaxation free magnetometer has been minaturized and achieves less than 10 fT/$\sqrt{Hz}$, but still requires shielding and lacks directional sensitivity \cite{shah2013compact}. Fluxgates have achieved pT level resolution at small size, but this is insufficient for biomagnetic field measurement \cite{sasada2002orthogonal,uchiyama2014highly,sasada2014fundamental} 
-
-Lorenz-type magnetometers (which translate magnetic fields into mechanical actuation of a magnet or current carrying wire) have been built in MEMS substrates, but are as yet insufficiently sensitive and require shielding \cite{sinha201627,kyynarainen20083d,kumar2015ultra,thompson2009parametrically}
-
-Three of the proposers (Drs. Lin, Li, and Casanova) have been involved in previous DARPA work on the Mind Electromagnetic Localization Device (MELD) project, which involved designing, fabricating, and testing low-field magnetometers and the concomitant circuitry and software. Our experience in this field has given us useful experience and equipment, so we are familiar already with this pitfalls and challenges associated with the previously mentioned approaches. Dr. Yoon has direct experience in developing advance microfabrciation processes and applications (
-\cite{yoon2003reduced,yoon2006multidirectional}), leading us to consider a different approach: mimicking the magnetometry found in nature on the cellular level.
+Magnetometers serve an important role in investigating biologically generated electromagnetic fields, such as those created by neuronal currents, or geological magnetic fields. Typically, magnetometers are unable to achieve high sensitivity in an ambient, unshielded environment - getting to femtotesla level sensitivity requires magnetic shield and cryogenic sensors. Three of the proposers (Drs. Lin, Li, and Casanova) have been involved in previous DARPA work on the Mind Electromagnetic Localization Device (MELD) project, which involved designing, fabricating, and testing low-field magnetometers and the concomitant circuitry and software. Our experience in this field has given us useful experience and equipment, so we are familiar already with this pitfalls and challenges associated with the previously mentioned approaches. Dr. Yoon has direct experience in developing advance microfabrciation processes and applications\cite{yoon2003reduced,yoon2006multidirectional}, leading us to consider a different approach: mimicking the magnetometry found in nature on the cellular level.
 
 \begin{wrapfigure}{L}{.65\textwidth}
 \centering
@@ -303,10 +298,10 @@ After the signal is demodulated to the baseband, circuit techniques including dy
 There are several risks and challenges associated with this design. Most can be addressed simply by doing careful analysis of the problem within the range of constraints on materials and processes. Others (the density of interconnects, or resonant frequency being too high) can be addressed by reducing the number of elements and increasing their size. Damping due to the viscosity of air that may hurt sensitivity could be addressed by vacuum packaging the sensor head. Manufacturing mismatch of the sensing elements can be effectively removed by dynamic element matching, where the transducers are switched electronically to average out fabrication differences.
 
 \section{Schedule and Milestones}
-
+\iffalse
 \begin{table}[h!]
 \centering
-  \begin{tabular}{|c||c|}
+  \begin{tabular}{|c||c|c|}
     \hline
     Phase & Milestone \\
     \hline
@@ -341,11 +336,13 @@ There are several risks and challenges associated with this design. Most can be 
 \caption{Milestones schedule}
 \label{table:sched}
 \end{table}
+\fi
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{Gantt_chart_milestone}
+\label{fig:gantt}
+\end{figure}
 
-Include a high-level Gantt chart outlining major technical tasks and measureable milestones
-by phase. At a minimum, the schedule should include each SOW task of Volume 1, Section
-II.A. Where risk reduction tasks are proposed, the schedule should include a milestone for
-assessment and removal of redundant tasks.
 
 \section{Test Plan}\label{sec:test}
 
@@ -353,11 +350,13 @@ To test, in Phase 1, the sensor will first be connected to the circuitry and pow
 
 \section{Results and Technology Transfer}
 
-Our research team has demonstrated successful technology transfer to the government and private sectors in our work on wireless power, vital signs radar, and low-field magnetometry. UF's Office of Technology Licensing is very helpful in patenting and licensing new engineering developments from research. Dr. Lin's group produced several patents on wireless power and wireless sensor that have already been licensed. The technology transfer of wireless charging technologies to WiPower resulted in a successful acquisition by Qualcomm. Dr. Yoon's group … (YK please add example). Dr. Li's group … (Changzhi please briefly describe TTU technology transfer and add example)
+Our research team has demonstrated successful technology transfer to the government and private sectors in our work on wireless power, vital signs radar, and low-field magnetometry. UF's Office of Technology Licensing is very helpful in patenting and licensing new engineering developments from research. Dr. Lin's group produced several patents on wireless power and wireless sensor that have already been licensed. The technology transfer of wireless charging technologies to WiPower resulted in a successful acquisition by Qualcomm. Dr. Yoon's group … (YK please add example). Dr. Li’s group has full support from the TTU Office of Research Commercialization on technology transfer. Several IPs developed by Dr. Li’s group on biomedical radar sensors are licensed to startup company yearONE, LLC.
 
-The proposed work is highly amenable to technology transfer. The sensor and circuit design is novel and likely patentable, even if it fails to meet all requirements in the BAA. This can be considered fundamental research and thus not ITAR-controlled. Further, there is no private industry involvement, so any technology transfer is just between UF and DARPA.
+This project based on innovative biomimetic concept is expected to generate intellectual properties (IP) on sensor design, microfabrication process, and circuit design that can be patented and licensed to companies interested in commercialization. The team will work with their universities on patent application and technology transfer as soon as any new IP is generated. 
 
 \section{Ongoing Research}
+Current state of the art magnetometers include the standard, cryogenic SQUID \cite{lenz2006magnetic}. The novel spin relaxation free magnetometer has been minaturized and achieves less than 10 fT/$\sqrt{Hz}$, but still requires shielding and lacks directional sensitivity \cite{shah2013compact}. Fluxgates have achieved pT level resolution at small size, but this is insufficient for biomagnetic field measurement \cite{sasada2002orthogonal,uchiyama2014highly,sasada2014fundamental}  Lorenz-type magnetometers (which translate magnetic fields into mechanical actuation of a magnet or current carrying wire) have been built in MEMS substrates, but are as yet insufficiently sensitive and require shielding \cite{sinha201627,kyynarainen20083d,kumar2015ultra,thompson2009parametrically}.
+
 Presently, Drs. Lin, Li, and Casanova are involved (until 6/2017) in a DARPA project for detection and inversion of MEG/EEG signals. They have worked on all phases, from sensor design to circuit design to inversion algorithm. Additionally, Drs. Lin and Li have worked exensively on vital signs radar, and Dr. Casanova has worked on electromagnetic sensors for agriculture and analytical chemistry. Dr. Yoon has conducted research in MEMS systems of all types, including piezoelectronics and magnetics.
 
 \section{Proposer Accomplishments}
@@ -380,7 +379,7 @@ With the experience on a relevant project as well as past working relationships 
   \item[Jenshan Lin] Project Lead overseeing all tasks on this project and co-supervise a graduate student and an undergraduate student with Dr. Casanova. 10\% (0\% in budget) 9/1/2017-8/31/2018, 15\% academic months/33\% summer months starting 9/1/2018. He received Ph.D. in Electrical Engineering from UCLA in 1994, and worked for Bell Labs (under AT\&T and Lucent) and its spinoff Agere Systems 1994-2013. He has been a faculty in University of Florida since 2003, and is currently a Full Professor. He is a Fellow of IEEE, and is an expert on RFIC, wireless sensors, and wireless power transfer. He has over 260 technical publications in refereed journals and conference proceedings, and holds 15 patents. Since joining University of Florida, he has graduated 24 Ph.D. students.
   \item[Joaquin Casanova] will conduct electromagnetic simulation and design of the MEMS sensor, and work with Dr. Yoon on process/material selection, and Dr. Li on requirements for the interface and control circuits. His commitment is 15\% academic months/33\% summer months starting 9/1/2017. He received a B.S. and M.E. in Agricultural and Biological engineering in 2006 and 2007 from UF, and PhD in Electrical Engineering in 2010 from UF. His work has primarily focused on sensors and electromagnetic design, including wireless power, microwave remote sensing, agricultural sensors, analytical chemistry equipment design, and low-field magnetic sensing. He is currently a Research Assistant Professor in UF's Department of Electrical and Computer Engineering. 
   \item[YK Yoon] will guide selection of a microfabrication process and fabrication of the sensor. His commitment is 15\% academic months/33\% summer months starting 9/1/2017. He received his BS and MS degrees in electrical engineering from Seoul National University in Korea. He also earned an MSEE degree from the New Jersey Institute of Technology, Newark, NJ in 1999 and the Ph.D. degree in electrical and computer engineering from the Georgia Institute of Technology, Atlanta, GA in 2004. He is currently an Associate Professor in the Department of Electrical and Computer Engineering at the University of Florida, Gainesville, FL.  His current research interests include three dimensional (3-D) micromachining and nano fabrication; design and implementation of metamaterial for radio frequency (RF) and microwave applications; micromachined millimeter wave and terahertz antennas and waveguides; bio/microfluidic systems for the lab-on-a-chip applications; wireless telemetry systems for biomedical applications; and ferroelectric material development for high density memory devices and/or tunable RF devices.
-  \item[Changzhi Li] will design the electronics for amplifying and digitizing the signals from the sensor head, working with Dr. Casanova to determine ciruit requirements. His time commitment is 15\% academic months/33\% summer months starting 9/1/2017. He received the B.S. degree in electrical engineering from Zhejiang University, China, in 2004 and the Ph.D. degree in electrical engineering from the University of Florida, Gainesville, FL, in 2009. In the summers of 2007 and 2008, he worked at Alereon Inc., Austin, TX, on ultrawideband (UWB) transceiver. In the summer of 2009, he worked at Coherent Logix Inc., Austin, TX, on software-defined radio. His research interests include analog circuits, microwave circuits, and biomedical applications of microwave/RF.
+  \item[Changzhi Li] will design the electronics for amplifying and digitizing the signals from the sensor head, working with Dr. Casanova to determine circuit requirements. His time commitment is 15\% academic year and 1 summer month. He received the B.S. degree in electrical engineering from Zhejiang University, China, in 2004 and the Ph.D. degree in electrical engineering from the University of Florida, Gainesville, FL, in 2009. In the summers of 2007 and 2008, he worked at Alereon Inc., Austin, TX, on ultrawideband (UWB) transceiver. In the summer of 2009, he worked at Coherent Logix Inc., Austin, TX, on software-defined radio. He was a consultant for DIS Semiconductor in Austin, TX in the summer of 2012. He was a consultant for Texas Instruments (TI) teaching TI employees “Design & Analysis of Analog ICs in LBC7 Process” in the summer of 2013. His research interests include analog circuits, microwave circuits, and biomedical applications of microwave/RF. He has published over 200 journal and conference papers in these fields. He holds 6 US patents.
 \end{description}
 \required{Additional Information}
 
