@@ -199,9 +199,9 @@ Rare-earth magnetic materials, such as alloys of Sm-Co, offer high magnetic ener
 \label{fig:yoon_3d}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h!]
 \centering
-\includegraphics[width=0.6\textwidth]{yoon_process}
+\includegraphics[width=0.5\textwidth]{yoon_process}
 \caption{Magnetic cantilever fabrication. The patterning associated with steps 1-3 of the process described in the text are not
 shown due to image complexity and are represented by (a)}
 \label{fig:yoon_process}
@@ -212,7 +212,7 @@ Our proposed fabrication procedure is similar to others in MEMS \cite{shen2008de
 \item Deposit silicon oxide using plasma enhanced chemical vapor deposition (PECVD) and pattern bottom electrode materials (titanium and platinum: Ti/Pt) with RIE etching according to the first mask in the electrode area (Fig. \ref{fig:yoon_process}(a))
 \item Deposit the piezoelectric material (ZnO) and pattern with wet etching according to the second mask in the electrode area (Fig. \ref{fig:yoon_process}(a))
 \item Deposit the top electrode material (Ti/Pt) and pattern with liftoff according to the third mask in the electrode area (Fig. \ref{fig:yoon_process}(a)) 
-\item Use RIE to etch the layers deposited in the preceding steps to define the cantilever with the forth mask (Fig. \ref{fig:yoon_process}(b))
+\item Use RIE to etch the layers deposited in the preceding steps to define the cantilever with the fourth mask (Fig. \ref{fig:yoon_process}(b))
 \item Deposit the magnetic proof mass using the mold approach (NdFeB) or electroplating (FePt or CoPt) with the fifth mask (Fig. \ref{fig:yoon_process}(c))
 \item Use backside exposure to pattern the backside of the silicon according to the sixth mask (Fig. \ref{fig:yoon_process}(d))
 \item Etch the backside of the silicon using KOH with a p+ epilayer as an etch stop (Fig. \ref{fig:yoon_process}(e))
@@ -290,6 +290,8 @@ After the signal is demodulated to the baseband, circuit techniques including dy
     \hline
     Sensitive to mechanical vibration & 3 & 5 & Use additional, non-magnetic cantilevers to cancel mechanical vibrations. \\
     \hline
+    Insufficient torque generated on magnetic substrate & 5 & 10 & Re-evaluate material selection and geometery. \\
+    \hline
 \end{tabularx}
 \caption{Risk matrix}
 \label{table:risk}
@@ -298,51 +300,44 @@ After the signal is demodulated to the baseband, circuit techniques including dy
 There are several risks and challenges associated with this design. Most can be addressed simply by doing careful analysis of the problem within the range of constraints on materials and processes. Others (the density of interconnects, or resonant frequency being too high) can be addressed by reducing the number of elements and increasing their size. Damping due to the viscosity of air that may hurt sensitivity could be addressed by vacuum packaging the sensor head. Manufacturing mismatch of the sensing elements can be effectively removed by dynamic element matching, where the transducers are switched electronically to average out fabrication differences.
 
 \section{Schedule and Milestones}
-\iffalse
-\begin{table}[h!]
-\centering
-  \begin{tabular}{|c||c|c|}
-    \hline
-    Phase & Milestone \\
-    \hline
-    \hline
-    1 & Cantilever simulation and design \\
-    \hline
-    1 & Microfabrication \\
-    \hline
-    1 & Circuit design \\
-    \hline
-    1 & Testing \\
-    \hline
-    \hline
-    2 & Cantilever simulation and design \\
-    \hline
-    2 & Microfabrication \\
-    \hline
-    2 & Circuit design \\
-    \hline
-    2 & Testing \\
-    \hline
-    \hline
-    3 & Cantilever simulation and design \\
-    \hline
-    3 & Microfabrication \\
-    \hline
-    3 & Circuit design \\
-    \hline
-    3 & Testing \\
-    \hline
-  \end{tabular}
-\caption{Milestones schedule}
-\label{table:sched}
-\end{table}
-\fi
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{Gantt_chart_milestone}
-\label{fig:gantt}
-\end{figure}
 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Gantt1}
+\label{fig:gantt1}
+\end{figure}
+Phase 1 Milestones:
+\begin{itemize}
+\item End of Q5 – complete modeling and design of biomimetic sensor; complete microfabrication plan and sensor prototype;
+complete PCB circuit.
+\item End of Q6 – demonstrate the proof-concept prototype meeting Phase 1 requirements.
+\end{itemize}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Gantt2}
+\label{fig:gantt2}
+\end{figure}
+Phase 2 Milestones:
+\begin{itemize}
+\item End of Q3 – complete simulation and design of sensor banks with improved performance; complete microfabrication
+of revised sensor head; complete sensor amplification IC.
+\item End of Q4 – demonstrate the integrated sensor meeting Phase 2 requirements.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Gantt3}
+\label{fig:gantt3}
+\end{figure}
+Phase 3 Milestones:
+\begin{itemize}
+\item End of Q3 – complete simulation and design of final optimized micro sensor; complete design and fabrication of
+sensor amplification IC with ADC; complete fabrication and integration of final sensor with IC.
+\item End of Q4 – demonstrate the final gradiometer meeting Phase 3 requirements.
+\end{itemize}
 
 \section{Test Plan}\label{sec:test}
 
@@ -362,108 +357,20 @@ Drs. Lin, Li, and Casanova were involved in a previous DARPA project for detecti
 
 \section{Facilities}
 UF and TTU have adequate facilities to carry out the proposed research tasks.
-Facilities at UF for sensor development and testing include magnetic shielding, circuit testing instrumentation (power supplies, oscillopes, function generators, VNA). For fabrication, the Nanoscale Research Facility at UF includes equipment for a variety of processes: plasma, vapor, and sputtering deposition, annealing, wafer bonding, wire bonding, UV and e-beam lithography, reverse ion etching, and wet etching.
+PI Lin's facilities at UF for sensor development and testing include magnetic shielding, circuit testing instrumentation (power supplies, oscillopes, function generators, VNA). 
 
 Dr. Li's research group at the Texas Tech University is located in a fully ESD-protected Microwave and Analog Circuits Laboratory. The PI has obtained full support from the Texas Tech University Provost Office and Electrical and Computer Engineering Department to establish this well-equipped lab and enhance the department’s research strength on the microwave, and analog circuits. Equipment includes high-frequency network analyzers, signal generators, spectrum analyzer, and oscilloscopes; software useful to this project includes Cadence, Altium, MATLAB, and Labview.
 
-University of Florida (UF), Gainesville, FL has state-of-the-art laboratory facilities in many fields of engineering and science. The University strives to conduct frontier research in broad range of disciplines including engineering, science, medicine, agriculture, education and related disciplines, and provides the nation and its industries with highly qualified graduates.  
-
 Co-PI Yong-Kyu Yoon is a member of the Interdisciplinary Microsystems Group (IMG) laboratories at UF that consist of 11 newly renovated laboratories with 5800 ft$^2$ of lab space used for microsystems design, fabrication, packaging, and characterization.  Seven lab spaces (computer, machine shop, electrical testing, mechanical testing, optics, packaging, and wet processing) are considered to be communal lab spaces and the remaining four labs contain more specialized equipment for specific areas of research. 
 
-\begin{description}
-\item[BEN 200 and NEB 500] The IMG computer lab is located in 200 Benton (BEN) Hall and is for engineering design and simulation. Also, an additional simulation lab in the ECE department is located in New Engineering Building (NEB) 500. Available software includes following:
-\begin{itemize}
-\item PSpice (OrCAD Inc.)  
-\item Multiphysics simulation tool COMSOL package (COMSOL Inc.)  
-\item High frequency structure simulator (HFSS, Ansys, Inc.) 
-\item Designer (Ansys, Inc.)
-\item 50 Linux and SUN systems 
-\item Agilent high frequency simulation package (EmPro)
-\end{itemize}
-\item[BEN 214 and NEB 500] Electronic characterization facility:
-\begin{itemize}
-\item Impedance Analyzer (HP 4194)   
-\item Parameter Analyzer  
-\item Power meter, Spectrum Analyzer, Oscilloscope, Digital multimeter, Power supply 
-\item Vector Network Analyzer (Agilent, E5071E) (3 kHz ~ 20 GHz) 
-\item Probe Station
-\item Vector Network Analyzer (E8361A, Agilent, Inc.) (50 MHz ~ 110 GHz)
-\item Probe Station (Cascade Microtech)
-\end{itemize}
-\item[Major Analytical Instrumentation Center (MAIC)]:
-\begin{itemize} 
-\item Auger Spectroscopy (Perkin-Elmer PHI 660) 
-\item XPS (Perkin Elmer 5100 XPS System) 
-\item Focused Ion Beam (FIB Dual-Beam Strata DB235) 
-\item Scanning Electron Microscopes (FEI XL-40 FEG-SEM, JEOL 6335F FEG-SEM, JEOL SEM-6400, JEOL SEM-6400 2) 
-\item Scanning Probe Microscopy (SPM/AFM Dimension 3100, SPM/AFM Multimode Nanoscope III) 
-\item Surface Metrology (Veeco Wyko NT 1000 Profiler) 
-\item Transmission Electron Microscope (JEOL 200CX TEM, JEOL 2010F TEM) 
-\item TriboIndenter (Hysitron TriboIndenter) 
-\item X-Ray Diffraction (Philips APD 3720, Phlips HT APD 3720, Philips XPert MRD)
-\end{itemize}
-\end{description}
+The IMG computer lab is located in 200 Benton (BEN) Hall and is for engineering design and simulation. Also, an additional simulation lab in the ECE department is located in New Engineering Building (NEB) 500. Available software includes following: PSpice (OrCAD Inc.), Multiphysics simulation tool COMSOL package (COMSOL Inc.), and  High frequency structure simulator (HFSS, Ansys, Inc.), among others. The electronic characterization facility contains an impedance Analyzer (HP 4194),  spectrum analyzer,  vector network analyzer (Agilent, E5071E) (3 kHz ~ 20 GHz), and a probe station (Cascade Microtech).
 
-The Nanoscale Research Facility (NRF) is a multi-user oriented class 100-1000 cleanroom facility that provides nanofabrication and characterization equipment to the scientific community at the University of Florida. The cleanroom features a bay-and-chase layout with seven different research bays, including e-beam lithography, bio/nano biological, photolithography, wet processing, hot processing, thin film deposition, and dry etching bays.  Additionally, electroplating systems for copper and ferromagnetic materials and high temperature furnace (Linderburg) are available in BEN 230 and 237C.
+The Major Analytical Instrumentation Center (MAIC) houses many instruments, including an Auger Spectroscopy (Perkin-Elmer PHI 660), XPS (Perkin Elmer 5100 XPS System), Focused Ion Beam (FIB Dual-Beam Strata DB235), scanning electron microscopes (FEI XL-40 FEG-SEM, JEOL 6335F FEG-SEM, JEOL SEM-6400, JEOL SEM-6400 2), and x-ray diffraction instrument (Philips APD 3720, Phlips HT APD 3720, Philips XPert MRD)
 
-Major device fabrication equipment includes:
-\begin{description}
-\item[Lithography]:
- 
-\begin{itemize}
-\item Raith-150 electron beam direct write lithography system 
-\item Deep UV photolithography system 
-\item EVG 620 back-side aligner/wafer bonder 
-\item Karl Suss MA6, MJB3 aligners 
-\item EVG501 wafer bonder 
-\end{itemize}
-
-\item[Deposition]:
- 
-\begin{itemize}
-\item STS 310PC PECVD  
-\item KJL multi-target sputtering system 
-\item E-beam and thermal evaporators 
-\end{itemize}
-
-\item[Furnaces]:
- 
-\begin{itemize}
-\item Tystar LPCVD, oxidation, polysilicon, and diffusion furnaces  
-\item Heatpulse 2100 RTA  
-\item Steag 100CS RTP 
-\end{itemize}
-
-\item[Etching]:
- 
-\begin{itemize}
-\item STS ASE deep reactive ion etcher  
-\item Unaxis RIE-ICP  
-\item Plasma Sciences RIE 
-\item Anatech SCE600 asher 
-\end{itemize}
-
-\item[Backend]:
- 
-\begin{itemize}
-\item Dicing saws, wire-bonders, and die bonding apparatus 
-\end{itemize}
-
-\item[Metrology]:
- 
-\begin{itemize}
-\item Lakeshore 7507 Hall effect magnetic measurement system 
-\item Tencor and Dektak profilometers  
-\item Nanometrics Nanospec 
-\item Prometrix wafer resistivity mapper 
-\item J.A. Woolam ellipsometer 
-\item Probe stations, resistivity probes, CV analyzer, inspection probes
-\end{itemize}
-
-\end{description}
+The Nanoscale Research Facility (NRF) is a multi-user oriented class 100-1000 cleanroom facility that provides nanofabrication and characterization equipment to the scientific community at the University of Florida. The cleanroom features a bay-and-chase layout with seven different research bays, including e-beam lithography, bio/nano biological, photolithography, wet processing, hot processing, thin film deposition, and dry etching bays.  Additionally, electroplating systems for copper and ferromagnetic materials and high temperature furnace (Linderburg) are available in BEN 230 and 237C. Major device fabrication equipment includes: Raith-150 electron beam direct write lithography system, deep UV photolithography system, EVG 620 back-side aligner/wafer bonder, Karl Suss MA6, MJB3 aligners, EVG501 wafer bonder, STS 310PC PECVD, KJL multi-target sputtering system, E-beam and thermal evaporators Tystar LPCVD, oxidation, polysilicon, and diffusion furnaces, STS ASE deep reactive ion etcher, Unaxis RIE-ICP, dicing saws, wire-bonders, and die bonding apparatus, as well as metrology instrumentation.
 
 \section{Teaming}
-The project team consists of Dr. Jenshan Lin, Dr. Joaquin Casanova, and Dr. Yong-Kyu (YK) Yoon from University of Florida, and Dr. Changzhi Li from Texas Tech University. While working on the previous DARPA project, Dr. Lin teamed up with his former Ph.D. students Dr. Casanova and Dr. Li to work on the design of room-temperature MEG sensors and circuits for unshielded operation as well as the inversion algorithm for signal processing. Toward the end of the project, an idea of this proposed biomimetic sensor emerged as a promising candidate to significantly improve the sensitivity in unshielded environment while significantly reducing the size. The new concept requires microfabrication using thin-film magnetic materials and piezoelectric materials, and therefore Dr. Lin invited his colleague Dr. Yoon, an expert on this specific microfabrication process, to join the team. Dr. Lin and Dr. Yoon have been serving on each other’s Ph.D. student committees very often, and are familiar with each other’s technical expertise.
+The project team consists of Dr. Jenshan Lin, Dr. Joaquin Casanova, and Dr. Yong-Kyu (YK) Yoon from University of Florida, and Dr. Changzhi Li and Dr. Scott Block from Texas Tech University. While working on the previous DARPA project, Dr. Lin teamed up with his former Ph.D. students Dr. Casanova and Dr. Li to work on the design of room-temperature MEG sensors and circuits for unshielded operation as well as the inversion algorithm for signal processing. Toward the end of the project, an idea of this proposed biomimetic sensor emerged as a promising candidate to significantly improve the sensitivity in unshielded environment while significantly reducing the size. The new concept requires microfabrication using thin-film magnetic materials and piezoelectric materials, and therefore Dr. Lin invited his colleague Dr. Yoon, an expert on this specific microfabrication process, to join the team. Dr. Lin and Dr. Yoon have been serving on each other’s Ph.D. student committees very often, and are familiar with each other’s technical expertise.
 
 In this project, Dr. Lin will serve as the PI managing the project. Dr. Lin is currently serving as a program director of Communications, Circuits, and Sensing Systems in National Science Foundation. His two-year appointment is scheduled to end on 10/18/2018. While at NSF, he is allowed to spend about 20\% his time on university research projects (but no salary support on government-funded projects per NSF rule). Dr. Lin is planning to dedicate 10\% effort on this proposed project in the first 12 months, end his NSF appointment earlier to return to his university position on 10/1/2018, and switch to 15\% effort on this project during academic semesters and 33\% effort during summer. The project management during the first 12 months is not a problem, as in the pervious DARPA project he also served as the PI and Dr. Casanova handled all technical matters while he was away at NSF. The same arrangement is expected to work, and therefore Dr. Lin and Dr. Casanova are both listed as Technical Point of Contact. 
 
@@ -475,6 +382,8 @@ With the experience on a relevant project as well as past working relationships 
   \item[YK Yoon] will guide selection of a microfabrication process and fabrication of the sensor. Collaborating with Dr. Lin, Dr. Casanova, and Dr. Li, he as a Co-PI supervises two graduate students for microfabrication of sensors. He commits his efforts for 15\% academic months and 33\% summer months through out all the phases. He received his Ph.D. degree in electrical and computer engineering from the Georgia Institute of Technology, Atlanta, GA in 2004. He is currently an Associate Professor in the Department of Electrical and Computer Engineering at the University of Florida, Gainesville, FL. He has direct experience in the development of MEMS resonator based magnetic sensors \cite{choi2006magnetically, choi2006magnetically2, choi2011nonlinear}, and strong expertise in microfabrication \cite{yoon2006multidirectional}, piezoelectric \cite{wulateral}, ferroelectric \cite{kim2014microwave,yoon2005low,yoon2003reduced}, ferromagnetic \cite{rahimi2016study,rahimi2015cylindrical,yoon2013multi}, and multiferroic devices \cite{yoon2013multi,kim2014room}.
 
   \item[Changzhi Li] will design the electronics for amplifying and digitizing the signals from the sensor head, working with Dr. Casanova to determine circuit requirements. His time commitment is 15\% academic year and 1 summer month. He received the B.S. degree in electrical engineering from Zhejiang University, China, in 2004 and the Ph.D. degree in electrical engineering from the University of Florida, Gainesville, FL, in 2009. In the summers of 2007 and 2008, he worked at Alereon Inc., Austin, TX, on ultrawideband (UWB) transceiver. In the summer of 2009, he worked at Coherent Logix Inc., Austin, TX, on software-defined radio. He was a consultant for DIS Semiconductor in Austin, TX in the summer of 2012. He was a consultant for Texas Instruments (TI) teaching TI employees 'Design \& Analysis of Analog ICs in LBC7 Process' in the summer of 2013. His research interests include analog circuits, microwave circuits, and biomedical applications of microwave/RF. He has published over 200 journal and conference papers in these fields. He holds 6 US patents.
+  \item[Scott Block] received his B.S. in Mechanical Engineering from the University of Illinois at Urbana- Champaign in 2006, M.S. degree in Electrical Engineering from Texas Tech University in 2010, and PhD degree in Electrical and Computer Engineering from the University of California at Davis in 2017. He has held internship positions at MEMS startup companies Chirp Microsystems (ultrasonic gesture systems) and Picosense Inc. (magnetic sensing of the heart). His research interests include mixed-signal CMOS circuit design, MEMS, W-to-nW sensor interfaces, energy harvesting, and power electronics. He designed, fabricated, and tested 3 different versions of nW mixed signal front-ends for MEMS microphones and accelerometers used as a trip sensor for UC Davis’ entry to the N-ZERO DARPA project. He also contributed heavily to the proposed design for Phase 2 of the N-ZERO project. Dr. Block is relocated to Lubbock TX and will serve as a research associate for the proposed AMBIENT project.
+  
 \end{description}
 \required{Additional Information}
 
