@@ -67,9 +67,7 @@ The objective in this phase, to be accomplished at UF by Dr. Yoon and Dr. Joaqui
 
 \subsection{Phase 2 Tasks}
   
-AMBIIENT Phase 2 will develop and demonstrate an integrated sensor head meeting the
-performance and SWaP metrics of Table \ref{table:obj}, and including all vacuum, photonic, and thermal
-control components.
+AMBIIENT Phase 2 will develop and demonstrate an integrated sensor head meeting the performance and SWaP metrics of Table \ref{table:obj}, and including all vacuum, photonic, and thermal control components.
 
 \subsubsection{Modeling and simulation of sensor banks with improved performance}\label{sec:p2:em}
 
@@ -156,7 +154,7 @@ $$ V=\frac{\int_0^L\int_{-t/2}^{t/2}\left|\frac{Ny(L-x)}{LI}g_{31}n\right|dydx}{
 
 Two features are possible from the cantilever design: frequency selection and gradiometery. As in \cite{shen2008design}, a cantilever has a resonant frequency, which can be modified through geometrical parameters. Peak response will be achieved at this frequency. By selecting many cantilevers of different dimensions, each corresponding to a separate output, the magnetometer output is a spectrometer. Many cantilevers at the same resonance in series generate a larger voltage; in anti-series, the difference is taken, thus functioning as a gradiometer with very high spatial resolution (Figure \ref{fig:diagram}).
 
-The noise floor of magnetic materials is governed by Barkhausen noise - the random flipping of magnetic domains \cite{butta2012sources}; this noise is characterized as a flux noise level. The flux noise can be converted into a magnetic moment noise, and thus moment noise. Piezo noise floor is largely a function of piezo losses \cite{levinzon2004fundamental}. Additionally, there is the input-referred noise of any amplifier. With conservative estimates for all of these, and two anti-series banks of 30 cantilevers each with dimensions 400x40x3 $\mu$m, the sensitivity level is less than 10 fT/cm/$\sqrt{Hz}$.
+The noise floor of magnetic materials is governed by Barkhausen noise - the random flipping of magnetic domains \cite{butta2012sources}; this noise is characterized as a flux noise level. The flux noise can be converted into a magnetic moment noise, and thus moment noise. Piezo noise floor is largely a function of piezo losses \cite{levinzon2004fundamental}. Additionally, there is the input-referred noise of any amplifier. With conservative estimates for all of these, and two anti-series banks of 30 cantilevers each with dimensions 400x40x3$\mu$m, using a simplified model for a cantilever beam, the sensitivity level is less than 10 fT/cm/$\sqrt{Hz}$, and roughly 100 pT/$\sqrt{Hz}$. Of course, this is an optimistic estimate, and more detailed analysis is required. 
 
  Even though biological magnetoreception is limited to nT sensitivity, our design will allow us to surpass this. First, by careful selection of materials (such as Co-Pt or rare-earth magnets) \cite{coey2010magnetism, arnold2009permanent} we can have much higher magnetic dipole moment, and thus higher moment. Second, by careful selection of geometry, we can employ parametric resonance \cite{van2006resonant}. Third, by using many elemens in series and summing, we can increase signal-to-noise ratio (SNR). Finally, using two banks of series cantilevers in anti-series, we both boost the voltage and create a high resolution gradiometer.
 
@@ -276,15 +274,15 @@ After the signal is demodulated to the baseband, circuit techniques including dy
     Risk & Probability & Impact & Plan\\
     \hline
     \hline
-    Insufficient sensitivity in simulation & 3 & 10 & Optimize design architecture. \\
+    Insufficient sensitivity in simulation & 5 & 10 & Optimize design architecture. \\
     \hline
     Best available MEMS processes infeasible & 4 & 10 & Begin design process within constraints of available processes. \\
     \hline
     Interconnects infeasible & 3 & 5 & Operate fewer, larger cantilevers \\
     \hline
-    Viscous damping hurts sensitivity & 3 & 5 & Operate in vacuum packaging \\
+    Viscous damping hurts sensitivity & 5 & 7 & Operate in vacuum packaging \\
     \hline
-    Resonance frequency infeasibly high & 3  & 5 & Operate fewer, larger cantilevers \\
+    Resonance frequency infeasibly high & 6  & 10 & Operate fewer, larger cantilevers, or operate off-resonance \\
     \hline
     Fabrication unreliable/mismatch & 3 & 5 & Begin fabrication early, so process can be adjusted; dynamic element matching. \\
     \hline
@@ -297,7 +295,7 @@ After the signal is demodulated to the baseband, circuit techniques including dy
 \label{table:risk}
 \end{table}
 
-There are several risks and challenges associated with this design. Most can be addressed simply by doing careful analysis of the problem within the range of constraints on materials and processes. Others (the density of interconnects, or resonant frequency being too high) can be addressed by reducing the number of elements and increasing their size. Damping due to the viscosity of air that may hurt sensitivity could be addressed by vacuum packaging the sensor head. Manufacturing mismatch of the sensing elements can be effectively removed by dynamic element matching, where the transducers are switched electronically to average out fabrication differences.
+There are several risks and challenges associated with this design, many of them impactful on the probability of success. Most can be addressed early, simply by doing careful analysis of the problem within the range of constraints on materials and processes. Others (the density of interconnects, or resonant frequency being too high) can be addressed by reducing the number of elements and increasing their size. Damping due to the viscosity of air that may hurt sensitivity could be addressed by vacuum packaging the sensor head. Manufacturing mismatch of the sensing elements can be effectively removed by dynamic element matching, where the transducers are switched electronically to average out fabrication differences. Since this is a novel design, there is not a benchmark design in the literature which we know a priori is achievable.
 
 \section{Schedule and Milestones}
 
@@ -345,12 +343,12 @@ To test, in Phase 1, the sensor will first be connected to the circuitry and pow
 
 \section{Results and Technology Transfer}
 
-Our research team has demonstrated successful technology transfer to the government and private sectors in our work on wireless power, vital signs radar, and low-field magnetometry. UF's Office of Technology Licensing is very helpful in patenting and licensing new engineering developments from research. Dr. Lin's group produced several patents on wireless power and wireless sensor that have already been licensed. The technology transfer of wireless charging technologies to WiPower resulted in a successful acquisition by Qualcomm. Dr. Yoon's group have developed a smart mouthguard, a wearable biomedical device for health monitoring. The technology is in a license option agreement phase with Dentsply-Sirona Inc., a dental supplier and instrument company. Dr. Li’s group has full support from the TTU Office of Research Commercialization on technology transfer. Several IPs developed by Dr. Li’s group on biomedical radar sensors are licensed to startup company yearONE, LLC.
+Our research team has demonstrated successful technology transfer to the government and private sectors in our work on wireless power, vital signs radar, and low-field magnetometry. UF's Office of Technology Licensing is very helpful in patenting and licensing new engineering developments from research. Dr. Lin's group produced several patents on wireless power and wireless sensor that have already been licensed. The technology transfer of wireless charging technologies to WiPower resulted in a successful acquisition by Qualcomm. Dr. Yoon's group have developed a smart mouthguard, a wearable biomedical device for health monitoring. The technology is in a license option agreement phase with Dentsply-Sirona Inc., a dental supplier and instrument company. Dr. Li's group has full support from the TTU Office of Research Commercialization on technology transfer. Several IPs developed by Dr. Li's group on biomedical radar sensors are licensed to startup company yearONE, LLC.
 
 This project based on innovative biomimetic concept is expected to generate intellectual properties (IP) on sensor design, microfabrication process, and circuit design that can be patented and licensed to companies interested in commercialization. The team will work with their universities on patent application and technology transfer as soon as any new IP is generated. 
 
 \section{Ongoing Research}
-Current state of the art magnetometers include the standard, cryogenic SQUID \cite{lenz2006magnetic}. The novel spin relaxation free magnetometer has been minaturized and achieves less than 10 fT/$\sqrt{Hz}$, but still requires shielding and lacks directional sensitivity \cite{shah2013compact}. Fluxgates have achieved pT level resolution at small size, but this is insufficient for biomagnetic field measurement \cite{sasada2002orthogonal,uchiyama2014highly,sasada2014fundamental}  Lorenz-type magnetometers (which translate magnetic fields into mechanical actuation of a magnet or current carrying wire) have been built in MEMS substrates, but are as yet insufficiently sensitive and require shielding \cite{sinha201627,kyynarainen20083d,kumar2015ultra,thompson2009parametrically}.
+Current state of the art magnetometers include the standard, cryogenic SQUID \cite{lenz2006magnetic}. The novel spin relaxation free magnetometer has been minaturized and achieves less than 10 fT/$\sqrt{Hz}$, but still requires shielding and lacks directional sensitivity \cite{shah2013compact}. Fluxgates have achieved pT level resolution at small size, but this is insufficient for biomagnetic field measurement \cite{sasada2002orthogonal,uchiyama2014highly,sasada2014fundamental}. Lorenz-type magnetometers (which translate magnetic fields into mechanical actuation of a magnet or current carrying wire) have been built in MEMS substrates, but are as yet insufficiently sensitive and require shielding \cite{sinha201627,kyynarainen20083d,kumar2015ultra,thompson2009parametrically}.
 
 \section{Proposer Accomplishments}
 Drs. Lin, Li, and Casanova were involved in a previous DARPA project for detection and inversion of MEG/EEG signals. They have worked on all phases, from sensor design to circuit design to inversion algorithm. Additionally, Drs. Lin and Li have collaborated extensively on vital sign radar, and Dr. Casanova has worked on electromagnetic sensors for agriculture and analytical chemistry. Dr. Yoon has conducted research on microfabrication of MEMS-based sensor systems using piezoelectric and magnetic materials. He is currently working on a DARPA M3IC project as a Co-PI.
