@@ -3,43 +3,43 @@
 \bibitem{alfadhel2014magnetic}
 Ahmed Alfadhel, Bodong Li, Amir Zaher, Omar Yassine, and J{\"u}rgen Kosel.
 \newblock A magnetic nanocomposite for biomimetic flow sensing.
-\newblock {\em Lab on a Chip}, 14(22):4362--4369, 2014.
+\newblock {\em {Lab on a Chip}}, 14(22):4362--4369, 2014.
 
 \bibitem{arnold2009permanent}
 David~P Arnold and Naigang Wang.
-\newblock Permanent magnets for mems.
-\newblock {\em Journal of microelectromechanical systems}, 18(6):1255--1266,
+\newblock Permanent magnets for {MEMS}.
+\newblock {\em {Journal of Microelectromechanical Systems}}, 18(6):1255--1266,
   2009.
 
 \bibitem{butta2012sources}
 Mattia Butta and Ichiro Sasada.
 \newblock Sources of noise in a magnetometer based on orthogonal fluxgate
   operated in fundamental mode.
-\newblock {\em IEEE Transactions on Magnetics}, 48(4):1508--1511, 2012.
+\newblock {\em {IEEE Transactions on Magnetics}}, 48(4):1508--1511, 2012.
 
 \bibitem{chin2000permanent}
 Tsung-Shune Chin.
 \newblock Permanent magnet films for applications in microelectromechanical
   systems.
-\newblock {\em Journal of Magnetism and Magnetic Materials}, 209(1):75--79,
+\newblock {\em {Journal of Magnetism and Magnetic Materials}}, 209(1):75--79,
   2000.
 
 \bibitem{choi2006magnetically}
 Seungkeun Choi, S-H Kim, Y-K Yoon, and Mark~G Allen.
-\newblock A magnetically excited and sensed mems-based resonant compass.
-\newblock {\em IEEE transactions on magnetics}, 42(10):3506--3508, 2006.
+\newblock A magnetically excited and sensed {MEMS}-based resonant compass.
+\newblock {\em {IEEE Transactions on Magnetics}}, 42(10):3506--3508, 2006.
 
 \bibitem{choi2006magnetically2}
 Seungkeun Choi, S-H Kim, Y-K Yoon, and Mark~G Allen.
-\newblock A magnetically excited and sensed mems-based resonant compass.
-\newblock {\em IEEE International Magnetics Conference (Intermag), San Diego,
-  CA}, 2006.
+\newblock A magnetically excited and sensed {MEMS}-based resonant compass.
+\newblock {\em {IEEE International Magnetics Conference (Intermag), San Diego,
+  CA}}, 2006.
 
 \bibitem{choi2011nonlinear}
 Seungkeun Choi, Yong-Kyu Yoon, Seong-Hyok Kim, and Mark~G Allen.
 \newblock Nonlinear sensitivity enhancement of resonant microsensors and its
   application to low power magnetic sensing.
-\newblock {\em Journal of Micromechanics and Microengineering}, 21(4):045004,
+\newblock {\em {Journal of Micromechanics and Microengineering}}, 21(4):045004,
   2011.
 
 \bibitem{coey2010magnetism}
@@ -51,12 +51,12 @@ John~MD Coey.
 Charlotte~A Dodson, PJ~Hore, and Mark~I Wallace.
 \newblock A radical sense of direction: signalling and mechanism in
   cryptochrome magnetoreception.
-\newblock {\em Trends in biochemical sciences}, 38(9):435--446, 2013.
+\newblock {\em {Trends in Biochemical Sciences}}, 38(9):435--446, 2013.
 
 \bibitem{dupont2003fenics}
 Todd Dupont, Johan Hoffman, Claus Johnson, Robert~C Kirby, Mats~G Larson,
   Anders Logg, and L~Ridgway Scott.
-\newblock The fenics project.
+\newblock The {F}eni{CS} project.
 \newblock Technical report, Tech. Rep. 2003--21, Chalmers Finite Element Center
   Preprint Series, 2003.
 
@@ -65,68 +65,68 @@ Stephan~HK Eder, Herv{\'e} Cadiou, Airina Muhamad, Peter~A McNaughton, Joseph~L
   Kirschvink, and Michael Winklhofer.
 \newblock Magnetic characterization of isolated candidate vertebrate
   magnetoreceptor cells.
-\newblock {\em Proceedings of the National Academy of Sciences of the United
-  States of America}, pages 12022--12027, 2012.
+\newblock {\em {Proceedings of the National Academy of Sciences of the United
+  States of America}}, pages 12022--12027, 2012.
 
 \bibitem{hanzlik2002pulsed}
 Marianne Hanzlik, Michael Winklhofer, and Nikolai Petersen.
 \newblock Pulsed-field-remanence measurements on individual magnetotactic
   bacteria.
-\newblock {\em Journal of Magnetism and Magnetic Materials}, 248(2):258--267,
+\newblock {\em {Journal of Magnetism and Magnetic Materials}}, 248(2):258--267,
   2002.
 
 \bibitem{harrison2003low}
 Reid~R Harrison and Cameron Charles.
-\newblock A low-power low-noise cmos amplifier for neural recording
+\newblock A low-power low-noise {CMOS} amplifier for neural recording
   applications.
-\newblock {\em IEEE Journal of solid-state circuits}, 38(6):958--965, 2003.
+\newblock {\em {IEEE Journal of Solid-State Circuits}}, 38(6):958--965, 2003.
 
 \bibitem{johnsen2005physics}
 S{\"o}nke Johnsen and Kenneth~J Lohmann.
 \newblock The physics and neurobiology of magnetoreception.
-\newblock {\em Nature Reviews Neuroscience}, 6(9):703--712, 2005.
+\newblock {\em {Nature Reviews Neuroscience}}, 6(9):703--712, 2005.
 
 \bibitem{kim2014room}
 Kyoung-Tae Kim, Cheolbok Kim, Sheng-Po Fang, and Yong-Kyu Yoon.
-\newblock Room temperature multiferroic properties of (fex, sr1- x) tio3 thin
-  films.
-\newblock {\em Applied Physics Letters}, 105(10):102903, 2014.
+\newblock Room temperature multiferroic properties of ({Fe}$_x$, {Sr}$_{1-x}$)
+  {TiO}$_3$ thin films.
+\newblock {\em {Applied Physics Letters}}, 105(10):102903, 2014.
 
 \bibitem{kim2014microwave}
 Kyoung-Tae Kim, Cheolbok Kim, David~E Senior, Dongsu Kim, and Yong-Kyu Yoon.
-\newblock Microwave characteristics of sol-gel based ag-doped (ba 0.6 sr 0.4)
-  tio 3 thin films.
-\newblock {\em Thin Solid Films}, 565:172--178, 2014.
+\newblock Microwave characteristics of sol-gel based {Ag}-doped ({Ba}$_{0.6}$
+  {Sr}$_{0.4}$) {TiO}$_{3}$ thin films.
+\newblock {\em {Thin Solid Films}}, 565:172--178, 2014.
 
 \bibitem{kirschvink2001magnetite}
 Joseph~L Kirschvink, Michael~M Walker, and Carol~E Diebel.
 \newblock Magnetite-based magnetoreception.
-\newblock {\em Current opinion in neurobiology}, 11(4):462--467, 2001.
+\newblock {\em {Current Opinion in Neurobiology}}, 11(4):462--467, 2001.
 
 \bibitem{kumar2015ultra}
 Varun Kumar, Mohammad Mahdavi, Xiaobo Guo, Emad Mehdizadeh, and Siavash
   Pourkamali.
-\newblock Ultra sensitive lorentz force mems magnetometer with pico-tesla limit
-  of detection.
-\newblock In {\em Micro Electro Mechanical Systems (MEMS), 2015 28th IEEE
-  International Conference on}, pages 204--207. IEEE, 2015.
+\newblock Ultra sensitive {L}orentz force {MEMS} magnetometer with pico-tesla
+  limit of detection.
+\newblock In {\em {Micro Electro Mechanical Systems ({MEMS}), 2015 28th IEEE
+  International Conference on}}, pages 204--207. IEEE, 2015.
 
 \bibitem{kyynarainen20083d}
 Jukka Kyyn{\"a}r{\"a}inen, Jaakko Saarilahti, Hannu Kattelus, Anu
   K{\"a}rkk{\"a}inen, Tor Meinander, Aarne Oja, Panu Pekko, Heikki Sepp{\"a},
   Mika Suhonen, Heikki Kuisma, et~al.
-\newblock A 3d micromechanical compass.
-\newblock {\em Sensors and Actuators A: Physical}, 142(2):561--568, 2008.
+\newblock A 3{D} micromechanical compass.
+\newblock {\em {Sensors and Actuators A: Physical}}, 142(2):561--568, 2008.
 
 \bibitem{lenz2006magnetic}
 James Lenz and S~Edelstein.
 \newblock Magnetic sensors and their applications.
-\newblock {\em IEEE Sensors journal}, 6(3):631--649, 2006.
+\newblock {\em {IEEE Sensors Journal}}, 6(3):631--649, 2006.
 
 \bibitem{levinzon2004fundamental}
 Felix~A Levinzon.
 \newblock Fundamental noise limit of piezoelectric accelerometer.
-\newblock {\em IEEE Sensors Journal}, 4(1):108--111, 2004.
+\newblock {\em {IEEE Sensors Journal}}, 4(1):108--111, 2004.
 
 \bibitem{rahimi2015cylindrical}
 Arian Rahimi, Jiyu Wu, Xiaoyu Cheng, and Yong-Kyu~‘YK’ Yoon.
@@ -136,105 +136,107 @@ Arian Rahimi, Jiyu Wu, Xiaoyu Cheng, and Yong-Kyu~‘YK’ Yoon.
 
 \bibitem{rahimi2016study}
 Arian Rahimi and Yong-Kyu Yoon.
-\newblock Study on cu/ni nano superlattice conductors for reduced rf loss.
-\newblock {\em IEEE Microwave and Wireless Components Letters}, 26(4):258--260,
-  2016.
+\newblock Study on {Cu/Ni} nano superlattice conductors for reduced {RF} loss.
+\newblock {\em {IEEE Microwave and Wireless Components Letters}},
+  26(4):258--260, 2016.
 
 \bibitem{sasada2002orthogonal}
 I~Sasada.
-\newblock Orthogonal fluxgate mechanism operated with dc biased excitation.
-\newblock {\em Journal of Applied Physics}, 91(10):7789--7791, 2002.
+\newblock Orthogonal fluxgate mechanism operated with {DC} biased excitation.
+\newblock {\em {Journal of Applied Physics}}, 91(10):7789--7791, 2002.
 
 \bibitem{sasada2014fundamental}
 Ichiro Sasada and Shoumu Harada.
 \newblock Fundamental mode orthogonal fluxgate gradiometer.
-\newblock {\em IEEE Transactions on Magnetics}, 50(11):1--4, 2014.
+\newblock {\em {IEEE Transactions on Magnetics}}, 50(11):1--4, 2014.
 
 \bibitem{shah2013compact}
 Vishal~K Shah and Ronald~T Wakai.
 \newblock A compact, high performance atomic magnetometer for biomedical
   applications.
-\newblock {\em Physics in medicine and biology}, 58(22):8153, 2013.
+\newblock {\em {Physics in Medicine and Biology}}, 58(22):8153, 2013.
 
 \bibitem{shen2008design}
 Dongna Shen, Jung-Hyun Park, Jyoti Ajitsaria, Song-Yul Choe, Howard~C
   Wikle~III, and Dong-Joo Kim.
-\newblock The design, fabrication and evaluation of a mems pzt cantilever with
-  an integrated si proof mass for vibration energy harvesting.
-\newblock {\em Journal of Micromechanics and Microengineering}, 18(5):055017,
+\newblock The design, fabrication and evaluation of a {MEMS} {PZT} cantilever
+  with an integrated {Si} proof mass for vibration energy harvesting.
+\newblock {\em {Journal of Micromechanics and Microengineering}}, 18(5):055017,
   2008.
 
 \bibitem{sinha201627}
 Kushagra Sinha and Massood Tabib-Azar.
-\newblock 27 pt silicon nitride mems magnetometer for brain imaging.
-\newblock {\em IEEE Sensors Journal}, 16(17):6551--6558, 2016.
+\newblock 27 pt silicon nitride {MEMS} magnetometer for brain imaging.
+\newblock {\em {IEEE Sensors Journal}}, 16(17):6551--6558, 2016.
 
 \bibitem{tadigadapa2009piezoelectric}
 S~Tadigadapa and K~Mateti.
-\newblock Piezoelectric mems sensors: state-of-the-art and perspectives.
-\newblock {\em Measurement Science and technology}, 20(9):092001, 2009.
+\newblock Piezoelectric {MEMS} sensors: state-of-the-art and perspectives.
+\newblock {\em {Measurement Science and technology}}, 20(9):092001, 2009.
 
 \bibitem{thompson2009parametrically}
 Matthew~J Thompson and David~A Horsley.
-\newblock Parametrically amplified mems magnetometer.
-\newblock In {\em Solid-State Sensors, Actuators and Microsystems Conference,
-  2009. TRANSDUCERS 2009. International}, pages 1194--1197. IEEE, 2009.
+\newblock Parametrically amplified {MEMS} magnetometer.
+\newblock In {\em {Solid-State Sensors, Actuators and Microsystems Conference,
+  2009. TRANSDUCERS 2009. International}}, pages 1194--1197. IEEE, 2009.
 
 \bibitem{uchiyama2014highly}
 Tsuyoshi Uchiyama, Norihiko Hamada, and Changmei Cai.
-\newblock Highly sensitive cmos magnetoimpedance sensor using miniature
+\newblock Highly sensitive {CMOS} magnetoimpedance sensor using miniature
   multi-core head based on amorphous wire.
-\newblock {\em IEEE Transactions on Magnetics}, 50(11):1--4, 2014.
+\newblock {\em {IEEE Transactions on Magnetics}}, 50(11):1--4, 2014.
 
 \bibitem{van2006resonant}
 Cornelis~A Van~Eysden and John~E Sader.
 \newblock Resonant frequencies of a rectangular cantilever beam immersed in a
   fluid.
-\newblock {\em Journal of applied physics}, 100(11):114916, 2006.
+\newblock {\em {Journal of Applied Physics}}, 100(11):114916, 2006.
 
 \bibitem{wang2013resin}
 Pei-hong Wang, Kai Tao, Zhuo-qing Yang, and Gui-fu Ding.
-\newblock Resin-bonded ndfeb micromagnets for integration into electromagnetic
-  vibration energy harvesters.
-\newblock {\em Journal of Zhejiang University SCIENCE C}, 14(4):283--287, 2013.
+\newblock Resin-bonded {NdFeB} micromagnets for integration into
+  electromagnetic vibration energy harvesters.
+\newblock {\em {Journal of Zhejiang University SCIENCE C}}, 14(4):283--287,
+  2013.
 
 \bibitem{wulateral}
 Xiaosong Wu, Guang Yuan, Seong-O Choi, Yanzhu Zhao, Seong-Hyok Kim, Yong-Kyu
   Yoon, and Mark~G Allen.
 \newblock Lateral lamination approach for multilayer piezoelectric
   microactuator.
-\newblock {\em Solid-State Sensor, Actuator, and Microsystems Workshop, Hilton
-  Head Island, SC}, pages 372--375, 2006.
+\newblock {\em {Solid-State Sensor, Actuator, and Microsystems Workshop, Hilton
+  Head Island, SC}}, pages 372--375, 2006.
 
 \bibitem{yoon2006multidirectional}
 Y-K Yoon, J-H Park, and Mark~G Allen.
-\newblock Multidirectional uv lithography for complex 3-d mems structures.
-\newblock {\em Journal of microelectromechanical systems}, 15(5):1121--1130,
+\newblock Multidirectional {UV} lithography for complex {3-D} {MEMS}
+  structures.
+\newblock {\em {Journal of microelectromechanical systems}}, 15(5):1121--1130,
   2006.
 
 \bibitem{yoon2013multi}
 Yong-Kyu Yoon.
 \newblock Multiferroics for frequency agile microwave applications.
-\newblock {\em The Journal of Korean-American Scientists and Engineering
-  Association}, 42(1):37--39, 2013.
+\newblock {\em {The Journal of Korean-American Scientists and Engineering
+  Association}}, 42(1):37--39, 2013.
 
 \bibitem{yoon2005low}
 Yong-Kyu Yoon, J~Stevenson Kenney, Andrew~T Hunt, and Mark~G Allen.
 \newblock Low-loss microelectrodes fabricated using reverse-side exposure for a
   tunable ferroelectric capacitor application.
-\newblock {\em Journal of Micromechanics and Microengineering}, 16(2):225,
+\newblock {\em {Journal of Micromechanics and Microengineering}}, 16(2):225,
   2005.
 
 \bibitem{yoon2003reduced}
 Yong-Kyu Yoon, Dongsu Kim, Mark~G Allen, J~Stevenson Kenney, and Andrew~T Hunt.
 \newblock A reduced intermodulation distortion tunable ferroelectric
   capacitor-architecture and demonstration.
-\newblock {\em IEEE transactions on microwave theory and techniques},
+\newblock {\em {IEEE transactions on Microwave Theory and Techniques}},
   51(12):2568--2576, 2003.
 
 \bibitem{znaidi2010sol}
 Lamia Znaidi.
-\newblock Sol--gel-deposited zno thin films: a review.
-\newblock {\em Materials Science and Engineering: B}, 174(1):18--30, 2010.
+\newblock Sol--gel-deposited {ZnO} thin films: a review.
+\newblock {\em {Materials Science and Engineering: B}}, 174(1):18--30, 2010.
 
 \end{thebibliography}
