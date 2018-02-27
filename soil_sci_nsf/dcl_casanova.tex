@@ -1,0 +1,72 @@
+
+%%%%%%%%% MASTER -- compiles the 6 sections
+
+\documentclass[11pt,letterpaper]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{plain}                                                      %%
+%%%%%%%%%% EXACT 1in MARGINS %%%%%%%                                   %%
+\setlength{\textwidth}{6.5in}     %%                                   %%
+\setlength{\oddsidemargin}{0in}   %% (It is recommended that you       %%
+\setlength{\evensidemargin}{0in}  %%  not change these parameters,     %%
+\setlength{\textheight}{8.5in}    %%  at the risk of having your       %%
+\setlength{\topmargin}{0in}       %%  proposal dismissed on the basis  %%
+\setlength{\headheight}{0in}      %%  of incorrect formatting!!!)      %%
+\setlength{\headsep}{0in}         %%                                   %%
+\setlength{\footskip}{.5in}       %%                                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                   %%
+\newcommand{\required}[1]{\section*{\hfil #1\hfil}}                    %%
+\renewcommand{\refname}{\hfil References Cited\hfil}                   %%
+\bibliographystyle{plain}                                              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%PUT YOUR MACROS HER
+\usepackage{cite}
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  \usepackage[pdftex]{graphicx}
+  \graphicspath{{../pdf/}{../jpeg/}}
+  \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  \usepackage[dvips]{graphicx}
+  \graphicspath{{../eps/}}
+  \DeclareGraphicsExtensions{.eps}
+\fi
+\usepackage{amsmath}
+\interdisplaylinepenalty=2500
+
+\usepackage{array}
+\usepackage{fixltx2e}
+\usepackage{stfloats}
+\usepackage{url}
+
+\usepackage{amssymb}
+
+\pagestyle{empty}
+%\includeonly{bmr_summ}
+
+\begin{document}
+
+This DCL encourages research concepts that integrate fundamental science and engineering knowledge in different disciplines with the aim of developing a next generation of sensor systems capable of in situ measurement of dynamic soil biological, physical, and chemical variables over time and space in managed and unmanaged soils. These sensor systems will also require associated advances in data transmission, ground penetration, data analytics, dynamic models, and visualization tools. If successful, these research concepts will enable scientists to advance basic understanding of dynamic processes in soils and provide the underlying science and engineering to enable others to develop new ways of managing soils and natural resources. Advances in measurement systems, understanding, and models will provide new capabilities that will enable practitioners to use new sensors, models and time series data to achieve higher efficiencies of resource use to help meet societal goals such as less contamination of soil and water supplies and greater food security, as well as address the "National Academy of Engineering
+Grand Challenge" of managing the Nitrogen cycle.
+
+The NSF ENG directorate as well as the BIO, CISE, and GEO directorates are interested in receiving these Research Concept Outlines. These Research Concept Outlines should be no longer than 2 pages and must be submitted by April 13, 2018. They must contain the following
+information:
+
+1. Title of the SitS research.
+
+2. The suggested directorate(s) that may be interested in the topic. For a RAISE topic, more than one program must be listed, and there should be a clear link to each of those programs. Please note that these program listings are just suggestions. Multiple programs will view these Research Concept Outlines to determine programmatic fits.
+
+3. Description of and justification for the proposed research.
+
+4. Names and affiliations of researchers.
+
+5. Contact information of the researchers (emails and phone numbers).
+
+The Research Concept Outline should not exceed 2 pages. It must be emailed to
+SitSquestions@nsf.gov. Once NSF program officers have approved the Research Concept Outline, the PI will be invited to submit a full EAGER or RAISE proposal to a specific program. Please note that NSF staff may contact the Research Concept Outline submitter to gather more information prior to selecting those that will be invited to submit a full EAGER or RAISE proposal. PIs of non-selected outlines will be notified that they will not be invited to submit EAGER-SitS or RAISE-SitS proposals.
+
+
+\end{document}
