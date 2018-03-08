@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dcl_casanova.aux
+The style file: plain.bst
+Database file #1: casanova_ieee.bib
+Repeated entry---line 968 of file casanova_ieee.bib
+ : @article{shibayama2016surface
+ :                              ,
+I'm skipping whatever remains of this entry
+You've used 5 entries,
+            2118 wiz_defined-function locations,
+            537 strings with 5121 characters,
+and the built_in function-call counts, 1951 in all, are:
+= -- 193
+> -- 105
+< -- 0
++ -- 41
+- -- 36
+* -- 171
+:= -- 334
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 33
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 55
+empty$ -- 138
+format.name$ -- 36
+if$ -- 385
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 10
+pop$ -- 23
+preamble$ -- 1
+purify$ -- 28
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 156
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 0
+while$ -- 20
+width$ -- 6
+write$ -- 57
+(There was 1 error message)
