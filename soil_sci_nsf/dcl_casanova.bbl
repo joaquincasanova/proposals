@@ -11,16 +11,34 @@ Cheng-Wen Chang, David~A Laird, Maurice~J Mausbach, and Charles~R Hurburgh.
   regression analyses of soil properties.
 \newblock {\em Soil Science Society of America Journal}, 65(2):480--490, 2001.
 
+\bibitem{du2006millimeter}
+Todd~W Du~Bosq, Jose~Manuel Lopez-Alonso, and Glenn~D Boreman.
+\newblock Millimeter wave imaging system for land mine detection.
+\newblock {\em Applied optics}, 45(22):5686--5692, 2006.
+
 \bibitem{dworak2011application}
 Volker Dworak, Sven Augustin, and Robin Gebbers.
 \newblock Application of terahertz radiation to soil measurements: Initial
   results.
 \newblock {\em Sensors}, 11(10):9973--9988, 2011.
 
+\bibitem{matsuyama2009design}
+Hiroshi Matsuyama, Hajime Asama, and Mihoko Otake.
+\newblock Design of differential near-infrared spectroscopy based brain machine
+  interface.
+\newblock In {\em Robot and Human Interactive Communication, 2009. RO-MAN 2009.
+  The 18th IEEE International Symposium on}, pages 775--780. IEEE, 2009.
+
 \bibitem{shibayama2016surface}
 Jun Shibayama, Keisuke Shimizu, Junji Yamauchi, and Hisamatsu Nakano.
 \newblock Surface plasmon resonance waveguide sensor in the terahertz regime.
 \newblock {\em Journal of Lightwave Technology}, 34(10):2518--2525, 2016.
+
+\bibitem{sorensen2005determination}
+LK~S{\o}rensen and S~Dalsgaard.
+\newblock Determination of clay and other soil properties by near infrared
+  spectroscopy.
+\newblock {\em Soil Science Society of America Journal}, 69(1):159--167, 2005.
 
 \bibitem{topp1980electromagnetic}
 G~Clarke Topp, JL~Davis, and Aa~P Annan.
@@ -28,9 +46,9 @@ G~Clarke Topp, JL~Davis, and Aa~P Annan.
   coaxial transmission lines.
 \newblock {\em Water resources research}, 16(3):574--582, 1980.
 
-\bibitem{wood2007structure}
-Ben Wood.
-\newblock Structure and properties of electromagnetic metamaterials.
-\newblock {\em Laser \& Photonics Reviews}, 1(3):249--259, 2007.
+\bibitem{zhang2008superlenses}
+Xiang Zhang and Zhaowei Liu.
+\newblock Superlenses to overcome the diffraction limit.
+\newblock {\em Nature materials}, 7(6):435, 2008.
 
 \end{thebibliography}
