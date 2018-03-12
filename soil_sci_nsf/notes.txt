@@ -1,0 +1,22 @@
+Areas to study:
+Soil terahertz properties
+NIRS SPR
+SPR geometry 
+NIR sensor design
+
+Problems:
+Surface flaws/durability
+Unknown soil properties
+
+NIR  0.75–1.4 um 214–400 THz 
+SWIR 1.4–3 um 100–214 THz
+Water absorption increases significantly at 1450 nm. 
+MWIR 3-8 um 37-100 THz
+LWIR 8-15 um 20-37 THz
+FIR 15-1000 um 0.3-20 THz
+
+https://link.springer.com/article/10.1007/s10762-017-0384-z
+https://dl.sciencesocieties.org/publications/sssaj/abstracts/78/3/949
+https://pubs.acs.org/doi/pdf/10.1021/cr068107d
+https://pubs.acs.org/doi/abs/10.1021/ac049003a
+
