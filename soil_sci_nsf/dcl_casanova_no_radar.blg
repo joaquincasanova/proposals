@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dcl_casanova_no_radar.aux
+The style file: plain.bst
+Database file #1: casanova_ieee.bib
+You've used 9 entries,
+            2118 wiz_defined-function locations,
+            566 strings with 6036 characters,
+and the built_in function-call counts, 3531 in all, are:
+= -- 357
+> -- 176
+< -- 1
++ -- 69
+- -- 60
+* -- 291
+:= -- 587
+add.period$ -- 28
+call.type$ -- 9
+change.case$ -- 56
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 111
+empty$ -- 260
+format.name$ -- 60
+if$ -- 718
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 9
+newline$ -- 48
+num.names$ -- 18
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 47
+quote$ -- 0
+skip$ -- 76
+stack$ -- 0
+substring$ -- 283
+swap$ -- 19
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 36
+warning$ -- 0
+while$ -- 37
+width$ -- 10
+write$ -- 102

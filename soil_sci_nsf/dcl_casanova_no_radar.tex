@@ -1,0 +1,64 @@
+
+%%%%%%%%% MASTER -- compiles the 6 sections
+
+\documentclass[10pt,letterpaper]{article}
+\pagestyle{plain}                                                      %%
+%%%%%%%%%% EXACT 1in MARGINS %%%%%%%                                   %%
+\setlength{\textwidth}{6.5in}     %%                                   %%
+\setlength{\oddsidemargin}{0in}   %% (It is recommended that you       %%
+\setlength{\evensidemargin}{0in}  %%  not change these parameters,     %%
+\setlength{\textheight}{8.5in}    %%  at the risk of having your       %%
+\setlength{\topmargin}{0in}       %%  proposal dismissed on the basis  %%
+\setlength{\headheight}{0in}      %%  of incorrect formatting!!!)      %%
+\setlength{\headsep}{0in}         %%                                   %%
+\setlength{\footskip}{.5in}       %%                                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                   %%
+
+\renewcommand{\refname}{\hfil References Cited\hfil}                   %%
+%PUT YOUR MACROS HER
+\usepackage{cite}
+
+\bibliographystyle{plain}                                              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[pdftex]{graphicx}
+\graphicspath{{../pdf/}{../jpeg/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{fixltx2e}
+\usepackage{stfloats}
+\usepackage{url}
+\usepackage{amssymb}
+
+\begin{document}
+\section{Title}
+Terahertz Sensors for In-Situ Soil Characterization and Imaging
+\section{Directorates}
+This research is proposed as an EAGER submission and goes under the ENG directorate.
+\section{Proposed Research}
+
+Depth-varying soil properties such as moisture, nutrient levels, organic matter, and texture are critical for efficient crop managment. Precision agriculture, in which parameters such as these are used for efficient application of irrigation, fertilizer, and pesticides and herbicides, relies on reliable measurement of these properties.  Additionally, plant root structure aids in crop modeling, used to predict how changes in crop management affect yield. Presently, there is a lack of sensors for in-situ measurement of these properties. This research proposes a new application of two sensing modalities that have distinct advantages of low power, small size, and ease of installation: surface plasmon resonance (SPR) in the near-infrared (NIR) and millimeter wave imaging using beamforming radar. Both could be considered terahertz (THz) sensors, a sensing regime still largely unexplored in agricultural and environmental applications.
+
+Current soil profile sensing techniques involve either taking samples from the field, for lab analysis of properties, or difficult installation in the field. For instance, time-domain reflectometry (TDR) \cite{topp1980electromagnetic} or capacitance measurement \cite{birchak1974high} both can determine soil moisture and electrical conductivity through electromagnetic characterization of soil in the megahertz regime. However, to measure the soil profile, this requires digging a pit and installing sensors, then back-filling. Moreover, operation in this frequency ranges necessitates larger sensors and larger electrical components.
+
+In the past decade, researchers have sought to examine soil properties using near-infrared spectroscopy (NIRS), in which the reflectance or transmittance of a soil sample is measured over a range of NIR frequencies, a technique also used for brain activity measurement \cite{matsuyama2009design}. This is in the THz regime and makes use of small, low power, optical components. While soil would typically be considered too lossy at these high frequencies, particular resonances associated with water's and organic compounds' O-H and C-H bonds make it amenable to measurement by NIRS; there is a transmission window in the mid-infrared and a strong water absorption in the short-infrared \cite{lewis2017invited, rodionov2014sensing}. %Also in the THz regime is imaging radar, in which pulses are sent into the soil and their transit time is used to spatially characterize soil structure. Fundamentally similar to TDR, this technique can resolve much finer features, potentially even roots. By steering the radar beam over a range of spatial locations, an underground image in the root zone can be taken. Using such high frequencies enables using very small (sub-millimeter) radar antennas.
+
+This research proposes exploiting measurement at very high frequencies to characterize soil moisture, organic matter, nutrients, and root structure. The proposed work is to employ NIRS using surface plasmon resonance (SPR) for chemical and textural analysis. The proposed technique have the distinct advantages of small size, low power, and variety of measurements. The developed sensor would use SPR, in which the NIR pulse is guided into the soil medium through a thin metal layer with a negative refractive index on top of an optical wave guide \cite{shibayama2016surface}. This allows NIR transmission underground at a range of depths by a pencil-thin rod carrying multiple optical waveguides, directing NIR pulses to the desired locations. Such a sensor is easily installable by drilling a narrow hole. Further, while NIR alone can elucidate texture, nitrogen, and organic matter \cite{chang2001near, sorensen2005determination}, functionalized coatings that bind to specific nutrients or pollutants can expand the range of chemometric analysis. %Another high-frequency sensor will be investigated simultaneously: beamforming millimeter wave radar. While this area is still fairly new in soils, and may thus be restricted to lab tests at this stage if we look at frequencies above 300 GHz, this type of sensor has been examined in soils for landmine detection \cite{du2006millimeter} and root imaging \cite{dworak2011application}. The diffraction limit sets the imaging resolution at one millimeter for 300 GHz; potentially, this could be enhanced through use of metametamaterial lenses \cite{zhang2008superlenses}. An array of antennas on the soil surface would allow a radar beam to be steered through a range of locations around the base of a plant to measure root density in the top centimeter, due to the low penetration depth at millimeter-wave frequencies where radar is possible \cite{lewis2017invited}. The radar pulse return times and amplitudes characterize the root structure and small-scale soil stratification.
+
+There are potential pitfalls. Primarily, soil electromagnetic properties are relatively ill-defined above 3 GHz, making modeling for either approach very difficult. Further, the variety of soil types and moisture levels makes either approach challenging; decades have gone into making TDR work across a range of soils, while THz/NIR is still very new. Further, the small size of the sensors makes them prone to damage in the real environment. The delicate nature of SPR coatings (such as gold) may make them prone to damge on insertion in the soil. Finally, there are infrastructural challenges, in that to make an NIR-SPR sensor requires some new analytical equipment for development \cite{ikehata2004surface}, namely an NIR spectrometer.
+
+In our proposed sensor, THz pulses are coupled to small electromagnetic structures along a thin cylinder. The proposed work has three parts: design of the electromagnetic structure of the sensors; design of the circuitry for applying the THz pulses to the structures; and design of the microfabrication process for their construction. Over the course of a two-year investigation, we plan to start with theoretical design using fundamental principles combined with computer simulation, move to prototype construction and laboratory testing, and end with small-scale field trials. The researchers involved include PI Joaquin Casanova, with an established history in agricultural engineering and electromagnetic sensor design, including soil moisture and computer vision sensors; Co-PI Changzhi Li, with a strong research history in high-frequency radar techniques and circuit design; and Co-PI YK Yoon, who has been long involved in design and fabrication of micro-scale sensors, including millimeter wave antennas and SPR sensors. 
+
+\section{Researchers and Contact Information}
+\begin{description}
+\item{PI} - Joaquin Casanova - University of Florida - jcasa@ufl.edu - 352-246-9649
+\item{Co-PI} - Changzhi Li - Texas Tech University - changzhi.li@ttu.edu - 806-834-8682
+\item{Co-PI} - Yong-Kyu Yoon -  University of Florida - ykyoon@ufl.edu  - 352-392-5985
+\end{description}
+
+\bibliography{casanova_ieee}
+
+  
+  
+\end{document}
