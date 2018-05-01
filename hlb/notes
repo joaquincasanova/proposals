@@ -1,0 +1,66 @@
+Considerations:
+
+-safety
+-thermal/non-thermal
+-penetration
+-power level
+-specificity
+
+for magnetic particles:
+
+-low frequency = higher penetration
+-difficulty is ensure adequate temperature rise and selective uptake of magnetic particles by C. Asiatictus
+
+for GHz radiation:
+
+-shown to induce phage in lysogenic E. Coli
+-poor canopy/trunk penetration
+
+webb 1979
+
+-lysogenic e.coli growth media x incubation duration x microwave frequency and power
+-in BHIB (good nutrition)/0.25 mW/cm2/70.3-70.5 GHz -> lambda induction
+-a threshold of esposure and a certain metabolic state necessary to induce phage
+-max effect at 0.5 mW/cm2
+
+dutz & hergt 2014
+
+-magnetic particle hyperthermia in tumours
+-heating mechanisms hysteresis vs viscous
+-depends on relaxation time -there are two Neel and Brown. functions of particle size
+-the faster relaxation time will dominate
+-single vs multidomain particles ~30nm
+-single domain has greater hysteresis loss, greater heating
+-higher frequency->Neel losses, lower->Brown (both sub MHz)
+-higher size->Brown losses, lower->Neel
+-also resonances in GHz range
+-example specific loss power: 1650 W/g f=700 kHz H=24.8 kA/m (Fortin et al 2007)
+-formation methods, materials
+	-magnetite, maghemite
+	-laser evaporation, wet chemical, biomineralization (promising - best SLP)
+-coating prevents agglomeration, biocompatibility, functionalization
+-tumour heating goes up with tumour size because smaller tomours have greater surface area to volume.
+
+hoffman et al 2013
+
+-thermal treatment of HLB
+-tested different citrus varieties, budwood vs established plants, temperature duration and levels
+-elevated temperatures eliminate C. Asiaticus
+-both 40C 24h or 42/30C 19/5h
+-2-6 days
+-results in plant damage but vigorous regrowth after treatment
+
+ushakov et al 1999
+
+-circularly polarized mm-wave on E. Coli
+-1 W/m2
+-EtBr 1ug/ml (intercalates DNA supercoils; test idea that microwaves are targeting DNA structural resonances)
+-without EtBr, LCHP kills E.Coli ~51GHz
+-with EtBr, both RHCP and LHCP work but not as well
+-suggests DNA is target and polarization selectivity is rrelated to DNA helicity of supersructure (EtBR stabilizes B-form [right] DNA, as opposed to Z-form [left])
+
+ehsani et. al 2015
+
+-mobile heat treatment
+-60 C for a few minutes
+
